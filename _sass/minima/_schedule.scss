@@ -6,6 +6,13 @@ table {
         td, th {
             border: dotted 1px #CCC;
             padding: 6px;
+
+            strong {
+                font-family: 'Open Sans Condensed';
+            }
+        }
+        td {
+            font-size: 0.9em;
         }
         th {
             font-family: 'Open Sans Condensed';
