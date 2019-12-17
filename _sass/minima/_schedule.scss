@@ -1,0 +1,17 @@
+table {
+    &.schedule {
+        border-collapse: collapse;
+        max-width: 1000px;
+
+        td, th {
+            border: dotted 1px #CCC;
+            padding: 6px;
+        }
+        th {
+            font-family: 'Open Sans Condensed';
+            min-width: 80px;
+            text-align: left;
+        }
+    }
+    
+}
