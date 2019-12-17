@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        {% if page.extra_stylesheet %}
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
+        {% endif %}
+    </head>
+    <body>
+        <div class="container">
+            {% include header.html %}
+            {% include navigation.html %}
+            <main>
+                {% if page.layout == 'assignment' %}
+                    <h1><a href="../assignments/">Assignment</a> > {{ page.title }}</h1>
+                {% else %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+
+                {{ content }}
+            </main>
+            {% include footer.html %}
+        </div>
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+    </body>
+</html>

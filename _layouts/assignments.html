@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{{content}}
+
+<section class="assignments">
+    {% for assignment in site.assignments %}
+    <section>
+        <a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a><br>
+        {{ assignment.filename }}
+    </section>
+    {% endfor %}
+</section>
