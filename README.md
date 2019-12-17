@@ -1,4 +1,4 @@
-# TREE Website
+# Configuration and Installation
 
-* [Paper Prototype](wireframes/tree-website-mockup.pdf)
-* [Wireframe](wireframes/)
+* `bundle install` to install dependencies
+* `bundle exec jekyll serve` to run Jekyll from command line

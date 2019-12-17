@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
 body {
    margin: 0;
-   font-family: Arial;
+   font-family: 'Open Sans';
+   color: #444;
 }
 body, body * {
    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Open Sans Condensed';
+    font-weight: 600;
 }
 .mobile {
     display: none;
