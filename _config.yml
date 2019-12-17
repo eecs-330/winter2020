@@ -35,4 +35,8 @@ collections:
     output: true
     permalink: /assignments/:name
 
+sass:
+  style: compact
+  sass_dir: _sass
+
 

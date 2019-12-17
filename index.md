@@ -2,10 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: landing
+layout: default
+permalink: /
 ---
 
-<h2>Welcome to the course!</h2>
+<h2>Schedule</h2>
 <p>
     text text text text text
     text text text text text
