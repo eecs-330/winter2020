@@ -1,3 +1,12 @@
+$blue: #49ACBB;
+$turquoise: #61cac8;
+$mutedblue: #88a5b3;
+$purple: #b0809e;
+$lightpink: #d85c8a;
+$pink: #ff3775;
+$redhot: #EB1962;
+
+
 body {
     margin: 0;
     font-family: 'Open Sans';
@@ -84,12 +93,12 @@ body {
         margin-top: 0px;
         
         li {
-            border-bottom: solid 4px transparent;
+            border-bottom: solid 3px transparent;
             list-style: none;
             padding: 5px;
 
             &.active {
-                border-bottom: solid 4px teal;
+                border-bottom: solid 3px $lightpink;
                 // background: #EEE;
             }
 
@@ -102,7 +111,7 @@ body {
             }
             &:hover, &:active {
                 background: #F9F9F9;
-                border-bottom: solid 4px #CCC;
+                border-bottom: solid 3px $mutedblue;
             }
         }
     }
