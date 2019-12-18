@@ -3,12 +3,22 @@ layout: default
 ---
 <article class="assignment">
 
-  {% if page.filename %}
-    <!-- <img src="{{site.baseurl}}/{{ page.filename }}"
-        alt="Photo of a {{ page.title | downcase }}" style="width: 200px;"> -->
-    {{ page.filename }}
-  {% endif %}
-
+    <table class="grading">
+        <tr>
+            <th>Image</th>
+            <td>{{ page.filename }}</td>
+        </tr>
+        <tr>
+            <th>Due</th>
+            <td>{{ page.due_date }}</td>
+        </tr>
+        <tr>
+            <th>Points</th>
+            <td>{{ page.points }}</td>
+        </tr>
+    </table>
+ 
+  
   <div>{{ content }}</div>
 
 </article>

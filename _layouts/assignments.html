@@ -3,11 +3,40 @@ layout: default
 ---
 {{content}}
 
-<section class="assignments">
+<h2>Team Project Assignments</h2>
+
+<table class="schedule">
+    <tr>
+        <th>Assignment</th>
+        <th>Points</th>
+        <th>Due</th>
+    </tr>
     {% for assignment in site.assignments %}
-    <section>
-        <a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a><br>
-        {{ assignment.filename }}
-    </section>
+        {% if assignment.type == "group" %}
+            <tr>
+                <td><a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a></td>
+                <td>{{ assignment.points }}</td>
+                <td>{{ assignment.due_date }}</td>
+            </tr>
+        {% endif %}
     {% endfor %}
-</section>
+</table>
+
+<h2>Individual Homework Assignments</h2>
+
+<table class="schedule">
+    <tr>
+        <th>Assignment</th>
+        <th>Points</th>
+        <th>Due</th>
+    </tr>
+    {% for assignment in site.assignments %}
+        {% if assignment.type == "individual" %}
+            <tr>
+                <td><a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a></td>
+                <td>{{ assignment.points }}</td>
+                <td>{{ assignment.due_date }}</td>
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
