@@ -10,7 +10,8 @@ permalink: /syllabus/
 | **Course** | CS 330: Intro to Human-Computer Interaction (HCI) |
 | **Prerequisites** | 211 or equivalent |
 | **Instructor** | Sarah Van Wart |
-| **Lectures** | Monday and Wednesdays, 1:00 - 1:50pm, Harris Hall, Room 107 |
+| **Lecture Time** | Monday and Wednesdays, 1:00 - 1:50pm |
+| **Lecture Location** | Harris Hall, Room 107 |
 | **Studio** | Thursdays and Fridays (times and locations vary) |
 
 
@@ -39,7 +40,8 @@ Grades are calculated as follows:
 <table class="grading">
     <tbody>
         <tr>
-            <th colspan="2">Team Project (50%)</th>
+            <th>Team Project (50%)</th>
+            <th>100 points</th>
         </tr>
         <tr>
             <td>P1. Project Brainstorm</td>
@@ -78,7 +80,8 @@ Grades are calculated as follows:
             <td>35 points</td>
         </tr>
         <tr>
-            <th colspan="2">Individual Assignments (40%)</th>
+            <th>Individual Assignments (40%)</th>
+            <th>80 points</th>
         </tr>
         <tr>
             <td>HW1. Individual Project Proposal</td>
@@ -97,7 +100,7 @@ Grades are calculated as follows:
             <td>10 points</td>
         </tr>
         <tr>
-            <td>HW5. Data</td>
+            <td>HW5. Working with Data</td>
             <td>15 points</td>
         </tr>
         <tr>
@@ -105,7 +108,8 @@ Grades are calculated as follows:
             <td>20 points</td>
         </tr>
         <tr>
-            <th colspan="2">Participation (10%)</th>
+            <th>Participation (10%)</th>
+            <th>20 points</th>
         </tr>
         <tr>
             <td>Class / Studio Participation</td>
