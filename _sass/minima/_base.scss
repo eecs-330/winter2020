@@ -2,12 +2,13 @@ body {
     margin: 0;
     font-family: 'Open Sans';
     color: #444;
- }
- body, body * {
     box-sizing: border-box;
+    section, div, aside {
+        box-sizing: border-box;
+    }
  }
  
- h1, h2 {
+ h1, h2, h3 {
      font-family: 'Open Sans Condensed';
      font-weight: 600;
 

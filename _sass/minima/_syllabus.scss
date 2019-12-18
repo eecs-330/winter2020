@@ -1,0 +1,49 @@
+p, li, th, td {
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+td strong {
+    font-family: 'Open Sans Condensed';
+}
+
+h2, h3 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    border-bottom: solid 1px #444;
+}
+
+table {
+    &.grading {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        // background: #F9F9F9;
+        border-collapse: collapse;
+        td:first-child {
+            padding-left: 30px;
+        }
+
+        td, th {
+            border: dotted 1px #CCC;
+            padding: 3px;
+
+            strong {
+                font-family: 'Open Sans Condensed';
+            }
+        }
+        td {
+            font-size: 0.9em;
+        }
+        th {
+            background: #F9F9F9;
+            padding-top: 10px;
+            font-family: 'Open Sans Condensed';
+            min-width: 80px;
+            text-align: left;
+            font-weight: 1.1em;
+        }
+    }
+    
+}
