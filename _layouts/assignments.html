@@ -2,41 +2,47 @@
 layout: default
 ---
 {{content}}
+<section class="assignments">
 
-<h2>Team Project Assignments</h2>
+    <h2>Team Project</h2>
 
-<table class="schedule">
-    <tr>
-        <th>Assignment</th>
-        <th>Points</th>
-        <th>Due</th>
-    </tr>
-    {% for assignment in site.assignments %}
-        {% if assignment.type == "group" %}
-            <tr>
-                <td><a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a></td>
-                <td>{{ assignment.points }}</td>
-                <td>{{ assignment.due_date }}</td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-</table>
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Assignment</th>
+            <th>Points</th>
+            <th>Due</th>
+        </tr>
+        {% for assignment in site.assignments %}
+            {% if assignment.type == "group" %}
+                <tr>
+                    <td>{{ assignment.ordering }}</td>
+                    <td><a href="{{site.baseurl}}{{assignment.url}}">P{{assignment.ordering}}: {{ assignment.title }}</a></td>
+                    <td>{{ assignment.points }}</td>
+                    <td>{{ assignment.due_date }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
 
-<h2>Individual Homework Assignments</h2>
+    <h2>Individual Homework</h2>
 
-<table class="schedule">
-    <tr>
-        <th>Assignment</th>
-        <th>Points</th>
-        <th>Due</th>
-    </tr>
-    {% for assignment in site.assignments %}
-        {% if assignment.type == "individual" %}
-            <tr>
-                <td><a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.title }}</a></td>
-                <td>{{ assignment.points }}</td>
-                <td>{{ assignment.due_date }}</td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-</table>
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Assignment</th>
+            <th>Points</th>
+            <th>Due</th>
+        </tr>
+        {% for assignment in site.assignments %}
+            {% if assignment.type == "individual" %}
+                <tr>
+                    <td>{{ assignment.ordering }}</td>
+                    <td><a href="{{site.baseurl}}{{assignment.url}}">HW{{assignment.ordering}}: {{ assignment.title }}</a></td>
+                    <td>{{ assignment.points }}</td>
+                    <td>{{ assignment.due_date }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+</section>

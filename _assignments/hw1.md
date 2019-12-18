@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: Homework 1
+title: Project Brainstorm
 type: individual
 due_date: Jan 8 @ 11:59PM
 ordering: 1

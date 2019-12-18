@@ -121,13 +121,12 @@ body {
     grid-area: bottom;
  }
  
- section {
-     /* display: flex; */
-     border: dotted 1px #118AB2;
-     margin: 20px 20px 0px 20px;
-     flex-direction: column;
-     padding: 5px;
- }
+//  section {
+//      border: dotted 1px #118AB2;
+//      margin: 20px 20px 0px 20px;
+//      flex-direction: column;
+//      padding: 5px;
+//  }
  main {
      grid-area: main;
  }
