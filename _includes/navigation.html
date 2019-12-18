@@ -1,8 +1,8 @@
 <nav>
     <ul>
-        <li><a href="{{site.baseurl}}/" {% if page.url == "/" %}class="active"{% endif %}>Schedule</a></li>
-        <li><a href="{{site.baseurl}}/syllabus/" {% if page.url == "/syllabus/" %}class="active"{% endif %}>Syllabus</a></li>
-        <li><a href="{{site.baseurl}}/assignments/" {% if page.url == "/assignments/" %}class="active"{% endif %}>Assignments</a></li>
-        <li><a href="{{site.baseurl}}/readings/" {% if page.url == "/readings/" %}class="active"{% endif %}>Readings</a></li>
+        <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{site.baseurl}}/" >Schedule</a></li>
+        <li {% if page.url == "/syllabus/" %}class="active"{% endif %}><a href="{{site.baseurl}}/syllabus/">Syllabus</a></li>
+        <li {% if page.url == "/assignments/" %}class="active"{% endif %}><a href="{{site.baseurl}}/assignments/">Assignments</a></li>
+        <li {% if page.url == "/readings/" %}class="active"{% endif %}><a href="{{site.baseurl}}/readings/">Readings</a></li>
     </ul>
 </nav>

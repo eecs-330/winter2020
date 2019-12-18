@@ -31,7 +31,7 @@ On Thursdays or Fridays you will be meeting in studio (section). The purpose of 
 Attendance at lectures and studios is required. Peer mentors will record studio attendance; we will drop your lowest studio attendance grade (i.e. you get one free pass). In lecture we will have in-class quizzes covering topics related to the assigned readings, which will also be used to make attendance. We will drop your lowest three quiz grades (i.e. you get three free passes).
 
 ### 4. Readings
-We selected course readings to deepen and expand your understanding of HCI fundamentals beyond what we cover in lecture. Lectures will be devoted to hands-on activities that build on the assigned readings. Readings will be posted on the course website prior to lecture. All of the readings are available on Canvas.
+I have selected course readings to deepen and expand your understanding of HCI fundamentals beyond what we cover in lecture. Lectures will be devoted to hands-on activities that build on the assigned readings. Readings will be posted on the course website prior to lecture. All of the readings are available on Canvas.
 
 ## Grading
 Grades are calculated as follows:
@@ -117,7 +117,7 @@ Grades are calculated as follows:
 
 ### Regrades 
 If you believe there was a grading error on one of your assignments:
-Email Nell, Sarah, and your peer mentor with an explanation of the mistake.
+Email Sarah and your peer mentor with an explanation of the mistake.
 Make an appointment if you want to discuss grades in person (no impromptu office visits).
 If the request merits a regrade, either Nell or Sarah will regrade your entire submission, which could result in a lower final grade.
 
@@ -125,7 +125,7 @@ If the request merits a regrade, either Nell or Sarah will regrade your entire s
 Assignments are due at the time indicated on Canvas.  Assignments turned in up to 24 hours late will be penalized 10%. Similarly, assignments turned in between 24 and 48 hours late will be penalized 20%. Assignments turned in more than 48 hours late will not be accepted under most circumstances. If you are having trouble with homework or assignments, please let us know! We’re here to help.
 
 
-## Collaboration Policy
+### Collaboration Policy
 In the past, there have been a few unfortunate instances in which students have presented work other than their own. For the programming assignments: You are allowed (encouraged, even!) to discuss general approaches to solving problems, but all work you submit must be your own. Working “together” and presenting variants of the same file is not acceptable. Here are some specific guidelines to make sure you don’t cross the line:
 
 1. Do not exchange programs or program fragments in any form – on paper, via e-mail, or by other means.
