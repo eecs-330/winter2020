@@ -14,10 +14,16 @@ table {
         td {
             font-size: 0.9em;
         }
+        td:last-child {
+            min-width: 150px;
+        }
         th {
             font-family: 'Open Sans Condensed';
             min-width: 80px;
             text-align: left;
+        }
+        tr.shade {
+            background: #F9F9F9;
         }
     }
     

@@ -44,7 +44,7 @@ Grades are calculated as follows:
             <th>100 points</th>
         </tr>
         <tr>
-            <td>P1. Project Brainstorm</td>
+            <td>P1. Project Proposal</td>
             <td>10 points</td>
         </tr>
         <tr>
@@ -60,24 +60,20 @@ Grades are calculated as follows:
             <td>15 points</td>
         </tr>
         <tr>
-            <td>P5. GitHub</td>
+            <td>P5. Prototype Round 1</td>
             <td>5 points</td>
         </tr>
         <tr>
-            <td>P6. Prototype Round 1</td>
+            <td>P6. Prototype Round 2</td>
             <td>5 points</td>
         </tr>
         <tr>
-            <td>P7. Prototype Round 2</td>
-            <td>5 points</td>
-        </tr>
-        <tr>
-            <td>P8. Prototype Round 3</td>
+            <td>P7. Prototype Round 3</td>
             <td>5 points</td>
         </tr>
         <tr>
             <td>P9. Final Prototype and Presentation</td>
-            <td>35 points</td>
+            <td>40 points</td>
         </tr>
         <tr>
             <th>Individual Assignments (40%)</th>
@@ -89,15 +85,15 @@ Grades are calculated as follows:
         </tr>
         <tr>
             <td>HW2. Social Critique</td>
-            <td>20 points</td>
+            <td>15 points</td>
         </tr>
         <tr>
             <td>HW3. HTML & CSS</td>
-            <td>10 points</td>
+            <td>15 points</td>
         </tr>
         <tr>
             <td>HW4. JavaScript</td>
-            <td>10 points</td>
+            <td>15 points</td>
         </tr>
         <tr>
             <td>HW5. Working with Data</td>
@@ -105,7 +101,7 @@ Grades are calculated as follows:
         </tr>
         <tr>
             <td>HW6. Usability and Graphics</td>
-            <td>20 points</td>
+            <td>15 points</td>
         </tr>
         <tr>
             <th>Participation (10%)</th>

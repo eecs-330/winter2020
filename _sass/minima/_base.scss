@@ -6,6 +6,23 @@ $lightpink: #d85c8a;
 $pink: #ff3775;
 $redhot: #EB1962;
 
+.hw, .pj {
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-size: .75em;
+    line-height: 1.2em;
+    font-weight: 600;
+    padding: 3px 7px;
+}
+.hw {
+    background: $blue;
+}
+
+.pj {
+    background: $purple;
+}
 
 body {
     margin: 0;
