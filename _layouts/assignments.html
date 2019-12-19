@@ -4,45 +4,66 @@ layout: default
 {{content}}
 <section class="assignments">
 
-    <h2>Team Project</h2>
-
     <table>
         <tr>
             <th>&nbsp;</th>
+            <th>Week</th>
+            <th>Type</th>
             <th>Assignment</th>
             <th>Points</th>
             <th>Due</th>
+            <th>Days Left</th>
         </tr>
         {% for assignment in site.assignments %}
-            {% if assignment.type == "group" %}
-                <tr>
-                    <td>{{ assignment.ordering }}</td>
-                    <td><a href="{{site.baseurl}}{{assignment.url}}">P{{assignment.ordering}}: {{ assignment.title }}</a></td>
-                    <td>{{ assignment.points }}</td>
-                    <td>{{ assignment.due_date }}</td>
-                </tr>
-            {% endif %}
+            {% assign dateStart = '2020-01-06' | date: '%s' %}
+            {% assign now = 'now' | date: '%s' %}
+            {% assign dueDate = assignment.due_date | date: '%s' %}
+            {% assign diffSeconds = dueDate | minus: dateStart %}
+            {% assign dueSeconds = dueDate | minus: now %}
+            {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+            {% assign dueDays = dueSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+            {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+        
+            <tr>
+                <td>{{ forloop.index }}</td>
+                <td> Week {{week}} </td>
+                <td>
+                    {% if assignment.type == "group" %}
+                        <span class="pj">{{ assignment.type }}</span>
+                    {% else %}
+                        <span class="hw">{{ assignment.type }}</span>
+                    {% endif %}
+
+                </td>
+                <td>
+                    {% assign prefix = "P" %}
+                    {% if assignment.type == "individual" %}
+                        {% assign prefix = "HW" %}
+                    {% endif %} 
+
+                    {% if assignment.draft == 1 %}
+                        {{prefix}}{{assignment.ordering}}:  
+                        {{ assignment.title }} (coming soon)
+                    {% else %} 
+                        <a href="{{site.baseurl}}{{assignment.url}}">
+                            {{prefix}}{{assignment.ordering}}:  
+                            {{ assignment.title }}
+                        </a>
+                    {% endif %} 
+                </td>
+                <td>{{ assignment.points }} points</td>
+                <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
+                <td>
+                    {% if dueDays == 0 %}
+                        due tonight
+                    {% elsif dueDays < 0 %}
+                        passed
+                    {% else %}
+                        {{dueDays}}
+                    {% endif %} 
+                </td>
+            </tr>
         {% endfor %}
     </table>
 
-    <h2>Individual Homework</h2>
-
-    <table>
-        <tr>
-            <th>&nbsp;</th>
-            <th>Assignment</th>
-            <th>Points</th>
-            <th>Due</th>
-        </tr>
-        {% for assignment in site.assignments %}
-            {% if assignment.type == "individual" %}
-                <tr>
-                    <td>{{ assignment.ordering }}</td>
-                    <td><a href="{{site.baseurl}}{{assignment.url}}">HW{{assignment.ordering}}: {{ assignment.title }}</a></td>
-                    <td>{{ assignment.points }}</td>
-                    <td>{{ assignment.due_date }}</td>
-                </tr>
-            {% endif %}
-        {% endfor %}
-    </table>
 </section>

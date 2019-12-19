@@ -2,9 +2,9 @@
 layout: assignment
 title: Project Brainstorm
 type: individual
-due_date: Jan 8 @ 11:59PM
+due_date: 2020-01-08
 ordering: 1
-points: 20
+points: 5
 filename: assets/images/red.jpg
 ---
 
