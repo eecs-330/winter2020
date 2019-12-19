@@ -34,7 +34,7 @@ permalink: /
                 How to think about what computing applications can and cannot accomplish. In what ways does computing make the world better? In what ways does it make it worse?
             </td>
             <td></td>
-            <td><span class="hw">HW1: Brainstorm</span></td>
+            <td><span class="hw">HW1</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -63,7 +63,7 @@ permalink: /
                 Intro to HTML and CSS
             </td>
             <td></td>
-            <td><span class="hw">HW2: Social Analysis</span></td>
+            <td><span class="hw">HW2</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -82,7 +82,7 @@ permalink: /
                 MLK Day - no class
             </td>
             <td></td>
-            <td><span class="pj">P1: Project Proposals</span></td>
+            <td><span class="pj">P1</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -110,7 +110,7 @@ permalink: /
                 Norman's Design Principles
             </td>
             <td></td>
-            <td><span class="hw">HW3: HTML + CSS</span></td>
+            <td><span class="hw">HW3</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -119,7 +119,7 @@ permalink: /
                 TBD
             </td>
             <td></td>
-            <td><span class="pj">P2: Watching & Asking</span></td>
+            <td><span class="pj">P2</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -138,7 +138,7 @@ permalink: /
                 TBD
             </td>
             <td></td>
-            <td><span class="hw">HW4: JavaScript</span></td>
+            <td><span class="hw">HW4</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -147,7 +147,7 @@ permalink: /
                 Sketching and prototyping
             </td>
             <td></td>
-            <td><span class="pj">P3: Features & Tasks</span></td>
+            <td><span class="pj">P3</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -167,7 +167,7 @@ permalink: /
                 User testing, heuristic evaluation, and social impact analysis
             </td>
             <td></td>
-            <td><span class="hw">HW5: Working w/Data</span></td>
+            <td><span class="hw">HW5</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -176,7 +176,7 @@ permalink: /
                 Working with data in JavaScript
             </td>
             <td></td>
-            <td><span class="pj">P4: Paper Prototype</span></td>
+            <td><span class="pj">P4</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -204,7 +204,7 @@ permalink: /
                 Graphic Design
             </td>
             <td></td>
-            <td><span class="pj">P5: Prototype 1</span></td>
+            <td><span class="pj">P5</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -223,7 +223,7 @@ permalink: /
                 TBD
             </td>
             <td></td>
-            <td><span class="hw">HW6: UI/UX Design</span></td>
+            <td><span class="hw">HW6</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -232,7 +232,7 @@ permalink: /
                 TBD
             </td>
             <td></td>
-            <td><span class="pj">P6: Prototype 2</span></td>
+            <td><span class="pj">P6</span></td>
         </tr>
         <tr class="shade">
             <th>&nbsp;</th>
@@ -260,7 +260,7 @@ permalink: /
                 HCI Applications
             </td>
             <td></td>
-            <td><span class="pj">P7: Prototype 3</span></td>
+            <td><span class="pj">P7</span></td>
         </tr>
         <tr>
             <th>&nbsp;</th>
@@ -300,7 +300,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="pj">P8: Final Deliverables</span>
+                <span class="pj">P8</span>
             </td>
         </tr>
     </tbody>

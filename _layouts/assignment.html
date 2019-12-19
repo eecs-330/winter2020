@@ -3,20 +3,16 @@ layout: default
 ---
 <article class="assignment">
 
-    <table class="grading">
-        <tr>
-            <th>Image</th>
-            <td>{{ page.filename }}</td>
-        </tr>
-        <tr>
-            <th>Due</th>
-            <td>{{ page.due_date }}</td>
-        </tr>
-        <tr>
-            <th>Points</th>
-            <td>{{ page.points }}</td>
-        </tr>
-    </table>
+    <ul class="summary">
+        <li>
+            <strong>Due:</strong>
+            {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM
+        </li>
+        <li>
+            <strong>Points:</strong>
+            {{ page.points }} points
+        </li>
+    </ul>
  
   
   <div>{{ content }}</div>

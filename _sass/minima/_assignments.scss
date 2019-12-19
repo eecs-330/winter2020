@@ -33,7 +33,16 @@
             text-align: left;
         }
     }
+}
 
+.assignment {
+    .summary {
+        background: #F3F3F3;
+        padding: 10px;
+        li {
+            margin-left: 30px;
+        }
+    }
 }
 
 
