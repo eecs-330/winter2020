@@ -54,12 +54,14 @@ layout: default
                 <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
                 <td>
-                    {% if dueDays == 0 %}
-                        due tonight
-                    {% elsif dueDays < 0 %}
-                        passed
-                    {% else %}
-                        {{dueDays}}
+                    {% if assignment.draft != 1 %}
+                        {% if dueDays == 0 %}
+                            due tonight
+                        {% elsif dueDays < 0 %}
+                            passed
+                        {% else %}
+                            {{dueDays}}
+                        {% endif %} 
                     {% endif %} 
                 </td>
             </tr>

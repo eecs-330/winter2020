@@ -7,7 +7,7 @@
         "bottom";
 }
 
-.assignments {
+.assignments, .lectures {
     table {
         border-collapse: collapse;
         width: 100%;
@@ -23,15 +23,36 @@
         td {
             font-size: 0.9em;
         }
-        td:nth-child(1), th:nth-child(1) {
-            width: 20px;
-            min-width: 20px !important;
-        }
         th {
             font-family: 'Open Sans Condensed';
-            min-width: 80px;
+            min-width: 60px;
             text-align: left;
         }
+    }
+}
+.assignments {
+    td:nth-child(1), th:nth-child(1) {
+        width: 20px;
+        min-width: 20px;
+    }
+}
+
+.lectures {
+    ul {
+        margin: 0px;
+    }
+    td, th {
+        vertical-align: top;
+    }
+    td:nth-child(1)  {
+        min-width: 60px;
+        width: 60px;
+    }
+    td:nth-child(3)  {
+        min-width: 250px;
+    }
+    p, li, th, td {
+        margin-top: 0px;
     }
 }
 

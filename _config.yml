@@ -33,7 +33,14 @@ plugins:
 collections:
   assignments:
     output: true
+    sort_by: ordering
     permalink: /assignments/:name
+  lectures:
+    output: true
+    sort_by: lecture_date
+    permalink: /lectures/:name
+
+collections_dir: pages
 
 sass:
   style: compact

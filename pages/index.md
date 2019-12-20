@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Schedule
-permalink: /
+title: Schedule [Draft]
+permalink: /lectures/
 ---
 
 <table class="schedule">
@@ -88,7 +88,7 @@ permalink: /
             <th>&nbsp;</th>
             <td>
                 <strong>Jan 22: Technical Day</strong><br>
-                JavaScript!
+                Intro to JavaScript and the DOM
             </td>
             <td></td>
             <td></td>

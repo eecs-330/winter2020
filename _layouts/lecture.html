@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign dateStart = '2020-01-06' | date: '%s' %}
+{% assign lectureDate = page.lecture_date | date: '%s' %}
+{% assign diffSeconds = lectureDate | minus: dateStart %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+{% assign week = diffDays | divided_by: 7 | plus: 1 %}
+
+<article class="assignment">
+
+    <strong>Week {{ week }}: {{ page.lecture_date  | date: "%a, %m/%d" }}</strong>
+    <section>{{ content }}</section>
+    <h2>Readings</h2>
+    <ul>
+    {% for item in page.readings %}
+        <li>{{ item.name }}, author: {{ item.author }}, url: {{ item.url }}</li>
+    {% endfor %}
+    </ul>
+
+</article>
