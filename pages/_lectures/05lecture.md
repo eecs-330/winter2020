@@ -7,15 +7,12 @@ description: |
     Technical day - examining best practices and practicing
 lecture_date: 2020-01-13
 readings:
-  - name: apple
-    author: $1
-    url: red
-  - name: banana
-    author: $2
-    url: yellow
-  - name: orange
-    author: $1.50
-    url: orange
+  - title: A
+    url: "#"
+  - title: B
+    url: "#"
+  - title: C
+    url: "#"
 ---
 
 This is a test!

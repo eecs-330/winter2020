@@ -9,16 +9,18 @@
 
 .assignments, .lectures {
     table {
+        border-top: solid 1px #444;
+        border-bottom: solid 1px #444;
         border-collapse: collapse;
         width: 100%;
 
-        td, th {
-            border: dotted 1px #CCC;
-            padding: 6px;
+        tr:first-child {
+            border-bottom: solid 1px #444;
+        }
 
-            strong {
-                font-family: 'Open Sans Condensed';
-            }
+        td, th {
+            border-bottom: dotted 1px #999;
+            padding: 8px;
         }
         td {
             font-size: 0.9em;
@@ -27,6 +29,42 @@
             font-family: 'Open Sans Condensed';
             min-width: 60px;
             text-align: left;
+        }
+        a, a:hover, a:visited, a:active {
+            text-decoration: none;
+            color: #444;
+            border-bottom: dotted $mutedblue 2px;
+        }
+        a:hover {
+            border-bottom: dotted #444 2px;
+            background: #f6f6f6;
+            // background: #88a5b333;
+        }
+        .hw, a.hw, 
+        .pj, a.pj, 
+        .lec, a.lec, 
+        .lab, a.lab {
+            display: inline-block;
+            border-radius: 4px;
+            color: white;
+            text-transform: uppercase;
+            font-size: .85em;
+            line-height: 1.2em;
+            text-decoration: none;
+            padding: 3px 7px;
+            border-bottom: solid transparent 1px;
+        }
+        .hw, .hw:hover {
+            background: $blue;
+        }
+        .pj, .pj:hover {
+            background: $lightpink;
+        }
+        .lec, .lec:hover {
+            background: $mutedblue;
+        }
+        .lab, .lab:hover {
+            background: $purple;
         }
     }
 }
@@ -48,11 +86,24 @@
         min-width: 60px;
         width: 60px;
     }
-    td:nth-child(3)  {
-        min-width: 250px;
+    td:nth-child(1), th:nth-child(1), td:nth-child(2), th:nth-child(2) {
+        width: 50px;
+        min-width: 30px;
+    }
+    
+    td:nth-child(4)  {
+        min-width: 300px;
     }
     p, li, th, td {
         margin-top: 0px;
+    }
+    ol {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 14px;
+        li {
+            margin-bottom: 5px;
+        }
     }
 }
 
@@ -66,7 +117,13 @@
     }
 }
 
-
+@media (max-width: 1000px) {
+    .lectures {
+        td:nth-child(4)  {
+            min-width: 200px;
+        }
+    }
+}
 @media (max-width: 800px) {
     main {
         padding: 20px;
@@ -74,5 +131,10 @@
     .assignments section, .people section {
         width: 100%;
         height: 200px;
+    }
+    .lectures {
+        td:nth-child(4)  {
+            min-width: 150px;
+        }
     }
 }

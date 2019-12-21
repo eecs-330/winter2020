@@ -2,7 +2,7 @@
 layout: lecture
 title: Speed Dating
 type: lab
-draft: 1
+draft: 0
 description: |
     Get to know each other, and brainstorm some ideas
 ---
