@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: Project Brainstorm
+abbreviation: HW1
 type: individual
 due_date: 2020-01-08
 ordering: 1

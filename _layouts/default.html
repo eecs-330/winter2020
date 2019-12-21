@@ -13,7 +13,7 @@
             {% include navigation.html %}
             <main>
                 {% if page.layout == 'assignment' %}
-                    <h1><a href="../assignments/">Assignments</a> > {{ page.title }}</h1>
+                    <h1><a href="../assignments/">Assignments</a> > {{page.abbreviation}}: {{ page.title }}</h1>
                 {% elsif page.layout == 'lecture' %}
                     <h1><a href="../lectures/">Lectures</a> > {{ page.title }}</h1>
                 {% else %}

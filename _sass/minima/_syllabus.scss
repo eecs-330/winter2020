@@ -4,6 +4,8 @@ p, li, th, td {
 }
 td strong {
     font-family: 'Open Sans Condensed';
+    // font-weight: 400;
+    // text-transform: uppercase;
 }
 
 h2, h3 {
@@ -15,6 +17,7 @@ h2 {
 }
 
 table {
+    margin-top: 30px;
     &.grading {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -28,10 +31,6 @@ table {
         td, th {
             border: dotted 1px #CCC;
             padding: 3px;
-
-            strong {
-                font-family: 'Open Sans Condensed';
-            }
         }
         td {
             font-size: 0.9em;

@@ -21,11 +21,11 @@ layout: default
                 {% assign week = diffDays | divided_by: 7 | plus: 1 %}
             {% endif %}
             <tr>
-                <td> 
+                <th> 
                     {% if week != last_week %}
-                        <strong>Week {{week}}</strong>
+                        Week {{week}}
                     {% endif %}
-                </td>
+                </th>
                 <td>
                     <strong>
                     {% if page.lecture_date %}
@@ -53,20 +53,18 @@ layout: default
                 <td>
                     {% for assignment in site.assignments %}
                         {% if page.lecture_date == assignment.due_date %}
-                            {% assign prefix = "P" %}
                             {% assign classname = "pj" %}
                             {% if assignment.type == "individual" %}
-                                {% assign prefix = "HW" %}
                                 {% assign classname = "hw" %}
                             {% endif %} 
                             
                             {% if assignment.draft == 1 %}
                                 <span class="{{classname}}">
-                                    {{prefix}}{{assignment.ordering}}
+                                    {{ assignment.abbreviation }}
                                 </span>
                             {% else %} 
                                 <a href="{{site.baseurl}}{{assignment.url}}" class="{{classname}}">
-                                    {{prefix}}{{assignment.ordering}}  
+                                    {{ assignment.abbreviation }}
                                     <i class="fas fa-link"></i>
                                 </a>
                             {% endif %} 

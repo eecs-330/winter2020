@@ -36,17 +36,12 @@ layout: default
 
                 </td>
                 <td>
-                    {% assign prefix = "P" %}
-                    {% if assignment.type == "individual" %}
-                        {% assign prefix = "HW" %}
-                    {% endif %} 
-
                     {% if assignment.draft == 1 %}
-                        {{prefix}}{{assignment.ordering}}:  
+                        {{ assignment.abbreviation }}:  
                         {{ assignment.title }}
                     {% else %} 
                         <a href="{{site.baseurl}}{{assignment.url}}">
-                            {{prefix}}{{assignment.ordering}}:  
+                            {{ assignment.abbreviation }}: 
                             {{ assignment.title }}
                         </a>
                     {% endif %} 
