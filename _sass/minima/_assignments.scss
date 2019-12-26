@@ -6,6 +6,18 @@
         "main"
         "bottom";
 }
+h1 span {
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+}
+h1 span.hw {
+    background: $blue;
+}
+h1 span.pj {
+    background: $lightpink;
+}
 
 .assignments, .lectures {
     table {
