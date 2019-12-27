@@ -8,7 +8,6 @@ layout: default
         <tr>
             <th>&nbsp;</th>
             <th>Week</th>
-            <th>Details</th>
             <th>Assignment</th>
             <th>Points</th>
             <th>Due</th>
@@ -32,17 +31,14 @@ layout: default
                 <td> Week {{week}} </td>
                 <td>
                     {% if assignment.draft == 1 %}
-                        {{ assignment.abbreviation }}:  
-                        {{ assignment.title }}
+                        {{ assignment.abbreviation }}:
                     {% else %} 
                         <a class="{{ className }}" href="{{site.baseurl}}{{assignment.url}}">
                             {{ assignment.abbreviation }} 
                             <i class="fas fa-link"></i>
                         </a> 
-                    {% endif %}
-                </td>
-                <td>                     
-                    {{ assignment.title }}
+                    {% endif %}                   
+                    <span>{{ assignment.title }}</span>
                 </td>
                 <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>

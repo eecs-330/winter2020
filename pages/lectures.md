@@ -1,5 +1,5 @@
 ---
 layout: lectures
-title: Lecture & Studio Schedule
+title: Schedule
 permalink: /
 ---

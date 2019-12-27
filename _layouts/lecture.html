@@ -1,30 +1,47 @@
 ---
 layout: default
 ---
-{% assign dateStart = '2020-01-06' | date: '%s' %}
-{% assign lectureDate = page.lecture_date | date: '%s' %}
-{% assign diffSeconds = lectureDate | minus: dateStart %}
-{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
-{% assign week = diffDays | divided_by: 7 | plus: 1 %}
-
+{% if page.lecture_date %}
+    {% assign dateStart = '2020-01-06' | date: '%s' %}
+    {% assign lectureDate = page.lecture_date | date: '%s' %}
+    {% assign diffSeconds = lectureDate | minus: dateStart %}
+    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+    {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+{% endif %}
 <article class="lecture">
 
-    <h2>Week {{ week }}: {{ page.lecture_date  | date: "%a, %m/%d" }}</h2>
-    <a href="{{ page.slides_url }}" target="_blank">slides</a><br>
-    {{ page.description }}
+    <h2>
+        {% if page.lecture_date %}
+            Week {{ week }}: {{ page.lecture_date  | date: "%a, %b %-d" }}
+        {% else %}
+            Lab
+        {% endif %}
+    </h2>
+
+    {% if page.slides_url %}
+        <ul>
+            <li>
+                <a href="{{ page.slides_url }}" target="_blank">slides</a>
+            </li>
+        </ul>
+    {% endif %}
+    
+    <p>{{ page.description }}</p>
     <section>{{ content }}</section>
-    <h2>Readings</h2>
-    <ul>
-    {% for item in page.readings %}
-        <li>
-            <a href="{{item.url}}" {% if item.external == 1 %}target="_blank"{% endif %}>
-                {{ item.title }}
-            </a>
-            {% if item.date %}
-                ({{ item.date }})
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
+    {% if page.readings %}
+        <h2>Readings</h2>
+        <ul>
+        {% for item in page.readings %}
+            <li>
+                <a href="{{item.url}}" {% if item.external == 1 %}target="_blank"{% endif %}>
+                    {{ item.title }}
+                </a>
+                {% if item.date %}
+                    ({{ item.date }})
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
 
 </article>

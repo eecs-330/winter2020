@@ -1,31 +1,3 @@
-
-.hw, a.hw, 
-.pj, a.pj, 
-.lec, a.lec, 
-.lab, a.lab {
-    display: inline-block;
-    border-radius: 4px;
-    color: white;
-    text-transform: uppercase;
-    font-size: .85em;
-    line-height: 1.2em;
-    text-decoration: none;
-    padding: 3px 7px;
-    border-bottom: solid transparent 1px;
-}
-.hw, .hw:hover {
-    background: $blue;
-}
-.pj, .pj:hover {
-    background: $lightpink;
-}
-.lec, .lec:hover {
-    background: $mutedblue;
-}
-.lab, .lab:hover {
-    background: $purple;
-}
-
 .container {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -47,7 +19,18 @@ h1 span.pj {
     background: $lightpink;
 }
 
-.assignments, .lectures, .lecture {
+.assignments, .lectures, .assignment, .lecture {
+
+    a, a:hover, a:visited, a:active {
+        text-decoration: none;
+        color: #444;
+        border-bottom: dotted $mutedblue 2px;
+    }
+    a:hover {
+        border-bottom: dotted #444 2px;
+        background: #f6f6f6;
+        // background: #88a5b333;
+    }
     table {
         border-top: solid 1px #444;
         border-bottom: solid 1px #444;
@@ -66,20 +49,41 @@ h1 span.pj {
             font-size: 0.9em;
         }
         th {
-            font-family: 'Open Sans Condensed';
+            //font-family: 'Open Sans Condensed';
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
             min-width: 60px;
             text-align: left;
         }
-    }
-    a, a:hover, a:visited, a:active {
-        text-decoration: none;
-        color: #444;
-        border-bottom: dotted $mutedblue 2px;
-    }
-    a:hover {
-        border-bottom: dotted #444 2px;
-        background: #f6f6f6;
-        // background: #88a5b333;
+        .hw, a.hw, 
+        .pj, a.pj, 
+        .lec, a.lec, 
+        .lab, a.lab {
+            display: inline-block;
+            border-radius: 4px;
+            color: white;
+            text-transform: uppercase;
+            font-size: .85em;
+            line-height: 1.2em;
+            text-decoration: none;
+            padding: 3px 7px;
+            border-bottom: solid transparent 1px;
+            min-width: 42px;
+            /* text-align: center; */
+            margin-right: 5px;
+        }
+        .hw, .hw:hover {
+            background: $blue;
+        }
+        .pj, .pj:hover {
+            background: $lightpink;
+        }
+        .lec, .lec:hover {
+            background: $mutedblue;
+        }
+        .lab, .lab:hover {
+            background: $purple;
+        }
     }
 }
 .assignments {
