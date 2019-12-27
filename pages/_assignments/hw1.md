@@ -35,5 +35,5 @@ For each project idea, list the domain, goal, and obstacle. For example:
 2. Ensure the ideas are significantly different, not small variations on the same idea. Be sure to focus on goals and obstacles, not potential design solutions. Your idea should not mention any technology at this stage.
 3. Most importantly, be creative! The example ideas presented here are intentionally boring for clarity; think outside the box and come up with problems you'd be excited to spend the quarter studying.
 
-## What to Submit
+## Submission Checklist
 Your submission should be no more than one page of text in PDF format. Make sure your name and section are listed at the top of your submission.

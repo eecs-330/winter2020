@@ -3,14 +3,13 @@ layout: default
 ---
 <article class="assignment">
 
-    <ul class="summary">
+    <h2>Summary</h2>
+    <ul>
         <li>
-            <strong>Due:</strong>
-            {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM
+            Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM
         </li>
-        <li>
-            <strong>Points:</strong>
-            {{ page.points }} points
+        <li> 
+            {{ page.points }} Points
         </li>
     </ul>
  

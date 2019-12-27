@@ -7,9 +7,11 @@ layout: default
 {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
 {% assign week = diffDays | divided_by: 7 | plus: 1 %}
 
-<article class="assignment">
+<article class="lecture">
 
-    <strong>Week {{ week }}: {{ page.lecture_date  | date: "%a, %m/%d" }}</strong>
+    <h2>Week {{ week }}: {{ page.lecture_date  | date: "%a, %m/%d" }}</h2>
+    <a href="{{ page.slides_url }}" target="_blank">slides</a><br>
+    {{ page.description }}
     <section>{{ content }}</section>
     <h2>Readings</h2>
     <ul>

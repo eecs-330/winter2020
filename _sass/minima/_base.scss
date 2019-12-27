@@ -8,7 +8,10 @@ $redhot: #EB1962;
 
 body {
     margin: 0;
-    font-family: 'Open Sans';
+    // font-family: 'Open Sans';
+    font-family: 'Barlow', sans-serif;
+    // font-family: 'Barlow Condensed', sans-serif;
+    // font-family: 'Barlow Semi Condensed', sans-serif;
     color: #444;
     box-sizing: border-box;
     section, div, aside {
@@ -22,15 +25,32 @@ body {
 }
  
  h1, h2, h3 {
-     font-family: 'Open Sans Condensed';
-     font-weight: 600;
+    // font-family: 'Open Sans Condensed';
+    // font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    // font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
 
     a, a:hover, a:visited, a:active {
         text-decoration: none;
         color: #444;
     }
-
  }
+
+p, li, th, td {
+    line-height: 1.5em;
+    margin-top: 5px;
+}
+
+h2, h3 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    border-bottom: solid 1px #444;
+    padding-bottom: 5px;
+}
+
  .mobile {
     display: none;
  }
