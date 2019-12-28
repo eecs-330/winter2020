@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{{content}}
+<section class="lectures">
+    <!-- gets a distinct list of dates from lectures and assignments -->
+    {% assign everything = site.assignments | concat: site.lectures %}
+    {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
+
+    <table>
+        <tr>
+            <th>Week</th>
+            <th></th>
+            <th>Topic</th>
+            <th>Readings & Resources</th>
+            <th>Due</th>
+        </tr>
+       
+        {% assign last_week = 0 %}
+        {% for date in dates %}
+            {% assign lecture = site.lectures | where: 'due_date', date | last %}
+            <!-- Calculate the Week -->
+            {% assign dateStart = '2020-01-06' | date: '%s' %}
+            {% assign lectureDate = date | date: '%s' %}
+            {% assign diffSeconds = lectureDate | minus: dateStart %}
+            {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+            {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+            
+            <tr>
+                <th>
+                {% if week != last_week %}
+                    Week {{week}}
+                {% endif %}
+                </th>
+                {% if lecture %}
+                    <!-- If lecture -->
+                    <td> 
+                        {% if lecture.type != 'lab' %}
+                            {{ date | date: "%a, %m/%d" }}
+                        {% else %}
+                            Studio
+                        {% endif %} 
+                    </td>
+                    <td>
+                        {% assign className = 'lec' %}
+                        {% if lecture.type == 'lab' %}
+                            {% assign className = 'lab' %}
+                        {% endif %} 
+                        {% if lecture.draft == 1 %}
+                            <strong>{{ lecture.title }}</strong>
+                        {% else %} 
+                            <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
+                                {{ lecture.title }} <i class="fas fa-link"></i>
+                            </a>
+                        {% endif %} 
+                        <br>{{ lecture.description }}
+                    </td>
+                    <td>
+                        <ol>
+                        {% for item in lecture.readings %}
+                            <li>
+                                {{ item.title }}
+                                {% if item.date %}
+                                    ({{ item.date }})
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                        </ol>
+                    </td>
+                {% else %}
+                    <!-- If no lecture -->
+                    <td>{{ date | date: "%a, %m/%d" }}</td>
+                    <td></td>
+                    <td></td>
+                {% endif %}
+                <td>
+                    {% assign assignments = site.assignments | where: 'due_date', date %}
+                    {% for assignment in assignments %}
+                        {% assign classname = "pj" %}
+                        {% if assignment.type == "individual" %}
+                            {% assign classname = "hw" %}
+                        {% endif %} 
+                        
+                        {% if assignment.draft == 1 %}
+                            <span class="{{classname}}">
+                                {{ assignment.abbreviation }}
+                            </span>
+                        {% else %} 
+                            <a href="{{site.baseurl}}{{assignment.url}}" class="{{classname}}">
+                                {{ assignment.abbreviation }}
+                                <i class="fas fa-link"></i>
+                            </a>
+                        {% endif %} 
+                        <br>{{ assignment.title }}
+                    {% endfor %}
+                </td>
+            </tr>
+            {% assign last_week = week %}
+        {% endfor %}
+    </table>
+
+</section>

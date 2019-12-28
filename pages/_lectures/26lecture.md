@@ -1,11 +1,11 @@
 ---
 layout: lecture
-title: TBD
+title: HCI Applications
 type: lecture
 draft: 1
 description: |
-    TBD
-lecture_date: 2020-03-04
+    HCI Applications
+due_date: 2020-03-04
 ---
 
 This is a test!

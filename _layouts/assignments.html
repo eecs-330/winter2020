@@ -8,13 +8,14 @@ layout: default
         <tr>
             <th>Week</th>
             <th>Assignment</th>
+            <th>Type</th>
             <th>Description</th>
             <th>Points</th>
             <th>Due</th>
             <th>Days Left</th>
         </tr>
         {% assign last_week = 0 %}
-        {% assign sortedAssignments = (site.assignments | sort: 'due_date') %}
+        {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% for assignment in sortedAssignments %}
             {% assign dateStart = '2020-01-06' | date: '%s' %}
             {% assign now = 'now' | date: '%s' %}
@@ -28,7 +29,7 @@ layout: default
             {% if assignment.type == 'individual' %}
                 {% assign className = 'hw' %}
             {% endif %}
-            <tr>
+            <tr {% if dueDays < 0 %}class="passed"{% endif %}>
                 <td>{% if week != last_week %}
                         Week {{week}}
                     {% endif %}
@@ -42,8 +43,8 @@ layout: default
                             <i class="fas fa-link"></i>
                         </a> 
                     {% endif %}                   
-                    <!-- <span>{{ assignment.title }}</span> -->
                 </td>
+                <td>{{ assignment.type }}</td>
                 <td>{{ assignment.title }}</span>
                 <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>

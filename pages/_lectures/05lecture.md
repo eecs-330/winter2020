@@ -5,7 +5,7 @@ type: lecture
 draft: 1
 description: |
     Technical day - examining best practices and practicing
-lecture_date: 2020-01-15
+due_date: 2020-01-15
 readings:
   - title: A
     url: "#"

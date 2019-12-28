@@ -6,7 +6,7 @@ draft: 1
 description: |
     Q: How do you know that your idea has potential?<br>
     A: Interviews, observations, and research
-lecture_date: 2020-01-13
+due_date: 2020-01-13
 readings:
   - title: A
     url: "#"

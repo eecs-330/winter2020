@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: Analysis of a Web Technology
+title: Usability and Graphics
 abbreviation: HW6
 type: individual
 due_date: 2020-02-24
