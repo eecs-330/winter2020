@@ -8,6 +8,7 @@ layout: default
         <tr>
             <th>Week</th>
             <th>Assignment</th>
+            <th>Description</th>
             <th>Points</th>
             <th>Due</th>
             <th>Days Left</th>
@@ -41,8 +42,9 @@ layout: default
                             <i class="fas fa-link"></i>
                         </a> 
                     {% endif %}                   
-                    <span>{{ assignment.title }}</span>
+                    <!-- <span>{{ assignment.title }}</span> -->
                 </td>
+                <td>{{ assignment.title }}</span>
                 <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
                 <td>
