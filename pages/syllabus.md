@@ -72,7 +72,7 @@ Grades are calculated as follows:
             <td>5 points</td>
         </tr>
         <tr>
-            <td>P9. Final Prototype and Presentation</td>
+            <td>P8. Final Prototype and Presentation</td>
             <td>40 points</td>
         </tr>
         <tr>
@@ -118,8 +118,8 @@ Grades are calculated as follows:
 ### Regrades 
 If you believe there was a grading error on one of your assignments:
 Email Sarah and your peer mentor with an explanation of the mistake.
-Make an appointment if you want to discuss grades in person (no impromptu office visits).
-If the request merits a regrade, either Nell or Sarah will regrade your entire submission, which could result in a lower final grade.
+Make an appointment if you want to discuss grades in person or stop by during office hours.
+If the request merits a regrade, Sarah will regrade your entire submission, which could result in a lower final grade.
 
 ### Late Policy
 Assignments are due at the time indicated on Canvas.  Assignments turned in up to 24 hours late will be penalized 10%. Similarly, assignments turned in between 24 and 48 hours late will be penalized 20%. Assignments turned in more than 48 hours late will not be accepted under most circumstances. If you are having trouble with homework or assignments, please let us know! We’re here to help.

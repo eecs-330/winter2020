@@ -1,9 +1,9 @@
 ---
 layout: assignment
-title: Social Analysis
-abbreviation: HW2
+title: HTML & CSS
+abbreviation: HW3
 type: individual
-due_date: 2020-01-15
+due_date: 2020-01-27
 ordering: 2
 points: 15
 draft: 0
