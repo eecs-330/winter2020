@@ -2,18 +2,19 @@
 layout: default
 ---
 {{content}}
-<section class="assignments">
 
+<section class="assignments">
     <table>
         <tr>
-            <th>&nbsp;</th>
             <th>Week</th>
             <th>Assignment</th>
             <th>Points</th>
             <th>Due</th>
             <th>Days Left</th>
         </tr>
-        {% for assignment in site.assignments %}
+        {% assign last_week = 0 %}
+        {% assign sortedAssignments = (site.assignments | sort: 'due_date') %}
+        {% for assignment in sortedAssignments %}
             {% assign dateStart = '2020-01-06' | date: '%s' %}
             {% assign now = 'now' | date: '%s' %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
@@ -27,8 +28,10 @@ layout: default
                 {% assign className = 'hw' %}
             {% endif %}
             <tr>
-                <td>{{ forloop.index }}</td>
-                <td> Week {{week}} </td>
+                <td>{% if week != last_week %}
+                        Week {{week}}
+                    {% endif %}
+                </td>
                 <td>
                     {% if assignment.draft == 1 %}
                         {{ assignment.abbreviation }}:
@@ -54,6 +57,7 @@ layout: default
                     {% endif %} 
                 </td>
             </tr>
+            {% assign last_week = week %}
         {% endfor %}
     </table>
 

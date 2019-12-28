@@ -88,8 +88,10 @@ h1 span.pj {
 }
 .assignments {
     td:nth-child(1), th:nth-child(1) {
-        width: 20px;
-        min-width: 20px;
+        // width: 20px;
+        // min-width: 20px;
+        width: 60px !important;
+        font-weight: 500;
     }
 }
 
