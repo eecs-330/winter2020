@@ -8,6 +8,9 @@
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="{{site.baseurl}}/assets/main.css">
+        {% for url in page.stylesheets %}
+            <link rel="stylesheet" href="{{ url }}">
+        {% endfor %}
     </head>
     <body>
         <div class="container">
@@ -20,5 +23,8 @@
             {% include footer.html %}
         </div>
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+        {% for url in page.scripts %}
+            <script type="text/javascript" src="{{ url }}"></script>
+        {% endfor %}
     </body>
 </html>
