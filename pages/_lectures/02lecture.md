@@ -13,10 +13,17 @@ readings:
     author: "Morozov, Evgeny"
     date: 2013
     external: 1
-  - title: B
-    url: "#"
-  - title: C
-    url: "#"
+  - title: "How Black Lives Matter Uses Social Media to Fight the Power"
+    url: "https://www.wired.com/2015/10/how-black-lives-matter-uses-social-media-to-fight-the-power/"
+    author: "Stephen, Bijan"
+    date: 2015
+    source: "WIRED"
+    external: 1
+  - title: "Black Lives Matter Global Network Defends Against Disinformation Going into 2020"
+    url: "https://blacklivesmatter.com/black-lives-matter-global-network-defends-against-disinformation-going-into-2020/"
+    date: 2019
+    source: "blacklivesmatter.org"
+    external: 1
 ---
 
 * How should we be think about what computing applications can and cannot accomplish? 
