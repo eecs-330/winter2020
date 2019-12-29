@@ -26,14 +26,13 @@ const jellyColors = [
 const screenW = view.size.width;
 const screenH = view.size.height;
 const jellies = [];
-const bubbles = new Array(20);
 
 const getRandomColor = () => {
   return jellyColors[random(0, jellyColors.length, true)];
 };
 
 const addJelly = () => {
-  if (jellies.length >= 6) {
+  if (jellies.length >= 4) {
     console.log('enough jellies...');
     return;
   }
