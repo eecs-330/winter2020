@@ -2,7 +2,9 @@
 layout: default
 ---
 {{content}}
-
+{% assign dateStart = site.term_start_date | date: '%s' %}
+{% assign now = 'now' | date: '%s' %}
+            
 <section class="assignments">
     <table>
         <tr>
@@ -17,8 +19,6 @@ layout: default
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% for assignment in sortedAssignments %}
-            {% assign dateStart = '2020-01-06' | date: '%s' %}
-            {% assign now = 'now' | date: '%s' %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
             {% assign dueSeconds = dueDate | minus: now %}
@@ -36,7 +36,7 @@ layout: default
                 </td>
                 <td>
                     {% if assignment.draft == 1 %}
-                        {{ assignment.abbreviation }}:
+                        {{ assignment.abbreviation }}
                     {% else %} 
                         <a class="{{ className }}" href="{{site.baseurl}}{{assignment.url}}">
                             {{ assignment.abbreviation }} 

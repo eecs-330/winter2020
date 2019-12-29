@@ -180,7 +180,7 @@ footer > div {
     footer, header { border: none; }
     header, nav {
         position: fixed;
-        width: 100vw;
+        width: 100%;
         .fa-bars {
             color: white;
         }
@@ -188,6 +188,7 @@ footer > div {
     header {
         height: 10vh;
         background: #444;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.52), 0 1px 2px rgba(0,0,0,0.64);
         color: white;
         h1 { font-size: 1.3em; }
     }
@@ -200,13 +201,29 @@ footer > div {
             width: 100%;
             padding: 0px;
             margin: 0px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-            li { 
-                padding: 0px; 
-            
+            li {
+                border-bottom: solid 1px #EEE;
+                margin-top: 0px;
+                
+                &.active {
+                    border-bottom: solid 1px #EEE;
+                    background: $mutedblue;
+                    a {
+                        color: white;
+                    }
+                    &:hover, &:active {
+                        background: $mutedblue;
+                    }
+                }
                 a {
                     display: flex;
                     padding: 10px 18px;
+                }
+                &:hover, &:active {
+                    border-bottom: solid 1px #EEE;
+                    background: #E9E9E9;
                 }
             }
         }
@@ -228,4 +245,5 @@ footer > div {
         // background: #EEE;
         min-height: 82vh;
     }
+    
  }
