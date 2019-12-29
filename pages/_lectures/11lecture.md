@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: TBD
+title: Scenarios, Personas, and Tasks
 type: lecture
 draft: 1
 description: |
