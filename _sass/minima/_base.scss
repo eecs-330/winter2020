@@ -172,6 +172,7 @@ footer > div {
         margin: 0px;
         grid-row-gap: 0px;
         grid-column-gap: 0px;
+        overflow: auto;
     }
     .desktop { display: none; }
     .mobile { display: flex; }
