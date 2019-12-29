@@ -11,6 +11,9 @@ layout: default
         <li> 
             {{ page.points }} Points
         </li>
+        {% if page.credits %}
+            <li>Credit: {{page.credits}}</li>
+        {% endif %}
     </ul>
  
   
