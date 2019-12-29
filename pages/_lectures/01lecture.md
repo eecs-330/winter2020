@@ -13,6 +13,8 @@ readings:
     url: https://www.wsj.com/articles/pilots-not-the-plane-keep-the-boeing-max-grounded-11576880301
     external: 1
     date: Dec, 2019
+    source: "The Wall Street Journal"
+    author: "Jenkins, Holman W. Jr."
   - title: B
     url: "#"
   - title: C

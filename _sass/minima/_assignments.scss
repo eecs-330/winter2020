@@ -146,13 +146,37 @@ h1 span.pj {
     }
 }
 
-.assignment {
+.assignment, .lecture {
     .summary {
         background: #F3F3F3;
         padding: 10px;
         li {
             margin-left: 30px;
         }
+    }
+    ul {
+        list-style: none;
+        li::before {
+            font-size: 1.6em;
+            content: "\2022";
+            font-weight: bold;
+            display: inline-block;
+            text-indent: -0.9em;
+            // width: 0.7em;
+            // height: 100%;
+            // margin-left: -0.5em;
+            vertical-align: text-bottom;
+            color: $lightpink;
+        }
+    }
+    h2 {
+        border-bottom: solid 1px $mutedblue;
+    }
+    h3 {
+        color: #676767;
+        font-weight: 500;
+        font-size: 1.3em;
+        // text-transform: uppercase;
     }
 }
 
