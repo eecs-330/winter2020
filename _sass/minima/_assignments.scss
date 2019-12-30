@@ -19,7 +19,7 @@ h1 span.pj {
     background: $lightpink;
 }
 
-.assignments, .lectures, .assignment, .lecture {
+.assignments, .lectures, .assignment, .lecture, .readings {
     .passed {
         background: #F0F0F0;
         color: #999;
@@ -43,6 +43,9 @@ h1 span.pj {
         background: #f6f6f6;
     }
     table {
+        td, th {
+            vertical-align: top;
+        }
         border-top: solid 1px #444;
         border-bottom: solid 1px #444;
         border-collapse: collapse;
@@ -101,13 +104,24 @@ h1 span.pj {
         font-weight: 500;
     }
 }
+.readings {
+    td:nth-child(2), th:nth-child(2) {
+        width: 80px !important;
+    }
+    ol {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 10px;
+
+        li {
+            margin-top: 0px;
+        }
+    }
+}
 
 .lectures {
     ul {
         margin: 0px;
-    }
-    td, th {
-        vertical-align: top;
     }
     td:nth-child(1)  {
         min-width: 60px;
