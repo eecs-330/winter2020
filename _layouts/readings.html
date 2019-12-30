@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<section class="lecture">
+{{content}}
+{% assign dateStart = site.term_start_date | date: '%s' %}
+{% assign now = 'now' | date: '%s' %}
+{% assign last_week = 0 %}
+
+{% for lecture in site.lectures %}
+    <!-- Only output if it's a lecture that has readings -->
+    {% if lecture.type != "lab" and lecture.readings %}
+        {% assign lectureDate = lecture.due_date | date: '%s' %}
+        {% assign diffSeconds = lectureDate | minus: dateStart %}
+        {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+        {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+
+        {% if week != last_week %}
+            <h2>Week {{week}}</h2>
+        {% endif %}
+    
+        <h3>{{lecture.title}}</h3>
+        {{ lecture.due_date  | date: "%a, %b %-d" }}
+        <ol>
+        {% for item in lecture.readings %}
+            <li>
+                {% if item.author %}
+                    {{ item.author }}
+                {% endif %}
+                {% if item.date %}
+                    ({{ item.date }}).
+                {% endif %}
+                {% if item.url %}
+                    <a href="{{item.url}}" 
+                        {% if item.external == 1 %}target="_blank"{% endif %}>{{ item.title }}</a>. 
+                {% else %}
+                    {{ item.title }}
+                {% endif %}
+                {% if item.source %}
+                    <em>{{ item.source }}</em>.
+                {% endif %}
+            </li>
+        {% endfor %}
+    {% endif %}
+    {% assign last_week = week %}
+    </ol>
+{% endfor %}
+</section>

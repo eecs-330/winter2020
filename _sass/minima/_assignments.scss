@@ -41,7 +41,6 @@ h1 span.pj {
     a:hover {
         border-bottom: dotted #444 2px;
         background: #f6f6f6;
-        // background: #88a5b333;
     }
     table {
         border-top: solid 1px #444;
@@ -80,7 +79,6 @@ h1 span.pj {
             padding: 3px 7px;
             border-bottom: solid transparent 1px;
             min-width: 42px;
-            /* text-align: center; */
             margin-right: 5px;
         }
         .hw, .hw:hover {
@@ -99,8 +97,6 @@ h1 span.pj {
 }
 .assignments {
     td:nth-child(1), th:nth-child(1) {
-        // width: 20px;
-        // min-width: 20px;
         width: 60px !important;
         font-weight: 500;
     }
@@ -125,12 +121,9 @@ h1 span.pj {
         min-width: 70px;
     }
     td:nth-child(3)  {
-        min-width: 200px;
-    }
-    td:nth-child(4)  {
         min-width: 330px;
     }
-    td:nth-child(5)  {
+    td:nth-child(4)  {
         min-width: 100px;
     }
     p, li, th, td {
@@ -162,9 +155,6 @@ h1 span.pj {
             font-weight: bold;
             display: inline-block;
             text-indent: -0.9em;
-            // width: 0.7em;
-            // height: 100%;
-            // margin-left: -0.5em;
             vertical-align: text-bottom;
             color: $lightpink;
         }
@@ -176,17 +166,9 @@ h1 span.pj {
         color: #676767;
         font-weight: 500;
         font-size: 1.3em;
-        // text-transform: uppercase;
     }
 }
 
-@media (max-width: 1000px) {
-    .lectures {
-        td:nth-child(4)  {
-            min-width: 300px;
-        }
-    }
-}
 @media (max-width: 800px) {
     main {
         padding: 20px;
@@ -203,7 +185,7 @@ h1 span.pj {
             min-width: 50px !important;
             width: auto;
         }
-        td:nth-child(3), td:nth-child(4) {
+        td:nth-child(3) {
             min-width: 200px !important;
         }
     }
