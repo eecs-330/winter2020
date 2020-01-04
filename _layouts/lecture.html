@@ -26,13 +26,19 @@ layout: default
         </ul>
     {% endif %}
     
-    <p>{{ page.description }}</p>
+    {% comment %}
+        <p>{{ page.description }}</p>
+    {% endcomment %}
+
     <section>{{ content }}</section>
     {% if page.readings %}
         <h2>Readings</h2>
         <ul>
         {% for item in page.readings %}
             <li>
+                {% if item.optional == 1 %}
+                    <strong>[Optional]</strong>
+                {% endif %}
                 {% if item.author %}
                     {{ item.author }}
                 {% endif %}
@@ -40,8 +46,11 @@ layout: default
                     ({{ item.date }}).
                 {% endif %}
                 {% if item.url %}
-                    <a href="{{item.url}}" 
-                        {% if item.external == 1 %}target="_blank"{% endif %}>{{ item.title }}</a>. 
+                    {% if item.internal %}
+                        <a href="{{item.url}}">{{ item.title }}</a>.
+                    {% else %}
+                        <a href="{{item.url}}" target="_blank">{{ item.title }}</a>.
+                    {% endif %} 
                 {% else %}
                     {{ item.title }}
                 {% endif %}
