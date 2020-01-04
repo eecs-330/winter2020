@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign lecture = page %}
 {% if page.due_date %}
     {% assign dateStart = '2020-01-06' | date: '%s' %}
     {% assign lectureDate = page.due_date | date: '%s' %}
@@ -33,33 +34,7 @@ layout: default
     <section>{{ content }}</section>
     {% if page.readings %}
         <h2>Readings</h2>
-        <ul>
-        {% for item in page.readings %}
-            <li>
-                {% if item.optional == 1 %}
-                    <strong>[Optional]</strong>
-                {% endif %}
-                {% if item.author %}
-                    {{ item.author }}
-                {% endif %}
-                {% if item.date %}
-                    ({{ item.date }}).
-                {% endif %}
-                {% if item.url %}
-                    {% if item.internal %}
-                        <a href="{{item.url}}">{{ item.title }}</a>.
-                    {% else %}
-                        <a href="{{item.url}}" target="_blank">{{ item.title }}</a>.
-                    {% endif %} 
-                {% else %}
-                    {{ item.title }}
-                {% endif %}
-                {% if item.source %}
-                    <em>{{ item.source }}</em>.
-                {% endif %}
-            </li>
-        {% endfor %}
-        </ul>
+        {% include page_readings.html %} 
     {% endif %}
 
 </article>

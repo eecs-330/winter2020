@@ -29,27 +29,9 @@ layout: default
             <td>{{ lecture.due_date | date: "%a, %m/%d" }}</td>
             <td>{{lecture.title}}</td>
             <td>
-                <ol>
-                {% for item in lecture.readings %}
-                    <li>
-                        {% if item.author %}
-                            {{ item.author }}
-                        {% endif %}
-                        {% if item.date %}
-                            ({{ item.date }}).
-                        {% endif %}
-                        {% if item.url %}
-                            <a href="{{item.url}}" 
-                                {% if item.external == 1 %}target="_blank"{% endif %}>{{ item.title }}</a>. 
-                        {% else %}
-                            {{ item.title }}
-                        {% endif %}
-                        {% if item.source %}
-                            <em>{{ item.source }}</em>.
-                        {% endif %}
-                    </li>
-                {% endfor %}
-                </ol>
+                {% if lecture.readings %}
+                    {% include page_readings.html %} 
+                {% endif %}
             </td>
     {% endif %}
     {% assign last_week = week %}

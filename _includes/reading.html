@@ -1,0 +1,26 @@
+<li>
+    {% if item.author %}
+        {{ item.author }}
+    {% endif %}
+    {% if item.date %}
+        ({{ item.date }}).
+    {% endif %}
+    {% if item.url %}
+        {% if item.internal %}
+            <a href="{{item.url}}">{{ item.title }}</a>.
+        {% else %}
+            <a href="{{item.url}}" target="_blank">{{ item.title }}</a>.
+        {% endif %} 
+    {% else %}
+        {{ item.title }}
+    {% endif %}
+    {% if item.source %}
+        <em>{{ item.source }}</em>.
+    {% endif %}
+    {% if item.notes %}
+        <br><em>({{ item.notes }})</em>
+    {% endif %}
+    {% if item.optional == 1 %}
+     <br><em>(Optional)</em>
+    {% endif %}
+</li>
