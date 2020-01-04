@@ -2,18 +2,21 @@
 layout: lecture
 title: Analyzing the Problem Space
 type: lecture
-draft: 1
+draft: 0
 description: |
     Q: How do you know that your idea has potential?<br>
     A: Interviews, observations, and research
 due_date: 2020-01-13
 readings:
-  - title: A
-    url: "#"
-  - title: B
-    url: "#"
-  - title: C
-    url: "#"
----
+  - title: "Contextual Inquiries"
+    url: "https://www.interaction-design.org/literature/article/contextual-interviews-and-how-to-handle-them"
+    source: "Interaction Design Foundation"
+  - title: "Qualitative Interviews"
+    url: "http://www.nixdell.com/classes/HCI-and-Design-Spring-2017/interview-strategies.pdf"
+    author: "Dell, Nicola"
 
-This is a test!
+---
+Today, we're going to talk about methods for understanding users, specifically contextual inquiry and interviews.  To get a little background on these topics, please read the  two short articles/guides (below). While reading, consider the following questions:
+
+* What are the benefits of interviewing users in context?
+* What are some characteristics of effective interview questions?

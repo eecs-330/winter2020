@@ -7,12 +7,7 @@ description: |
     Technical day - examining best practices and practicing
 due_date: 2020-01-15
 readings:
-  - title: A
-    url: "#"
-  - title: B
-    url: "#"
-  - title: C
-    url: "#"
+  - title: TBD
 ---
 
 This is a test!
