@@ -1,9 +1,9 @@
 ---
 layout: assignment
-title: Working With Data
-abbreviation: HW6
+title: Usability and Graphics
+abbreviation: HW7
 type: individual
-due_date: 2020-02-10
+due_date: 2020-02-24
 points: 15
 draft: 1
 ---

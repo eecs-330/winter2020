@@ -7,16 +7,16 @@ description: |
     How to think about what computing applications can and cannot accomplish. In what ways does computing make the world better? In what ways does it make it worse?
 due_date: 2020-01-08
 readings:
-  - source: "The Guardian"
-    title: "We are abandoning all the checks and balances"
-    url: "https://www.theguardian.com/technology/2013/mar/09/evgeny-morozov-technology-solutionism-interview"
-    author: "Morozov, Evgeny"
-    date: 2013
   - title: "Do Artifacts Have Politics?"
     url: "../assets/readings/winner_artifacts.pdf"
     author: "Winner, Langdon"
     source: "Daedalus"
     date: 1980
+  - source: "The Guardian"
+    title: "We are abandoning all the checks and balances"
+    url: "https://www.theguardian.com/technology/2013/mar/09/evgeny-morozov-technology-solutionism-interview"
+    author: "Morozov, Evgeny"
+    date: 2013
   - title: Pilots not the plane keep the Boeing MAX grounded
     url: https://www.wsj.com/articles/pilots-not-the-plane-keep-the-boeing-max-grounded-11576880301
     date: Dec, 2019
@@ -39,6 +39,10 @@ readings:
 
 ---
 
+Each generation of technologies is accompanied by both utopian and dystopian visions. These perspectives are worth considering as you develop your own perspectives on the relationship between technology and humanity:
+* Will the Internet, Big Data, AI, IoT, ubiquitous computing, etc. save us all?
 * How should we be think about what computing applications can and cannot accomplish? 
 * In what ways does computing make the world better? 
 * In what ways does it make it worse?
+
+To think about such things, please read a "classic" HCI text: **Do Artifacts Have Politics?**. You will be drawing on this article, the Morozov interview, and others for your second homework assignment.

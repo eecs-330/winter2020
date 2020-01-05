@@ -1,49 +1,46 @@
 ---
 layout: assignment
-title: Social Analysis
+title: Individual Project Proposal
 abbreviation: HW2
 type: individual
-due_date: 2020-01-15
-ordering: 2
-points: 15
+due_date: 2020-01-12
+ordering: 1 
+points: 10
 draft: 0
-filename: assets/images/red.jpg
+filename: assets/images/purple.jpg
 ---
 
+TODO: This needs a lot of work. 
+
 ## Instructions
-For this assignment, you will pick a computer-mediated technology and deconstruct it. Please address the following requests / questions below:
 
-### 1. Pick an application
-Pick a **computer-mediated** application that has both benefits and limitations/risks. I have listed some possible examples below, but feel free to choose your own.
+### 1. Problem & Motivation
+Describe the problem that your project would tackle, and the motivation for why that problem is important and interesting. This paragraph should discuss the current state of the world (the problem), as well as how and why the world would be better if some aspect of this problem were addressed (the goal). You should convince the reader that this is a worthwhile problem space to explore. 
 
-* Yelp
-* Uber / Lyft
-* Self-driving cars
-* Spotify
-* FitBit
-* YouTube
-* Tinder, Bumble, Grindr, etc.
-* Airbnb
-* Facebook
-* Twitter
-* WhatsApp
-* TikTok
+### 2. Analysis
+In another paragraph, analyze the problem to give the reader more background and context. This paragraph should discuss why it's hard for people to change their behavior to reach the goals outlined in the previous paragraph (the obstacles). It can also include positive aspects of the current state of the world that are helping people address this problem. Include at least two examples of existing systems or practices that that are either helping or not helping to address your stated problem, and make an argument for why this problem is not yet solved and requires additional design work.
 
-### 2. Describe the purpose of the application
-Why does this app exist? What human need / needs / problems / desires does it address?
+## Rubric
 
-### 3. Who are the users of the application?
-Most users have multiple users. For instance, in the case of Google search, there are people looking for something, advertisers selling things, websites who are trying to be displayed at the top of the list, etc.
+### 1. Report is appropriately clear and easy to read
+* text should be clear and concise
+* use section headings as appropriate
+* include images in the body of the write-up with appropriate figure numbers and captions
+* refer to the figures in the body of your text
+* check for typos, spelling, and grammar errors
 
-### 4. How does each user interact with the app?
-For each of the users identified above, describe a typical scenario.
+### 2. Report looks professional
+* choose appropriate colors, fonts, styles, images
+* make liberal use of whitespace
 
-### TBD: Other candidate questions:
-* What are the application's politics?
-* Describe the target demographics?
-* What are some of the intended or unintended downsides of the app?
-* What, specifically, does the technology enable that was not possible previously?
-* What aspects of this problem space / domain are impossible for an app to solve?
-* What practices / industries have been introduced, and what practices / industries have become obsolete as a result of this app?
-* Who gains and who loses using this app?
-* Is this app / phenomenon a fad? In 10 years, do you think this technology will exist?
+## Samples
+Below are links to three previous project proposals which you can look at as examples. These are taken from an HCI course at the University of Washington, where the project theme was "behavior tracking". Please note that our guidelines for what to include in the two paragraphs are different from the UW course (with a focus on goals and obstacles) so make sure to read this assignment carefully rather than just going off these examples:
+
+* Example 1 (Links to an external site.)
+* Example 2 (Links to an external site.)
+* Example 3 (Links to an external site.)
+
+## Submission Checklist
+* Make sure your name and section are at the top of your submission.
+* Your submission should include no more than one page of text in PDF format. 
+* Images do not count against your page limit, and are therefore effectively free. You should embed images throughout your PDF, keeping them near the text that references them. The limit applies to the approximate amount of text you would have if all images were removed.

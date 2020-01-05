@@ -1,0 +1,58 @@
+{% assign sortedAssignments = site.assignments | sort: 'due_date' %}
+{% assign projectPoints = 0 %}
+{% assign homeworkPoints = 0 %}
+{% assign totalPoints = 20 %}
+{% for assignment in sortedAssignments %}
+    {% if assignment.type == "group" %}
+        {% assign projectPoints = projectPoints | plus: assignment.points %}
+    {% else %}
+        {% assign homeworkPoints = homeworkPoints | plus: assignment.points %}
+    {% endif %}
+    {% assign totalPoints = totalPoints | plus: assignment.points %}
+{% endfor %}
+{% assign projectPercent = projectPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round  %}
+{% assign homeworkPercent = homeworkPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round %}
+
+<table class="grading">
+    <tbody>
+        <tr>
+            <th>Team Project ({{ projectPercent }}%)</th>
+            <th>{{ projectPoints }} Points</th>
+        </tr>
+        <!-- project assignments -->
+        {% for assignment in sortedAssignments %}
+            {% if assignment.type == "group" %}
+                <tr>
+                    <td>
+                        {{ assignment.abbreviation }}: {{ assignment.title }}
+                    </td>
+                    <td>{{ assignment.points }} points {{ totalPoints }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        <tr>
+            <th>Individual Assignments ({{ homeworkPercent }} %)</th>
+            <th>{{ homeworkPoints }} Points</th>
+        </tr>
+        <!-- homework assignments -->
+        {% for assignment in sortedAssignments %}
+            {% if assignment.type == "individual" %}
+                <tr>
+                    <td>
+                        {{ assignment.abbreviation }}: {{ assignment.title }}
+                    </td>
+                    <td>{{ assignment.points }} points {{ totalPoints }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+
+        <tr>
+            <th>Participation (10%)</th>
+            <th>20 points</th>
+        </tr>
+        <tr>
+            <td>Class / Studio Participation</td>
+            <td>20 points</td>
+        </tr>
+    </tbody>
+</table>
