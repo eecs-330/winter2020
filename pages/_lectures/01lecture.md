@@ -6,8 +6,8 @@ draft: 0
 description: |
     Intro to the course. What is HCI?
 due_date: 2020-01-06
-slides_url: | 
-    https://docs.google.com/presentation/d/1l-g-d3AL1AoauTP0iQ2STK7yjL4YSpBGgUNI1N97agg/edit?usp=sharing
+# slides_url: | 
+#     https://docs.google.com/presentation/d/1l-g-d3AL1AoauTP0iQ2STK7yjL4YSpBGgUNI1N97agg/edit?usp=sharing
 readings:
   - title: "The Knowledge Navigator (Video)"
     author: "For Apple CEO John Sculley's EDUCOM Keynote"

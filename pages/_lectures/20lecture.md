@@ -1,10 +1,10 @@
 ---
 layout: lecture
-title: Graphic Design
+title: Universal Design & Accessibility
 type: lecture
 draft: 1
 description: |
-    Principles of visual and graphic design
+    How to think about making technologies inclusive
 due_date: 2020-02-19
 ---
 

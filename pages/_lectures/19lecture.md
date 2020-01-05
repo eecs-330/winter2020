@@ -1,10 +1,10 @@
 ---
 layout: lecture
-title: Universal Design & Accessibility
+title: Graphic Design Continued
 type: lecture
 draft: 1
 description: |
-    How to think about making technologies inclusive
+    In-class programming re: design
 due_date: 2020-02-17
 ---
 

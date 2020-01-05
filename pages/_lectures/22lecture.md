@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Graphic Design Continued
+title: TBD
 type: lecture
 draft: 1
 description: |
