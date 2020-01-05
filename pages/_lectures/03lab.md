@@ -2,7 +2,7 @@
 layout: lecture
 title: Speed Dating
 type: lab
-draft: 0
+draft: 1
 due_date: 2020-01-10
 description: |
     Get to know each other, and brainstorm some ideas

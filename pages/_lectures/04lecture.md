@@ -2,7 +2,7 @@
 layout: lecture
 title: Analyzing the Problem Space
 type: lecture
-draft: 0
+draft: 1
 description: |
     Q: How do you know that your idea has potential?<br>
     A: Interviews, observations, and research

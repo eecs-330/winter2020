@@ -6,7 +6,7 @@ type: individual
 due_date: 2020-01-12
 ordering: 1 
 points: 10
-draft: 0
+draft: 1
 filename: assets/images/purple.jpg
 ---
 

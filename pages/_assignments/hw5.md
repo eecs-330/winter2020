@@ -4,8 +4,8 @@ title: JavaScript
 abbreviation: HW5
 type: individual
 due_date: 2020-02-03
-points: 10
-draft: 0
+points: 15
+draft: 1
 credits: |
     Jellies created by <a href="http://nardove.com/" target="_blank">@nardove</a>
 scripts:
