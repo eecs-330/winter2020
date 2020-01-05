@@ -109,7 +109,9 @@ h1 span.pj {
         width: 80px !important;
     }
     h3 {
+        font-size: 1em;
         font-weight: 500;
+        font-family: 'Barlow', sans-serif;
     }
     li {
         margin-bottom: 8px;
@@ -117,9 +119,10 @@ h1 span.pj {
 }
 
 ol.readings, ul.readings {
-    margin: 0px;
-    padding: 0px;
-    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    // padding: 0px;
+    // padding-left: 20px;
 
     li {
         margin-top: 0px;
