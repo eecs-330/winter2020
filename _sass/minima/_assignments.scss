@@ -213,4 +213,14 @@ ol.readings, ul.readings {
             min-width: 200px !important;
         }
     }
+    .readings {
+        tr:first-child, th:first-child, th:nth-child(3), td:nth-child(3) {
+            display: none;
+        }
+        td:nth-child(2) {
+            font-weight: 500;
+            width: 70px !important;
+            min-width: 70px !important;
+        }
+    }
 }
