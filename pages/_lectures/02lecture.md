@@ -23,6 +23,7 @@ readings:
     source: "The Wall Street Journal"
     author: "Jenkins, Holman W. Jr."
     optional: 1
+    notes: "Note: NU students get a free Wall Street Journal membership. <a href='https://wsj.com/northwestern' target='_blank'>https://wsj.com/northwestern</a>"
 #   - title: "How Black Lives Matter Uses Social Media to Fight the Power"
 #     url: "https://www.wired.com/2015/10/how-black-lives-matter-uses-social-media-to-fight-the-power/"
 #     author: "Stephen, Bijan"
