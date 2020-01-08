@@ -40,7 +40,7 @@ readings:
 
 ---
 
-Each generation of technologies is accompanied by both utopian and dystopian visions. These perspectives are worth considering as you develop your own perspectives on the relationship between technology and humanity:
+Each generation of technologies is accompanied by both utopian and dystopian visions. These perspectives are worth considering as you develop your own perspectives on the relationship between technology and society:
 * Will the Internet, Big Data, AI, IoT, ubiquitous computing, etc. save us all?
 * How should we be think about what computing applications can and cannot accomplish? 
 * In what ways does computing make the world better? 

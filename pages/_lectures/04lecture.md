@@ -2,7 +2,7 @@
 layout: lecture
 title: Analyzing the Problem Space
 type: lecture
-draft: 1
+draft: 0
 description: |
     Q: How do you know that your idea has potential?<br>
     A: Interviews, observations, and research
@@ -16,7 +16,7 @@ readings:
     author: "Dell, Nicola"
 
 ---
-Today, we're going to talk about methods for understanding users, specifically contextual inquiry and interviews.  To get a little background on these topics, please read the  two short articles/guides (below). While reading, consider the following questions:
+In this lecture, we're going to talk about methods for understanding users, specifically contextual inquiry and interviews.  To get a little background on these topics, please read the  two short articles/guides (below). While reading, consider the following questions:
 
 * What are the benefits of interviewing users in context?
 * What are some characteristics of effective interview questions?

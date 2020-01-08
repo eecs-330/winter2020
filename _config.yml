@@ -24,6 +24,7 @@ term_start_date: "2020-01-06"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+piazza_url: https://piazza.com/northwestern/winter2020/cs330/home
 
 # Build settings
 markdown: kramdown

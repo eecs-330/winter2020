@@ -6,44 +6,38 @@ type: individual
 due_date: 2020-01-15
 ordering: 2
 points: 15
-draft: 1
-filename: assets/images/red.jpg
+draft: 0
 ---
 
 ## Instructions
-For this assignment, you will pick a computer-mediated technology and deconstruct it. Please address the following requests / questions below:
+For this assignment, you will pick a computer-mediated website or app and deconstruct it. Using the Winner article, the Morozov interview, or both, conduct a sociopolitical analysis of your technology. Your paper should address at least 4 of the questions listed below: 
 
-### 1. Pick an application
-Pick a **computer-mediated** application that has both benefits and limitations/risks. I have listed some possible examples below, but feel free to choose your own.
+1. What are the politics behind this technology? 
+2. Who is affected by its design? 
+3. Who wins and who loses as a result of its creation and use?
+4. How, specifically, does the technology shape who wins and who loses?
+5. Is this app / phenomenon a fad? That is, in 10 years, do you think this technology will exist? 
+6. Is this app inherently political or does it imbue a "form of order"?
+
+Here are some applications that could be interesting to deconstruct, but feel free to explore and think broadly about the app you want to analyze.
 
 * Yelp
-* Uber / Lyft
 * Self-driving cars
 * Spotify
+* SoundCloud
 * FitBit
 * YouTube
 * Tinder, Bumble, Grindr, etc.
 * Airbnb
 * Facebook
 * Twitter
+* Amazon (shopping site)
+* Google Search
 * WhatsApp
 * TikTok
 
-### 2. Describe the purpose of the application
-Why does this app exist? What human need / needs / problems / desires does it address?
-
-### 3. Who are the users of the application?
-Most users have multiple users. For instance, in the case of Google search, there are people looking for something, advertisers selling things, websites who are trying to be displayed at the top of the list, etc.
-
-### 4. How does each user interact with the app?
-For each of the users identified above, describe a typical scenario.
-
-### TBD: Other candidate questions:
-* What are the application's politics?
-* Describe the target demographics?
-* What are some of the intended or unintended downsides of the app?
-* What, specifically, does the technology enable that was not possible previously?
-* What aspects of this problem space / domain are impossible for an app to solve?
-* What practices / industries have been introduced, and what practices / industries have become obsolete as a result of this app?
-* Who gains and who loses using this app?
-* Is this app / phenomenon a fad? In 10 years, do you think this technology will exist?
+## Submission Checklist
+* Reflection papers should be between 500 and 750 words, double spaced, 12-point font, Times New Roman
+* Papers should be converted to PDF format
+* Make sure your name and section are listed at the top of your submission
+* Ensure you've followed the instructions above
