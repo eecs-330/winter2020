@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: Social Analysis
+title: Sociopolitical Analysis
 abbreviation: HW3
 type: individual
 due_date: 2020-01-15
