@@ -6,6 +6,7 @@ draft: 0
 description: |
     How to think about what computing applications can and cannot accomplish. In what ways does computing make the world better? In what ways does it make it worse?
 due_date: 2020-01-08
+slides_url: "https://docs.google.com/presentation/d/1sN_OUploA2N6T9mMwK2gtgb8xv3uLVnFzYcP8xfU2WY/edit?usp=sharing"
 readings:
   - title: "Do Artifacts Have Politics?"
     url: "../assets/readings/winner_artifacts.pdf"
