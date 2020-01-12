@@ -21,6 +21,8 @@ For this assignment, you will pick a computer-mediated website or app and decons
 
 Here are some applications that could be interesting to deconstruct, but feel free to explore and think broadly about the app you want to analyze.
 
+> **Note:** Since we already did Uber in class, please select a technology other than Uber.
+
 * Yelp
 * Self-driving cars
 * Spotify
@@ -35,6 +37,7 @@ Here are some applications that could be interesting to deconstruct, but feel fr
 * Google Search
 * WhatsApp
 * TikTok
+* Interesting speculative technology that just came out in the Wall Street Journal on Thursday (1/9/20):<br> [https://www.wsj.com/graphics/the-office-of-tomorrow/](https://www.wsj.com/graphics/the-office-of-tomorrow/). <br>Full article [here](https://www.wsj.com/articles/one-architects-radical-vision-to-replace-the-open-office-11578578407). 
 
 ## Submission Checklist
 * Reflection papers should be between 500 and 750 words, double spaced, 12-point font, Times New Roman

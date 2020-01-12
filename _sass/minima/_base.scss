@@ -54,7 +54,6 @@ strong {
     font-weight: 600;
 }
 
-
 .desktop { display: flex; }
 .mobile {
     display: none;
@@ -72,7 +71,17 @@ strong {
         "menu"
         "main"
         "bottom";
- }
+}
+
+blockquote {
+    border-left: solid 4px $purple;
+    background: #F0F0F0;
+    padding: 10px;
+    margin: 0px;
+    p {
+        margin: 0px;
+    }
+}
  
 header, nav, footer, main {
     display: flex;
