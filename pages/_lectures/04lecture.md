@@ -6,6 +6,7 @@ draft: 0
 description: |
     Q: How do you know that your idea has potential?<br>
     A: Interviews, observations, and research
+slides_url: "https://docs.google.com/presentation/d/1FOxRYVmADKkvFtOq-5FfpJdx1l3XOeQrCoaZOpCGZ-A/edit?usp=sharing"
 due_date: 2020-01-13
 readings:
   - title: "Contextual Inquiries"
