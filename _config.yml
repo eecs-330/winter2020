@@ -26,7 +26,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 piazza_url: https://piazza.com/northwestern/winter2020/cs330/home
 
-TZ: "America/Chicago"
+timezone: "America/Chicago"
 # Build settings
 markdown: kramdown
 theme: minima
