@@ -10,7 +10,7 @@
             <th>Description</th>
             <th>Points</th>
             <th>Due</th>
-            <th>Days Left</th>
+            <th>Days Left {{now | 'date_to_xmlschema' }}</th>
         </tr>
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
