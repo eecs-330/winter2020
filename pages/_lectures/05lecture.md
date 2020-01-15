@@ -2,7 +2,8 @@
 layout: lecture
 title: Intro to HTML and CSS
 type: lecture
-draft: 1
+draft: 0
+slides_url: https://docs.google.com/presentation/d/1NIQ5Y6tYc8MVLfwuG7bMxxdm3vDr6z7rWzDGbKvcxVU/edit?usp=sharing
 description: |
     Technical day - examining best practices and practicing
 due_date: 2020-01-15
@@ -19,4 +20,4 @@ readings:
     notes: "For your reference"
 ---
 
-This is a test!
+Today we will be going over HTML and CSS, the DOM, and how a browser works. Most of this information can be found on the Lynda.com playlists. Today's activity will reinforce some of those ideas.
