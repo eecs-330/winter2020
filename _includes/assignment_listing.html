@@ -15,7 +15,7 @@
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% for assignment in sortedAssignments %}
-            {% assign dueDate = assignment.due_date | date: '%s' %}
+            {% assign dueDate = assignment.due_date | date: '%s' | plus: 86400 %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
             {% assign dueSeconds = dueDate | minus: now %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
