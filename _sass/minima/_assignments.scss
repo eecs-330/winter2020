@@ -19,7 +19,10 @@ h1 span.pj {
     background: $lightpink;
 }
 
+
 .assignments, .lectures, .assignment, .lecture, .readings {
+    display: flex;
+    flex-direction: column;
     .passed {
         background: #F0F0F0;
         color: #999;
@@ -96,6 +99,28 @@ h1 span.pj {
         .lab, .lab:hover {
             background: $purple;
         }
+    }
+    table.rubric {
+        td, th {
+            border-bottom: dotted 1px #CCC;
+            // font-size: 0.95em;
+        }
+        border: dotted 1px #CCC;
+        width: 80%;
+        max-width: 80%;
+        tr:first-child {
+            border-bottom: dotted 1px #CCC;
+            th {
+                text-transform: uppercase;
+                color: #000;
+            }
+        }
+        ul {
+            margin: 0px;
+        }
+    }
+    ul {
+        margin-top: 0px;
     }
 }
 .assignments {
@@ -180,7 +205,7 @@ ol.readings, ul.readings {
             display: inline-block;
             text-indent: -0.9em;
             vertical-align: text-bottom;
-            color: $lightpink;
+            color: $purple;
         }
     }
     h2 {

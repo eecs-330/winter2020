@@ -8,6 +8,12 @@ description: |
     Practice with some HTML and CSS concepts.
 ---
 
+> Today in studio, you need to complete 2 tasks:
+> * Figure out your group
+> * Complete the CSS Grid Activity (which you will submit to Canvas)
+>
+> Your TA will help you with both of these tasks. That said, if you have any additional questions about CSS Grid, please do come to office hours.
+
 CSS is notoriously a nightmare -- particularly when it comes to layouts. As an effort to provide some guidance re: using some more modern techniques for layout, the course staff and I have created a basic CSS tutorial, where multiple layouts can be easily supported using CSS Grid -- the latest in a long line of strategies for simplifying layouts.
 
 ### Instructions

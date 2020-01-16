@@ -74,10 +74,12 @@ strong {
 }
 
 blockquote {
-    border-left: solid 4px $purple;
-    background: #F0F0F0;
+    border-left: solid 7px $purple;
+    background: #F6F6F6;
     padding: 10px;
     margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     p {
         margin: 0px;
     }
