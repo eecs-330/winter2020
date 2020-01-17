@@ -51,7 +51,7 @@
                         {% elsif dueDays < 0 %}
                             passed
                         {% else %}
-                            {{ dueDays | ceil }}
+                            {{ dueDays | round }}
                         {% endif %} 
                     {% endif %} 
                 </td>

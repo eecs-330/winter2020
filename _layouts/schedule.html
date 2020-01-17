@@ -16,16 +16,19 @@ layout: default
         </tr>
        
         {% assign last_week = 0 %}
+        {% assign now = 'now' | date: '%s' %}
         {% for date in dates %}
             {% assign lecture = site.lectures | where: 'due_date', date | last %}
             <!-- Calculate the Week -->
             {% assign dateStart = site.term_start_date | date: '%s' %}
             {% assign lectureDate = date | date: '%s' %}
+            {% assign dueSeconds = lectureDate | minus: now | plus: 23200 %}
             {% assign diffSeconds = lectureDate | minus: dateStart %}
+            {% assign dueDays = dueSeconds | divided_by: 3600 | divided_by: 24.0 | plus: 1 %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
             {% assign week = diffDays | divided_by: 7 | plus: 1 %}
             
-            <tr>
+            <tr {% if dueDays < 0 %}class="passed"{% endif %}>
                 <th>
                 {% if week != last_week %}
                     Week {{week}}

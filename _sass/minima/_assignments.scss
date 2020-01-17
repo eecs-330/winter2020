@@ -19,23 +19,33 @@ h1 span.pj {
     background: $lightpink;
 }
 
-
-.assignments, .lectures, .assignment, .lecture, .readings {
-    display: flex;
-    flex-direction: column;
+.assignments {
     .passed {
-        background: #F0F0F0;
-        color: #999;
+        background: #F9F9F9;
+        color: #AAA;
         .hw, a.hw, 
         .pj, a.pj, 
         .lec, a.lec, 
         .lab, a.lab {
-            background: #CCC;
-            &:hover {
-                background: #BBB;
-            }
+            opacity: 0.6;
+            // background: #CCC;
+            // &:hover {
+            //     background: #BBB;
+            // }
         }
     }
+}
+
+.lectures {
+    .passed {
+        color: #AAA;
+    }
+}
+
+.assignments, .lectures, .assignment, .lecture, .readings {
+    display: flex;
+    flex-direction: column;
+    
     a, a:hover, a:visited, a:active {
         text-decoration: none;
         color: #444;
