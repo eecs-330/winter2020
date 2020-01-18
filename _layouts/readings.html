@@ -25,6 +25,9 @@ layout: default
                 {% if week != last_week %}
                     Week {{week}}
                 {% endif %}
+                <span class="due-date">
+                    {{ lecture.due_date | date: "%m/%d/%y" }}
+                </span>
             </th>
             <td>{{ lecture.due_date | date: "%a, %m/%d" }}</td>
             <td>{{lecture.title}}</td>
@@ -39,3 +42,24 @@ layout: default
 {% endfor %}
 </table>
 </section>
+
+{% if site.deadline_reminder %}
+<script>
+    /* 
+        Script for calculating # of days until assignment due.
+        Note: Can't use Jekyll b/c it doesn't compile every time.
+    */
+    const trs = document.querySelectorAll('tr');
+    for (tr of trs) {
+        const dateElement = tr.querySelector('.due-date');
+        if (dateElement) {
+            const dateString = dateElement.innerHTML;
+            const dueDate = new Date(dateString);
+            const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
+            if (numDays < 0) {
+                tr.classList.add('passed');
+            }
+        }
+    }
+</script>
+{% endif %}

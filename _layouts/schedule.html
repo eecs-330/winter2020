@@ -16,23 +16,22 @@ layout: default
         </tr>
        
         {% assign last_week = 0 %}
-        {% assign now = 'now' | date: '%s' %}
         {% for date in dates %}
             {% assign lecture = site.lectures | where: 'due_date', date | last %}
             <!-- Calculate the Week -->
             {% assign dateStart = site.term_start_date | date: '%s' %}
             {% assign lectureDate = date | date: '%s' %}
-            {% assign dueSeconds = lectureDate | minus: now | plus: 23200 %}
             {% assign diffSeconds = lectureDate | minus: dateStart %}
-            {% assign dueDays = dueSeconds | divided_by: 3600 | divided_by: 24.0 | plus: 1 %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
             {% assign week = diffDays | divided_by: 7 | plus: 1 %}
-            
-            <tr {% if dueDays < 0 %}class="passed"{% endif %}>
+            <tr>
                 <th>
                 {% if week != last_week %}
                     Week {{week}}
                 {% endif %}
+                <span class="due-date">
+                    {{ date | date: "%m/%d/%y" }}
+                </span>
                 </th>
                 {% if lecture %}
                     <!-- If lecture -->
@@ -87,3 +86,23 @@ layout: default
     </table>
 
 </section>
+{% if site.deadline_reminder %}
+<script>
+    /* 
+        Script for calculating # of days until assignment due.
+        Note: Can't use Jekyll b/c it doesn't compile every time.
+    */
+    const trs = document.querySelectorAll('tr');
+    for (tr of trs) {
+        const dateElement = tr.querySelector('.due-date');
+        if (dateElement) {
+            const dateString = dateElement.innerHTML;
+            const dueDate = new Date(dateString);
+            const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
+            if (numDays < 0) {
+                tr.classList.add('passed');
+            }
+        }
+    }
+</script>
+{% endif %}
