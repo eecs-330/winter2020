@@ -22,17 +22,10 @@ h1 span.pj {
 .assignments {
     .passed {
         background: #F9F9F9;
-        color: #AAA;
-        .hw, a.hw, 
-        .pj, a.pj, 
-        .lec, a.lec, 
-        .lab, a.lab {
-            opacity: 0.6;
-        }
     }
 }
 
-.lectures, .readings {
+.assignments, .lectures, .readings {
     .passed {
         color: #AAA;
         .hw, a.hw, 
