@@ -103,7 +103,9 @@ In this assignment, you will create the Desktop UI pictured below (click to make
 Complete the following tasks:
 
 {:.checkbox}
-In the `index.html` file, add Font Awesome icons (Spotify logo, home, search, and headphones) within the "aside" tag (pictured below) in accordance with the screenshot. Other than adding the icons, please do not make any other changes to the HTML.
+In the `index.html` file, add Font Awesome icons (Spotify logo, home, search, and headphones) within the "aside" tag (pictured below) in accordance with the screenshot. Note that the Font Awesome font reference is already included at the bottom of your `index.html` file. Your job is to search for relevant icons and include them. For instance, to get the Spotify icon, take a look <a href="https://fontawesome.com/v4.7.0/icon/spotify" target="_blank">here</a>.
+
+Other than adding the icons, please do not make any other changes to the HTML.
 
 ```
 <aside id="sidebar">

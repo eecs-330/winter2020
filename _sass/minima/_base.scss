@@ -292,33 +292,3 @@ footer > div {
     }
     
  }
-
-
-.hw, a.hw, 
-.pj, a.pj, 
-.lec, a.lec, 
-.lab, a.lab {
-    display: inline-block;
-    border-radius: 4px;
-    color: white;
-    text-transform: uppercase;
-    font-size: .90em;
-    line-height: 1.2em;
-    text-decoration: none;
-    padding: 3px 7px;
-    border-bottom: solid transparent 1px;
-    min-width: 42px;
-    margin-right: 5px;
-}
-.hw, .hw:hover {
-    background: $blue;
-}
-.pj, .pj:hover {
-    background: $lightpink;
-}
-.lec, .lec:hover {
-    background: $mutedblue;
-}
-.lab, .lab:hover {
-    background: $purple;
-}
