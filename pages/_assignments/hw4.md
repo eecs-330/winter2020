@@ -4,6 +4,7 @@ title: HTML & CSS
 abbreviation: HW4
 type: individual
 due_date: 2020-01-27
+files: course-files/assignments/hw04.zip
 ordering: 2
 points: 15
 draft: 0
@@ -24,6 +25,13 @@ This is the first of a 3-part exercise that is intended to help you to understan
 * HW6: Interacting with Web Services (due 2/10)
 
 ## Some Background Concepts
+Please begin by downloading the assignment files:
+
+<a class="hw" href="{{site.baseurl}}/{{page.files}}">
+    download assignment zip 
+    <i class="fas fa-link"></i>
+</a>
+
 ### Part 1: Understanding the Layout
 As mentioned in class, one of the biggest challenges in front-end web development is marshaling CSS and HTML to produce the kinds of layouts you envision in your head. [Lab 2](../lectures/06lab) was an effort to scaffold this learning process (solutions now posted).
 
@@ -87,7 +95,7 @@ Please open `layout/index.html` and `layout/layout.css` and study them. These fi
 
 
 ## Assignment Instructions
-In this assignment, you will create the  Desktop UI pictured below (click to make the image bigger). Please read the instructions carefully and complete the 5 steps below.
+In this assignment, you will create the Desktop UI pictured below (click to make the image bigger) by modifying the files in the `your_task` folder (which you have downloaded). Please read the instructions carefully and complete the 5 steps below.
 
 <a href="{{site.baseurl}}/assets/images/hw04/screen_1.png" target="_blank"><img src="{{site.baseurl}}/assets/images/hw04/screen_1.png" /></a>
 
@@ -193,7 +201,7 @@ Finally, implement the 4 hover effects shown in this video.
 * Hover effects implemented **(3 pts)**
 
 ## What to Turn In
-Turn in a zip file of your `index.html` and all of the `*.css` files.
+Turn in a zip file of the `your_task` files with your completed HTML and CSS files.
 
 
 
