@@ -3,20 +3,19 @@ layout: default
 ---
 <article class="assignment">
 
-    <h2>Summary</h2>
-    <ul>
-        <li>
-            Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM
-        </li>
-        <li> 
-            {{ page.points }} Points
-        </li>
-        {% if page.credits %}
-            <li>Credit: {{page.credits}}</li>
-        {% endif %}
-    </ul>
- 
-  
+    <div class="outline">
+        <h3>Overview</h3>
+        <p>
+            Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM.
+            {{ page.points }} Points.
+            {% if page.credits %}
+                <br>Credit: {{page.credits}}
+            {% endif %}
+        </p>
+
+        {% include toc.html html=content class='toc' ordered=true %}
+    </div>
+
     {{ content }}
 
 </article>

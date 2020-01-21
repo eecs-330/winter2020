@@ -13,10 +13,10 @@ draft: 0
 ## Instructions
 In no more than 500 words...
 
-### 1. Problem & Motivation
+### Problem & Motivation
 Describe the problem that your project would tackle, and the motivation for why that problem is important and interesting. This paragraph should discuss the current state of the world (the problem), as well as how and why the world would be better if some aspect of this problem were addressed (the goal). You should convince the reader that this is a worthwhile problem space to explore. 
 
-### 2. Analysis
+### Analysis
 Analyze the problem to give the reader more background and context (in paragraph form). This should include:
 
 * An argument for why this problem is not yet solved and requires additional design work

@@ -148,6 +148,35 @@ h1 span.pj {
     }
 }
 
+.assignment {
+    ul.toc {
+        padding-left: 0px;
+        li {
+            margin-left: 10px;
+        }
+        li::before {
+            content: none;
+        }
+    }
+    .outline {
+        background: #F6F6F6;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        h3 {
+            margin-top: 0px;
+        }
+    }
+
+    .checkbox-list li:before {
+        content: '❠';
+        color: #444;
+        font-size: 1.2em;
+        vertical-align: top;
+        margin-right: 6px;
+    }
+}
+
 ol.readings, ul.readings {
     margin-top: 0px;
     margin-bottom: 0px;
