@@ -78,6 +78,8 @@ The mobile layout is achieved by overriding some of the CSS properties within a 
 }
 ```
 
+### Part #2: Understanding Flexbox
+
 #### Display and Positioning
 All of the child containers have a display of "flex." This means that they behave according to the rules of flexbox. Flexbox makes it easier to create flexible responsive layout structures (though of course, it depends on what you're already familiar with). Whereas CSS Grid is useful when you have a finite number of boxes to arrange, flexbox is useful when you have an unknown number of items, images, videos, cards, etc. that you need to "gracefully" arrange into a space. Some key properties to pay attention to:
 ```
@@ -90,8 +92,19 @@ flex-wrap: wrap | nowrap                           /* whether things wrap or get
 
 Note also that the header element has been assigned `position: fixed;`. This means that the header will be anchored to the top.
 
+#### Update: Flexbox Tutorial
+> **Updated Saturday, 1/25 @2PM**
+> 
+> Because Flexbox is a bit convoluted, I've made a tutorial to try and walk you through the process of using flexbox to make responsive cards. I have also uploaded this code in the homework 4 zip file. You can also preview it on GitHub:
+> * 
+
+<iframe src="https://northwestern.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5574f8f0-6644-4722-b2e4-ab4d0138bf90&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width="720" height="405" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+
 ### Practice
 Please open `layout/index.html` and `layout/layout.css` and study them. These files will form the basis of your Spotify app.
+
+
 
 
 ## Assignment Instructions
@@ -189,7 +202,7 @@ Create the following responsive UIs shown below. If you're using more than 10-15
 {:.checkbox}
 Finally, implement the 4 hover effects shown in this video.
 
-<iframe width="620" height="350"  frameborder="0" src="https://northwestern.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=326b528e-e7a1-4431-a837-ab4900158410&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://northwestern.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=326b528e-e7a1-4431-a837-ab4900158410&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## Rubric
 

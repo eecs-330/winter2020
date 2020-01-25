@@ -37,7 +37,7 @@ h1 span.pj {
     }
 }
 
-.assignments, .lectures, .assignment, .lecture, .readings {
+.assignments, .lectures, .assignment, .reference, .lecture, .readings {
     display: flex;
     flex-direction: column;
     
@@ -47,7 +47,7 @@ h1 span.pj {
         border-bottom: dotted $mutedblue 2px;
     }
     a:hover {
-        border-bottom: dotted #444 2px;
+        // border-bottom: dotted #444 2px;
         background: #f6f6f6;
     }
 
@@ -149,7 +149,7 @@ h1 span.pj {
     }
 }
 
-.assignment {
+.assignment, .reference {
     ul.toc {
         padding-left: 0px;
         li {

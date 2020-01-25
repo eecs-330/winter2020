@@ -1,25 +1,13 @@
 ---
-layout: default
-title: 1. Rules of Thumb
+layout: reference
+title: Rules of Thumb
 parent: CSS Resources
 nav_order: 1
-has_children: true
+show_outline: true
 permalink: /css-reference/rules-of-thumb/
 ---
 
-|--|--|
-| 1. | Follow the CSS naming conventions: avoid spaces, capital letters, and special characters when naming files |
-| 2. | Know the anatomy of a style block |
-| 3. | Define styles using external style sheets, internal style sheets, or inline styles |
-| 4. | Make your code readable using indents and line breaks |
-| 5. | Avoid common syntax mistakes |
-| 6. | Use comments to help you understand your code |
-| 7. | Understand selectors |
-| 8. | Understand the Cascade |
-| 9. | Know some common CSS properties & values |
-| 10. | Use as many CSS files as you want |
-
-## 1. Follow the CSS naming conventions
+### Follow the CSS naming conventions
 
 When creating new CSS files, it is important to follow the naming conventions listed below:
 * No whitespace<br>Rename `my styles.css` → `my_styles.css` or `mystyles.css`
@@ -30,7 +18,7 @@ Rename `Juana's Styles.css` → `juanas-styles.css`
 
 In addition, all CSS files must have the `.css` file extension.
 
-## 2. Know the anatomy of a style block
+### Know the anatomy of a style block
 The image below diagrams a CSS **rule set**. Each **rule set** consists of a **selector**, followed by one or more **declarations**, and each **declaration** is made up of a **property** and a **value**, followed by a semicolon.
 
 ![](/spring2019/assets/images/selector-schematic.gif)<br>
@@ -46,11 +34,11 @@ Image Source: [W3Schools](http://www.w3schools.com/css/css_syntax.asp)
 
 Table Source: https://www.impressivewebs.com/css-terms-definitions/
 
-## 3. Define styles using external style sheets, internal style sheets, or inline styles
+### Define styles using external style sheets, internal style sheets, or inline styles
 
 > See W3Schools Explanation: [http://www.w3schools.com/css/css_howto.asp](http://www.w3schools.com/css/css_howto.asp)
 
-### 1. External Style Sheet (recommended)
+#### External Style Sheet (recommended)
 External style sheets link to another CSS file.
 
 ```html
@@ -58,7 +46,7 @@ External style sheets link to another CSS file.
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
 ```
-### 2. Internal Style Sheet (only for testing / convenience)
+#### Internal Style Sheet (only for testing / convenience)
 
 ```html
 <head>
@@ -74,12 +62,12 @@ External style sheets link to another CSS file.
 </head>
 ```
 
-### 3. Inline Style (not recommended)
+#### Inline Style (not recommended)
 ```html
 <h1 style="color:blue;margin-left:30px;">This is a heading.</h1>
 ```
 
-## 4. Make your code readable using indents and line breaks
+### Make your code readable using indents and line breaks
 
 Please don't do this:
 
@@ -97,8 +85,8 @@ h1 {
 }
 ```
 
-## 5. Avoid common syntax mistakes
-### 1. Don't forget the semicolon
+### Avoid common syntax mistakes
+#### Don't forget the semicolon
 If you forget to put the semicolon after each style declaration, your whole style sheet will break. The code block below will end in tears. Why?
 
 ```css
@@ -108,7 +96,7 @@ h1 {
 }
 ```
 
-### 2. No HTML tags in the CSS
+#### No HTML tags in the CSS
 CSS files should never have HTML tags inside of them. No angle brackets &lt;&gt; in a style sheet, ever. Don't do this:
 
 ```css
@@ -119,7 +107,7 @@ h1 {
 }
 ```
 
-## 6. Use comments to help you understand your code
+### Use comments to help you understand your code
 Style sheets can get really long, and so it's helpful to group your styles into coherent groups, with comments. For example:
 
 ```css
@@ -134,10 +122,10 @@ h1 {
 }
 ```
 
-## 7. Understand Selectors
+### Understand Selectors
 As defined in Rule #2, selectors indicate which parts of the HTML you would want to style. For more information, refer to the selector section of [this eBook](/css/selectors.html).
 
-## 8. Understand the Cascade
+### Understand the Cascade
 > **References**
 > * [CSS Specificity](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 > * [Understanding the Cascade](https://www.lynda.com/Dreamweaver-tutorials/Understanding-Cascade/420/30477-4.html)
@@ -151,7 +139,7 @@ As defined in Rule #2, selectors indicate which parts of the HTML you would want
 
 Note: Some properties are not inherited (because it wouldn't make sense if they did). A table of properties that are / are not inherited can be found at the [W3C specification site](https://www.w3.org/TR/CSS21/propidx.html).
 
-## 9. Know some common CSS properties & values
+### Know some common CSS properties & values
 The [CSS property reference](http://www.w3schools.com/cssref/default.asp) lists the properties available in the CSS language, however we want you to know a few of them very well:
 * [Color](/css/color.html)
 * color
@@ -169,7 +157,7 @@ The [CSS property reference](http://www.w3schools.com/cssref/default.asp) lists 
 * CSS Positioning
 * CSS Animation
 
-## 10. Use as many CSS files as you want
+### Use as many CSS files as you want
 Many modern web designers combine fonts from multiple sources. Although there may be slight performance issues with this approach (load time), combining styles sheets can be a good way to (1) organize your code, and (2) take advantage of third-party style sheets.
 
 ```html
