@@ -95,8 +95,7 @@ Note also that the header element has been assigned `position: fixed;`. This mea
 #### Update: Flexbox Tutorial
 > **Updated Saturday, 1/25 @2PM**
 > 
-> Because Flexbox is a bit convoluted, I've made a tutorial to try and walk you through the process of using flexbox to make responsive cards. I have also uploaded this code in the homework 4 zip file. You can also preview it on GitHub:
-> * 
+> Because Flexbox is a bit convoluted, I've made a tutorial to try and walk you through the process of using flexbox to make responsive cards. I have also uploaded this code in the homework 4 zip file. You can also preview it on <a href="https://github.com/hci330/winter2020/tree/master/course-files/assignments/hw04/flexbox-demo" target="_blank">GitHub</a>.
 
 <iframe src="https://northwestern.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5574f8f0-6644-4722-b2e4-ab4d0138bf90&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" width="720" height="405" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
