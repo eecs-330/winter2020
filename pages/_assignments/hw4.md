@@ -78,6 +78,9 @@ The mobile layout is achieved by overriding some of the CSS properties within a 
 }
 ```
 
+#### Practice
+Please open `layout/index.html` and `layout/layout.css` and study them. The techniques used in these files will form the basis of your Spotify app.
+
 ### Part #2: Understanding Flexbox
 
 #### Display and Positioning
@@ -92,8 +95,6 @@ flex-wrap: wrap | nowrap                           /* whether things wrap or get
 
 Note also that the header element has been assigned `position: fixed;`. This means that the header will be anchored to the top.
 
-### Practice
-Please open `layout/index.html` and `layout/layout.css` and study them. These files will form the basis of your Spotify app.
 
 #### Update: Flexbox Tutorial
 > **Updated Saturday, 1/25 @2PM**
