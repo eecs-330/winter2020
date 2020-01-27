@@ -44,3 +44,6 @@ Here are some applications that could be interesting to deconstruct, but feel fr
 * Papers should be converted to PDF format
 * Make sure your name and section are listed at the top of your submission
 * Ensure you've followed the instructions above
+
+## Resubmissions
+> If you are resubmitting, please fill out [this form](https://forms.gle/Vt9gCoAftaaBUq6PA) and upload your revised essay to Canvas.

@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Spotify Player</title>
+        <link rel="stylesheet" href="01_globals.css">
+        <link rel="stylesheet" href="02_layout.css">
+        <link rel="stylesheet" href="03_left_nav.css">
+        <link rel="stylesheet" href="04_header_nav.css">
+        <link rel="stylesheet" href="05_artists.css">
+        <link rel="stylesheet" href="06_player.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="container">
+        <aside id="sidebar">
+            <h1>
+                <i class="fab fa-spotify"></i>
+                Spotify
+            </h1>
+            <a href="#">
+                <i class="fas fa-home"></i>
+                Home
+            </a>
+            <a href="#">
+                <i class="fas fa-search"></i>
+                Search
+            </a>
+            <a class="selected" href="#">
+                <i class="fas fa-headphones-alt"></i>
+                Your Library
+            </a>
+        </aside>
+        <main>
+            <header>
+                <a href="#" id="upgrade">Upgrade</a>
+                <a href="#" id="profile">
+                    <i class="far fa-user"></i> Profile</a>
+            </header>
+            <nav>
+                <a class="playlists" href="#">Playlists</a>
+                <a class="albums" href="#">Albums</a>
+                <a class="artists selected" href="#">Artists</a>
+            </nav>
+            <article id="featured-content">
+                
+
+
+            </article>
+        </main>
+        <footer>
+            <div class="current-song">
+                <img src="https://i.scdn.co/image/5d6e2a7429fa5e1b8b833b4e153c7a4f190dfe67" alt="">
+                <div class="label">
+                    <h3>Jump Then Fall</h3>
+                    <p>Taylor Swift</p>
+                </div>
+            </div>
+            <div class="player">
+                <div class="controls">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    <span id="time-elapsed">0:00</span>
+                    <input type="range" id="player-time">
+                    <span id="time-total">3:00</span>
+                </div>
+            </div>
+        </footer>
+        <script src="https://kit.fontawesome.com/62a7c74d0d.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

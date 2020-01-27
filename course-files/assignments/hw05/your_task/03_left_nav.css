@@ -1,0 +1,29 @@
+aside {
+    padding: 5px 25px;
+    flex-direction: column;
+    color: #000;
+}
+aside h1 {
+    margin-bottom: 40px;
+}
+
+aside .fa-spotify {
+    font-size: 1.5em;
+}
+
+aside a {
+    border-left: solid 3px transparent;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+aside a i {
+    margin-right: 15px;
+}
+
+aside a.selected, aside a:hover {
+    border-left: solid 3px #1cb954;
+}

@@ -3,15 +3,18 @@
             
 <section class="assignments">
     <table>
-        <tr>
-            <th>Week</th>
-            <th>Assignment</th>
-            <th>Type</th>
-            <th>Description</th>
-            <th>Points</th>
-            <th>Due</th>
-            <th>Days Left</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th>Assignment</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Points</th>
+                <th>Due</th>
+                <th>Days Left</th>
+            </tr>
+        </thead>
+        <tbody>
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% for assignment in sortedAssignments %}
@@ -50,6 +53,7 @@
             </tr>
             {% assign last_week = week %}
         {% endfor %}
+        </tbody>
     </table>
 </section>
 {% if site.deadline_reminder %}

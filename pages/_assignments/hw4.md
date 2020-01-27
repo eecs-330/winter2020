@@ -43,7 +43,7 @@ To understand one approach to reproducing the Spotify layout, we have made an HT
 #### Desktop Layout
 The main desktop layout is controlled by the CSS grid defined in the body selector. Each region of the page is then assigned to an area using the grid-area property. Note, there are other ways to accomplish this same effect. This is one approach.
 
-```
+```css
 body {
     display: grid;
     overflow: hidden;
@@ -59,7 +59,7 @@ body {
 #### Mobile Layout
 The mobile layout is achieved by overriding some of the CSS properties within a media query. In this case, the grid is redefined as a single-column layout, the left panel gets hidden, and the position of the header is reconfigured: 
 
-```
+```css
 @media screen and (max-width: 700px) {
     body {
         grid-template-columns: auto;
@@ -85,7 +85,8 @@ Please open `layout/index.html` and `layout/layout.css` and study them. The tech
 
 #### Display and Positioning
 All of the child containers have a display of "flex." This means that they behave according to the rules of flexbox. Flexbox makes it easier to create flexible responsive layout structures (though of course, it depends on what you're already familiar with). Whereas CSS Grid is useful when you have a finite number of boxes to arrange, flexbox is useful when you have an unknown number of items, images, videos, cards, etc. that you need to "gracefully" arrange into a space. Some key properties to pay attention to:
-```
+
+```css
 display: flex;
 flex-direction: column | row;                      /* column stacks vertically, row arranges horizontally */
 justify-items: center | flex-start | flex-end;     /* horizontal positioning */
@@ -120,7 +121,7 @@ In the `index.html` file, add Font Awesome icons (Spotify logo, home, search, an
 
 Other than adding the icons, please do not make any other changes to the HTML.
 
-```
+```html
 <aside id="sidebar">
     <h1>
         <!--TODO: Font Awesome Icon Here -->
@@ -147,7 +148,7 @@ In the `03_left_nav.css` file, update the CSS to make the UI look like the scree
 
 ### Step #2: Header & Nav Styling
 Next, you need to style the `header` and `nav` sections:
-```
+```html
 <header>
     <a href="#" id="upgrade">Upgrade</a>
     <a href="#" id="profile">
@@ -167,7 +168,7 @@ In the `04_header_nav.css` file, add CSS style blocks to make the UI look like t
 ### Step #3: Artists Panel
 Next, you need to style the `section` cards that represent each Spotify artist (pictured below):
 
-```
+```html
 <article id="featured-content">
     <section class="artist-card">
         <div>

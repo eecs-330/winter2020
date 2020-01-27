@@ -32,7 +32,8 @@ h1 span.pj {
         .pj, a.pj, 
         .lec, a.lec, 
         .lab, a.lab {
-            opacity: 0.6;
+            // opacity: 0.6;
+            background: #BBB;
         }
     }
 }
@@ -88,7 +89,11 @@ h1 span.pj {
         border-collapse: collapse;
         width: 100%;
 
-        tr:first-child {
+        td:first-child {
+            min-width: 80px;
+        }
+
+        thead tr:first-child {
             border-bottom: solid 1px #444;
         }
 

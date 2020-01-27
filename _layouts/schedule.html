@@ -8,13 +8,15 @@ layout: default
     {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
 
     <table>
-        <tr>
-            <th>Week</th>
-            <th></th>
-            <th>Topic</th>
-            <th>Due</th>
-        </tr>
-       
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th></th>
+                <th>Topic</th>
+                <th>Due</th>
+            </tr>
+        </thead>
+        <tbody>
         {% assign last_week = 0 %}
         {% for date in dates %}
             {% assign lecture = site.lectures | where: 'due_date', date | last %}
@@ -83,6 +85,7 @@ layout: default
             </tr>
             {% assign last_week = week %}
         {% endfor %}
+        </tbody>
     </table>
 
 </section>

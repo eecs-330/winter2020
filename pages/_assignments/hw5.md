@@ -1,24 +1,27 @@
 ---
 layout: assignment
-title: JavaScript
+title: Working With Data
 abbreviation: HW5
 type: individual
-due_date: 2020-02-04
+due_date: 2020-02-06
 points: 15
 draft: 1
-credits: |
-    Jellies created by <a href="http://nardove.com/" target="_blank">@nardove</a>
-scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.24/paper-core.min.js
-  - https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/tentacle.js
-  - https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/jelly.js
-  - "../assets/js/jellies.js"
-stylesheets:
-  - "../assets/css/jellies.css"
 ---
 
-TBD
+## Learning Objectives
+The goal of homework 5 is to introduce you to some of the common uses of JavaScript in frontend web development. In particular, you will be practicing the following:
+1. Dynamically manipulating the DOM
+2. Rendering HTML templates
+3. Building event handlers to respond to user events
+4. Leveraging data from external files using the ES6 fetch API
 
-<!-- canvas goes at the end to get jellies to work -->
-<canvas id="my_canvas" resize></canvas>
+## Some Background Concepts
+
+### CORS and Running a Local Server
+```bash
+# If Python version returned above is 3.X
+python3 -m http.server
+# On windows try "python" instead of "python3"
+# If Python version returned above is 2.X
+python -m SimpleHTTPServer
+```

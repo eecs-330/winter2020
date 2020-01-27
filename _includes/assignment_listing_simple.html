@@ -14,11 +14,13 @@
 {% assign homeworkPercent = homeworkPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round %}
 
 <table class="grading">
-    <tbody>
+    <thead>
         <tr>
             <th>Team Project ({{ projectPercent }}%)</th>
             <th>{{ projectPoints }} Points</th>
         </tr>
+    </thead>
+    <tbody>
         <!-- project assignments -->
         {% for assignment in sortedAssignments %}
             {% if assignment.type == "group" %}
