@@ -69,11 +69,12 @@
             const dateString = lastTd.querySelector('.due-date').innerHTML;
             const dueDate = new Date(dateString);
             const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
-            if (numDays === 0) {
-                lastTd.innerHTML = "due tonight";
-            } else if (numDays < 0) {
-                lastTd.innerHTML = "passed";
+            if (numDays < -1) {
+                lastTd.innerHTML = "passed"
                 tr.classList.add('passed');
+            }
+            else if (numDays < 0) {
+                lastTd.innerHTML = "due tonight";
             } else {
                 lastTd.innerHTML = numDays.toFixed();
             }
