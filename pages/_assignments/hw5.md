@@ -1,9 +1,9 @@
 ---
 layout: assignment
-title: Working With Data
+title: JavaScript
 abbreviation: HW5
 type: individual
-due_date: 2020-02-06
+due_date: 2020-02-11
 points: 15
 draft: 1
 ---
