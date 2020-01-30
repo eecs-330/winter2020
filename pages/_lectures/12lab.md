@@ -11,7 +11,7 @@ description: |
 ---
 
 ## Instructions
-In this assignment, you will be completing a few different exercises to practice using loops to update the DOM. Please download the <a class="lab" href="/winter2020/course-files/assignments/studio04.zip">studio 04 starter files <i class="fas fa-link"></i></a> and save them to your repo folder. Then, open the entire studio04 folder in your code editor and complete the exercise below. The "determinate loops" section is the most important, but both sets of activities are useful. Just get as far as you can. I encourage you to complete all of these exercises so that you become comfortable with JavaScript in preparation for next week's HW assignment.
+In this assignment, you will be completing a few different exercises to practice using loops to update the DOM. Please download the <a class="lab" href="/winter2020/course-files/assignments/studio04.zip">studio 04 starter files <i class="fas fa-link"></i></a> and save them to your local computer. Then, open the entire studio04 folder in your code editor and complete the exercise below. The "determinate loops" section is the most important, but both sets of activities are useful. Just get as far as you can. I encourage you to complete all of these exercises so that you become comfortable with JavaScript in preparation for next week's HW assignment.
 
 ## Part 1: Determinate Loops
 Determinate loops are loops that iterate over a finite list of items. In JavaScript, one way to do this is by making use of the **for..of** loop. More information on for...of loops can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of). Please try and complete the following exercises (working from the starter files):
