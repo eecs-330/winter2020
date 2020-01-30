@@ -154,7 +154,7 @@ h1 span.pj {
     }
 }
 
-.assignment, .reference {
+.assignment, .reference, .lecture {
     ul.toc {
         padding-left: 0px;
         li {
@@ -242,6 +242,9 @@ ol.readings, ul.readings {
 }
 
 .assignment, .lecture {
+    .outline {
+        margin-top: 30px;
+    }
     .summary {
         background: #F3F3F3;
         padding: 10px;

@@ -2,6 +2,7 @@ EXCLUDED = [
     'projects',
     #'homework',
     #'lectures',
+    #'images',
     'exams',
     'practice_exams',
     'tutorials',
@@ -18,7 +19,6 @@ EXCLUDED = [
     '__pycache__',
     '.ipynb_checkpoints',
     '.DS_Store',
-    'images',
     '_site',
     '.vscode'
 ]
