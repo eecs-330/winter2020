@@ -2,7 +2,17 @@
 // monokai, monokai.sublime, pastie, thankful_eyes, tulipunknown theme: base16monokai.sublime
 /*! Inkpot Theme; https://github.com/uraimo/pygments-vimstyles */
 /*! Wombat VIM theme */
-.highlight, .highlight pre, .highlight table { background: #242424 !important; color: #f6f3e8 !important; border-radius: 10px; }
+.highlight, .highlight pre, .highlight table { 
+    background: #242424 !important; 
+    color: #f6f3e8 !important; 
+    border-radius: 10px; 
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
 .highlight .hll { background-color: #ffffcc !important; }
 .highlight .c { color: #99968b !important; font-style: italic !important; } /* Comment */
 .highlight .err { color: #f6f3e8 !important; } /* Error */

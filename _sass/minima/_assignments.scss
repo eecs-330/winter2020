@@ -241,6 +241,30 @@ ol.readings, ul.readings {
     }
 }
 
+blockquote.quote {
+    margin-left: 20px;
+    background: none;
+    border-left: 0px;
+    padding: 25px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    &:before {
+        // color: #999;
+        content: '“';
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.1em;
+        vertical-align: -0.4em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p {
+        display: inline;
+    }
+}
+
+
 .assignment, .lecture {
     .outline {
         margin-top: 30px;
