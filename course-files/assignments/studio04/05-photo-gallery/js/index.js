@@ -10,7 +10,7 @@ const loadCards = (photos) => {
     document.querySelector('.cards').innerHTML += template;
 
     // add another photo card to the DOM:
-    let template = `
+    template = `
         <li class="card">
             <div class="image" style="background-image:url('${photos[1]}')"></div>
         </li>
