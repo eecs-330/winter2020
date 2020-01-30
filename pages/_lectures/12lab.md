@@ -4,6 +4,7 @@ title: JavaScript Lab
 type: lab
 draft: 0
 due_date: 2020-01-31
+lecture_files_url: /winter2020/course-files/assignments/studio04.zip
 toc: 1
 description: |
     Practice with DOM manipulation, template literals, and fetch
@@ -30,6 +31,11 @@ Using a **for...of loop**, iterate through the list of numbers and add them all 
 Modify the `loadCards` function so that it uses a **for...of loop** to generate a card for each photo in the list.
 
 #### 06-gallery-ajax
+In preparation for the Spotify data activity, you are going to be using the JavaScript's fetch API.
+
+```
+
+```
 Update the `loadCars()` and `loadBikes()` functions so that they loads photos from the cars and bikes data files (respectively).
 
 

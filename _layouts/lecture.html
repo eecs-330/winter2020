@@ -24,13 +24,6 @@ toc: 0
     {% if page.toc %}
     <div class="outline">
         <h3>Overview</h3>
-        <p>
-            Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM.
-            {{ page.points }} Points.
-            {% if page.credits %}
-                <br>Credit: {{page.credits}}
-            {% endif %}
-        </p>
 
         {% include toc.html html=content class='toc' ordered=true %}
     </div>

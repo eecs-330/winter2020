@@ -1,4 +1,4 @@
-const serverURL = 'https://raw.githubusercontent.com/eecs130/spring2019/master/course-files/homework/hw05/data/';
+
 const loadCards = (photos) => {
     document.querySelector('.cards').innerHTML = '';
 
@@ -14,7 +14,9 @@ const loadCards = (photos) => {
 };
 
 const loadFlowers = () => {
-    fetch(serverURL + 'flowers.json')
+    const remotePath = 'https://raw.githubusercontent.com/eecs130/spring2019/master/course-files/homework/hw05/data/';
+    const localPath = '../data';
+    fetch(remotePath + 'flowers.json')
         .then((response) => {
             return response.json();
         })
