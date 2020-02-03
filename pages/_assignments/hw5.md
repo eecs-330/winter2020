@@ -25,3 +25,16 @@ python3 -m http.server
 # If Python version returned above is 2.X
 python -m SimpleHTTPServer
 ```
+
+### REST API Endpoints
+
+#### Search
+```javascript
+// note: id is the id of the album:
+const endpoint = "https://www.apitutor.org/spotify/v1/albums/{id}/tracks";
+fetch(endpoint)
+    .then(response => response.json())
+    .then((myJSON) => {
+        console.log(myJSON);
+    });
+```
