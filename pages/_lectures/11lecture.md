@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Scenarios, Personas, and Tasks
+title: Scenarios, Personas, and Features
 type: lecture
 draft: 0
 slides_url: https://docs.google.com/presentation/d/1gDsLo1klkSLfvMFakwy4MCp1iCdsr2jCXrQnMx0UUJ8/edit?usp=sharing
