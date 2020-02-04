@@ -23,4 +23,4 @@ readings:
     url: https://canvas.northwestern.edu/files/8100831/download?download_frd=1
 ---
 
-Today we will be reviewing some approaches for constructing scenarios, personas, and tasks. When completing your team project deliverable this week, please refer to today's readings.
+Today we will be reviewing some approaches for constructing scenarios, personas, and features. When completing your team project deliverable this week, please refer to today's readings.
