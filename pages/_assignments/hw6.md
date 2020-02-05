@@ -1,9 +1,9 @@
 ---
 layout: assignment
-title: Working With Data
+title: Accessibility
 abbreviation: HW6
 type: individual
-due_date: 2020-02-20
+due_date: 2020-03-03
 points: 15
 draft: 1
 credits: |

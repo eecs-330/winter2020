@@ -182,7 +182,7 @@ h1 span.pj {
         margin-left: 14px;
     }
 
-    .checkbox-list li:before {
+    .checkbox-list > li:before {
         font-family:"Font Awesome 5 Pro";
         // content: "\f14a";
         // font-weight: 400;
@@ -240,6 +240,16 @@ ol.readings, ul.readings {
         }
     }
 }
+
+blockquote.caveat {
+    margin: 20px 0px 20px 40px;
+    background: none;
+    border-left: 0px;
+    padding: 25px;
+    // font-size: 1.2em;
+    // font-weight: 500;
+    padding: 0px;
+} 
 
 blockquote.quote {
     margin-left: 20px;

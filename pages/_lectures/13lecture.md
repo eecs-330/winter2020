@@ -21,4 +21,8 @@ While reading, consider the following questions:
 * What are the design principles that Norman introduces in Chapter 1?
 * How might you apply these same principles to the design of web interfaces?
 
-If time: [AJAX Activity](https://docs.google.com/presentation/d/1pr1HH5VS1ZbH89XN5MGRPJIs_eFILSogcAdkp9jecgM/edit?usp=sharing)
+### JavaScript
+
+If time: 
+* [AJAX Activity](https://docs.google.com/presentation/d/1pr1HH5VS1ZbH89XN5MGRPJIs_eFILSogcAdkp9jecgM/edit?usp=sharing)
+* Download the [lecture files](/winter2020/course-files/lectures/lecture08.zip).
