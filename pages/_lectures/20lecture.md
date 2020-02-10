@@ -1,10 +1,11 @@
 ---
 layout: lecture
-title: Universal Design & Accessibility
+title: Evaluation
 type: lecture
 draft: 1
 description: |
-    How to think about making technologies inclusive
+    How do you evaluate your interface?
+    User testing & heuristic evaluation
 due_date: 2020-02-19
 ---
 

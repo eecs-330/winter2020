@@ -1,10 +1,10 @@
 ---
 layout: lecture
-title: TBD
+title: Universal Design & Accessibility
 type: lecture
 draft: 1
 description: |
-    TBD
+    How to think about making technologies inclusive
 due_date: 2020-02-26
 ---
 

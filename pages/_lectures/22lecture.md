@@ -1,11 +1,12 @@
 ---
 layout: lecture
-title: TBD
+title: Practice Instantiating Design Principles
 type: lecture
 draft: 1
+
 description: |
-    TBD
+    In-class activity: instantiating design principles.
 due_date: 2020-02-24
 ---
 
-This is a test!
+TBD

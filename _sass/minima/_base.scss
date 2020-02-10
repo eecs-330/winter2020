@@ -47,6 +47,10 @@ p, li, th, td {
     margin-top: 5px;
 }
 
+ol, ul {
+    margin-top: 0px;
+}
+
 h3 {
     text-transform: uppercase;
 }
@@ -207,6 +211,7 @@ footer > div {
  main {
      grid-area: main;
  }
+
  
 @media (max-width: 800px) {
     .container {
@@ -294,6 +299,7 @@ footer > div {
     main {
         // background: #EEE;
         min-height: 82vh;
+        padding: 80px 20px 20px 20px;
     }
     
  }

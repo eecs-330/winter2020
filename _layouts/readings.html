@@ -7,12 +7,15 @@ layout: default
 {% assign now = 'now' | date: '%s' %}
 {% assign last_week = 0 %}
 <table>
-    <tr>
-        <th>Week</th>
-        <th></th>
-        <th>Topic</th>
-        <th>Readings</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th></th>
+            <th>Topic</th>
+            <th>Readings</th>
+        </tr>
+    </thead>
+    <tbody>
 {% for lecture in site.lectures %}
     <!-- Only output if it's a lecture that has readings -->
     {% if lecture.type != "lab" %}
@@ -40,6 +43,7 @@ layout: default
     {% assign last_week = week %}
     </tr>
 {% endfor %}
+    </tbody>
 </table>
 </section>
 

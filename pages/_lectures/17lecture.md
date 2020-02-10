@@ -1,10 +1,10 @@
 ---
 layout: lecture
-title: Graphic Design
+title: Norman Design Principles + JavaScript Continued
 type: lecture
 draft: 1
 description: |
-    Principles of visual and graphic design
+    Reviewing the final 4 Norman Design Principles
 due_date: 2020-02-12
 ---
 

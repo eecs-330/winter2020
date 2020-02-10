@@ -29,11 +29,18 @@ toc: 0
     </div>
     {% endif %}
 
-    {% if page.slides_url %}
+    {% if page.slides_url or page.lecture_files %}
         <ul>
+            {% if page.slides_url %}
             <li>
                 <a href="{{ page.slides_url }}" target="_blank">slides</a>
             </li>
+            {% endif %}
+            {% if page.lecture_files %}
+            <li>
+                <a href="{{ page.lecture_files }}" target="_blank">lecture files</a>
+            </li>
+            {% endif %}
         </ul>
     {% endif %}
     
