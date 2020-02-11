@@ -3,6 +3,7 @@ layout: assignment
 title: JavaScript
 abbreviation: HW5
 type: individual
+files: course-files/assignments/hw05.zip
 due_date: 2020-02-25
 points: 25
 draft: 0
@@ -32,6 +33,13 @@ In order to complete this assignment, you will be using the JavaScript fetch API
 
 
 ### Starter Files & Samples
+Please begin by downloading the assignment files:
+
+<a class="hw" href="{{site.baseurl}}/{{page.files}}">
+    download assignment zip 
+    <i class="fas fa-link"></i>
+</a>
+
 For this task, I have created the HTML and CSS for you. If you open **<a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>** in your web browser, you will see an example of how I want your final interface to look. However, data from BTS is **hardcoded** in the interface. I want you to make it so that music / media from ANY artist can be searched. That is, each of the HTML widgets below must be converted into templates that can bind to data from Spotify.
 
 ### Assignment Rules / Guidelines
