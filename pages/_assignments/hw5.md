@@ -59,7 +59,7 @@ Implement the `getArtist` function. This function -- and any (optional) helper f
 
 1. Query the Spotify search endpoint with the appropriate query parameters using the built-in `fetch` function. Sample search query:
   * <a target="_blank" href="https://www.apitutor.org/spotify/simple/v1/search?type=artist&q=BTS">https://www.apitutor.org/spotify/simple/v1/search?type=**artist**&q=BTS</a>
-2. Display the **first artist** that gets returned (rather than displaying all of the artists, you will just display the first one).
+2. Display the **first artist** that get returned (rather than displaying all of the artists, you will just display the first one).
 3. If no artists are returned for the search query, display a message that indicates that no artist has been returned.
 4. Render the artist card to look like the one shown in <a href="../course-files/assignments/hw05/sample/index.html" target="_blank">sample/index.html</a>, using a templated version of the code shown below. Note that the values for `id` `src` `href` and `h3's inner HTML` should be rendered dynamically using live Spotify data.
 
