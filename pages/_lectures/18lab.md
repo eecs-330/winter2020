@@ -225,6 +225,7 @@ $ git push origin git_tutorial
 4. Go to your Organization’s repo and verify that your **git_tutorial** branch got created. Then, submit a link to (1) your team’s GitHub repository, and (2) your team’s GitHub pages link to Canvas.
 5. The **git_tutorial** branch serves as a snapshot in time for us to assess. Moreover, now that everything is set up and archived, feel free to any of the files in your master branch and begin working on your computer prototypes (which will not affect your **git_tutorial** branch).
 
+> **WHAT TO TURN IN**: One person from your team will paste a link to your **git_tutorial** branch in Canvas.
 
 ## SUMMARY. Rules of the Suggested Workflow
 
