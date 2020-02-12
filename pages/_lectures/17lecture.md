@@ -3,6 +3,7 @@ layout: lecture
 title: Norman Design Principles + JavaScript Continued
 type: lecture
 draft: 0
+slides_url: https://docs.google.com/presentation/d/1ipjhC9kkCUT9fJ3plAbHuHqe18GT7sbQoLbeCjeCAqI/edit?usp=sharing
 description: |
     Reviewing the final 4 Norman Design Principles
 due_date: 2020-02-12
@@ -13,7 +14,7 @@ readings:
     date: 1988
 ---
 
-We'll be talking about the design principles discussed in the second chapter of Norman's book in lecture today:
+We'll be talking about the rest of the Norman design principles from Chapter 1:
 1. Conceptual Models
 2. Natural Mappings
 3. Constraints
