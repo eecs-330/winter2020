@@ -77,7 +77,7 @@ Unzip all of the files from <a href="../course-files/assignments/git_tutorial_fi
 ```
 
 {:.blockquote-with-margin}
-> NOTE: You are welcome to use your own project files here (instead of the sample files we have provided). The purpose of project 5 is that everyone on your team gets practice editing, committing, merging, and reviewing via git/GitHub. The actual files used are not important
+> NOTE: You are welcome to use your own project files here (instead of the sample files we have provided). The purpose of this git / GitHub tutorial is that everyone on your team gets practice editing, committing, merging, and reviewing via git/GitHub. The actual files used are not important
 
 <img src="../assets/images/lab06/05_dropzone.png" />
 
