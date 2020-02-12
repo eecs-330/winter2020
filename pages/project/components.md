@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /assignments/components
 ---
 
-For your project, you will need to select three components from the lists below to include in your design. You must select at least one component from Group 1 and one from Group 2. Some may be used in combination; for example you may choose to include a Data Visualization (Group 1) and then extend it with an Interactive Data Filter (Group 2). This would count as two components.  If you have any questions about the components, please reach out to the course staff!
+For your project, you will need to select three components from the lists below to include in your design. You must select at least one component from Group 1 and one from Group 2. Some may be used in combination; for example you may choose to include a Data Visualization (Group 1) and then extend it with an Interactive Data Filter (Group 2). This would count as two components.  If you have any questions about the components, please reach out to the course staff! You are also welcome to petition a component, so long as your TA signs off on your idea.
 
 > TBD: continue migrating from **[Google Doc](https://docs.google.com/document/d/1nfj46bs73qrwunvRwlcf9tUMg1UQIy2HCTpKp4Q8byc/edit#)**
 
@@ -47,28 +47,28 @@ A form is used to collect data from users. Forms are ubiquitous on the web; you 
 
 
 ## 2. Data Visualization
-TBD
+More elaboration on this will be posted later today.
 
 ## 3. User Profiles
-TBD
+More elaboration on this will be posted later today.
 
 ## 4. External Data Integration
-TBD
+More elaboration on this will be posted later today.
 
 ## 5. Branding
-TBD
+More elaboration on this will be posted later today.
 
 ## 6. Interactive Data Selection
-TBD
+More elaboration on this will be posted later today.
 
 ## 7. Interactive Data Filter
-TBD
+More elaboration on this will be posted later today.
 
 ## 8. Social Interactions
-TBD
+More elaboration on this will be posted later today.
 
 ## 9. Gamification / Rewards
-TBD
+More elaboration on this will be posted later today.
 
 ## 10. Custom Calendar
-TBD
+More elaboration on this will be posted later today.
