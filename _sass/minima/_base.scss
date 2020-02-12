@@ -90,6 +90,16 @@ code.highlighter-rouge {
     display: none;
 }
 
+ol.flush, ul.flush {
+    padding-left: 17px;
+    li {
+        padding-left: 8px;
+        img, .highlighter-rouge {
+            margin: 5px 0px 5px 5px;
+        }
+    }
+}
+
 .checkbox {
     text-indent: -34px;
     margin-left: 34px;
@@ -113,7 +123,9 @@ pre.highlight {
     padding: 10px;
 }
 
-
+.blockquote-with-margin {
+    margin-top: 30px;
+}
 blockquote {
     border-left: solid 7px $purple;
     background: #F6F6F6;
