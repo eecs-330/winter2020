@@ -151,16 +151,15 @@ While static data visualizations help users understand data, interactive data vi
 ### Examples
 
 {:.link-menu}
-* <a href="#" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
-* <a href="#" target="_blank">Codepens that use D3</a> (great for finding simple visualizations!)
-* <a href="#" target="_blank">Atlasify</a>
+* <a href="http://projects.flowingdata.com/life-expectancy/" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
+* <a href="https://codepen.io/search/pens?q=d3&limit=all&type=type-pens" target="_blank">Codepens that use D3</a> (great for finding simple visualizations!)
 
 ### Tutorials
 
 {:.link-menu}
-* <a href="#" target="_blank">D3 - Data Driven Documents</a>
-* <a href="#" target="_blank">Chart.js</a>
-* <a href="#" target="_blank">Adding Tooltips to a visualization in D3</a>
+* <a href="https://d3js.org/" target="_blank">D3 - Data Driven Documents</a>
+* <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>
+* <a href="http://bl.ocks.org/Caged/6476579" target="_blank">Adding Tooltips to a visualization in D3</a>
 
 
 ## <i class="fas fa-filter"></i> Interactive Data Filter
@@ -172,17 +171,17 @@ Another method that can help users gain meaning from data is the data filter. Da
 ### Examples
 
 {:.link-menu}
-* <a href="#" target="_blank">Yelp</a>
-* <a href="#" target="_blank">Airbnb</a>
-* <a href="#" target="_blank">Foursquare</a>
-* <a href="#" target="_blank">Flowing Data: Divorce Rates</a>
-* <a href="#" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
+* <a href="https://www.yelp.com/" target="_blank">Yelp</a>
+* <a href="https://www.airbnb.com/" target="_blank">Airbnb</a>
+* <a href="https://foursquare.com/" target="_blank">Foursquare</a>
+* <a href="https://flowingdata.com/2016/03/30/divorce-rates-for-different-groups/" target="_blank">Flowing Data: Divorce Rates</a>
+* <a href="http://projects.flowingdata.com/life-expectancy/" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
 
 ### Tutorials
 
 {:.link-menu}
-* <a href="#" target="_blank">W3schools - table data filter</a>
-* <a href="#" target="_blank">D3 - Data Driven Documents</a>
+* <a href="https://codepen.io/vanwars/pen/abOdWpb?editors=0010" target="_blank">Table data filter</a>
+* <a href="https://d3js.org/" target="_blank">D3 - Data Driven Documents</a>
 
 
 ## <i class="fas fa-user-friends"></i> Social Interactions
@@ -194,25 +193,43 @@ Web applications that support social interactions between users provide valuable
 ### Examples
 
 {:.link-menu}
-* <a href="#" target="_blank">Facebook</a>
-* <a href="#" target="_blank">YouTube</a>
-* <a href="#" target="_blank">Google Docs</a>
-* <a href="#" target="_blank">Slack</a>
+* <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+* <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+* <a href="https://drive.google.com/" target="_blank">Google Drive</a>
+* <a href="https://www.slack.com/" target="_blank">Slack</a>
 
 ### Tutorials / Libraries
 
 {:.link-menu}
-* <a href="#" target="_blank">W3Schools TextArea</a>
-* <a href="#" target="_blank">Building a Real-Time Commenting System</a> (you don’t have to save the comments) 
-* <a href="#" target="_blank">Add comments to your website</a> (compares multiple approaches)
-* <a href="#" target="_blank">Free Website Chat Widgets</a> (compares multiple approaches)
-* <a href="#" target="_blank">Zendesk Chat</a>
+* <a href="https://www.smashingmagazine.com/2012/05/building-real-time-commenting-system/" target="_blank">Building a Real-Time Commenting System</a> (you don’t have to save the comments) 
+* <a href="https://www.brianshim.com/webtricks/add-a-comment-wall-to-your-website/" target="_blank">Add comments to your website</a> (compares multiple approaches)
+* <a href="https://www.webfx.com/blog/web-design/10-free-website-chat-widgets-to-make-your-site-interactive/" target="_blank">Free Website Chat Widgets</a> (compares multiple approaches)
+* <a href="https://support.zendesk.com/hc/en-us/articles/360022182054" target="_blank">Zendesk Chat</a>
 
 > Note: You don’t have to use an existing widget or library for implementing commenting or chat!  You can write commenting functionality in HTML and JavaScript relatively easily, and will then have full control over the design and interactions. However, these libraries and widgets may be helpful depending on your design.
 
 
 ## <i class="fas fa-gamepad"></i> Gamification / Rewards
-More elaboration on this will be posted later today.
+Rewards can be a strong motivator for behavior change. In web and mobile applications, rewards are often given in the form of points and badges which are given out in response to specific user actions of behaviors.  Since points and badges are elements that have been adopted from video games, including these types of rewards in an application is often called “gamification”. However, rewards can take other forms as well; users could be rewarded with money or coupons, or could even set their own goals. For example, a user could decide that if she exercises every day this week, she will reward herself by going out to dinner. For this project, your rewards component should meet the following requirements at a minimum:
+* Choose at least one type of reward (points, badge, coupon, user-defined reward).
+* Design a set of rules for when the user should receive this award (e.g. if the user records that she exercised every day this week).
+* Design an interaction that communicates to the user when a reward has been earned. If your rewards are points or badges, you may design an icon that you display when that point/badge is earned. If your rewards is user-defined, you may display a message with information about the reward when it is earned.
+
+### Examples
+
+{:.link-menu}
+* <a href="https://www.developgoodhabits.com/fitbit-badge-list/" target="_blank">Fitbit badges</a> 
+* <a href="https://trophylist.com/trophies/" target="_blank">Snapchat trophies</a>
+* <a href="https://wiki.waze.com/wiki/Your_Rank_and_Points" target="_blank">Waze rewards</a>
+
+### Tutorials / Libraries
+For tutorials on implementing rewards / gamification, see:
+
+{:.link-menu}
+* <a href="https://www.quicksprout.com/how-to-easily-add-gamification-techniques-to-your-content/" target="_blank">How to add gamification techniques to your content</a>
+* <a href="https://www.td.org/insights/10-best-practices-for-implementing-gamification" target="_blank">Best Practices for Gamification</a>
+* <a href="https://www.sitepoint.com/3-ways-implement-embeddable-custom-badges/" target="_blank">3 Ways to Implement Custom Badges</a>
+* <a href="http://rileyh.com/treehouse-badges-widget" target="_blank">Treehouse Badges Widget</a> (links to Codepen)
 
 ## <i class="fas fa-calendar-alt"></i> Custom Calendar
 More elaboration on this will be posted later today.
