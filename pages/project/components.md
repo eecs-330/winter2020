@@ -15,7 +15,7 @@ For your project, you will need to select three components from the lists below 
 3. [User Profiles](#-user-profiles)
 4. [External Data Integration](#-external-data-integration)
 5. [Branding](#-branding)
-6. [Chrome Extension](#-chrome-plugin)
+6. [Chrome Extension](#-chrome-extension)
 
 ### Group 2
 
@@ -27,7 +27,7 @@ For your project, you will need to select three components from the lists below 
 11. [Custom Calendar](#-custom-calendar)
 12. [Responsive Website](#-responsive-website)
  
-## <i class="fas fa-align-justify"></i> Data Collection Form 
+## <i class="fab fa-wpforms"></i> Data Collection Form 
 A form is used to collect data from users. Forms are ubiquitous on the web; you fill one out every time you purchase something or sign up for an event online. For this project, your form should meet the following requirements at a minimum:
 1. Contain at least five fields.
 2. Contain at least two different types of fields (text, radio, checkbox, etc.).
@@ -113,24 +113,108 @@ In order to complete this assignment, you will be using the JavaScript fetch API
 * [JavaScript & REST](../lectures/16lecture)
 
 ## <i class="fas fa-trademark"></i> Branding
+Professional websites typically use branding to provide a consistent visual experiences that users come to associate with a particular company or product. Branding is not just nice design that follows standard design principles; the colors, fonts, logos, and visual organization of a well-branded webpage come together to form a coherent visual experience. Developing a brand is complex, and companies often use branding protocols to guide their designs. For this project, your branding should meet the following requirements at a minimum:
+
+* Choose a branding protocol to follow (e.g. Material UI). If you want to use a branding protocol not listed here, check with your peer mentor first.
+* Apply your selected branding protocol to design the colors, fonts, and visual layout of your web application.
+* Write a document (3 pages max) that describes how your design follows your chosen branding protocol, including screenshots.
+
+### Examples
+Examples of branding protocols:
+
+{:.link-menu}
+* <a href="https://material.io/design/" target="_blank">Google's Material UI</a>
+* <a href="https://ant.design/" target="_blank">Alibaba's Ant Design</a>
+* <a href="https://atlassian.design/" target="_blank">Atlassian's Design Guidelines</a>
+* <a href="https://carbondesignsystem.com/" target="_blank">IBM's Carbon Design</a>
+* <a href="https://designsystem.quickbooks.com/?refpage" target="_blank">Intuit's Harmony Design</a>
+* <a href="https://www.lightningdesignsystem.com/" target="_blank">Salesforce's Lightning Design System</a>
+* <a href="https://polaris.shopify.com/" target="_blank">Shopify's Polaris</a>
+* <a href="https://designsystem.digital.gov/" target="_blank">The US Web Design Standards</a>
+
+### Tutorials
+
+{:.link-menu}
+* <a href="https://ak-mk-2-prod.netlify.com/mk-2/packages/css-packs/reduced-ui-pack" target="_blank">Atlassian's Design Guidelines</a>
+* <a href="https://github.com/Shopify/polaris-react/tree/master/examples/cdn-styles" target="_blank">Shopify's Polaris</a>
+* <a href="https://designsystem.digital.gov/documentation/developers/" target="_blank">US Web Design Standards</a>
+
+## <i class="fab fa-chrome"></i> Chrome Extension
 More elaboration on this will be posted later today.
 
 ## <i class="fas fa-hand-pointer"></i> Interactive Data Selection
-More elaboration on this will be posted later today.
+While static data visualizations help users understand data, interactive data visualizations can provide them with even more insights into the meaning of complex data sets. One of the most common types of interactive data visualizations allows users to select elements in a data set. For example, consider the line graph that shows how a user’s mood has changed over time. This graph may be more useful if the user can click on each data point in the graph to view more detailed information about her mood on that day. For this project, your interactive data selection should meet the following requirements at a minimum:
+* Choose a data set that would be difficult for the user to understand without selecting (i.e. there is value in seeing information about individual data points).
+* Show at least one new type of data when an individual data point is selected (for example, on the mood chart, you may show the notes the user wrote about their day when an individual day is selected).
+* Include an interaction that allows the user to select individual data points in your visualization (whether it’s a graph, chart, or map) to view this additional information.
+
+### Examples
+
+{:.link-menu}
+* <a href="#" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
+* <a href="#" target="_blank">Codepens that use D3</a> (great for finding simple visualizations!)
+* <a href="#" target="_blank">Atlasify</a>
+
+### Tutorials
+
+{:.link-menu}
+* <a href="#" target="_blank">D3 - Data Driven Documents</a>
+* <a href="#" target="_blank">Chart.js</a>
+* <a href="#" target="_blank">Adding Tooltips to a visualization in D3</a>
+
 
 ## <i class="fas fa-filter"></i> Interactive Data Filter
-More elaboration on this will be posted later today.
+Another method that can help users gain meaning from data is the data filter. Data filters provide a simple way for users to view a subset of a larger data set based on provided criteria. For example, when viewing a list of restaurants in a particular neighborhood, a user might want to filter the list to only view restaurants that are cheap or open right now. Data filters allow users to easily personalize their view of the data by providing access to criteria that they might care about, such as restaurant price or hours. For this project, your data filter should meet the following requirements at a minimum:
+* Choose a data set that your user would want to filter (i.e. it would be difficult for the user to find the data they’re interested in without filtering).
+* Include at least two different criteria that the user can select to filter the data. These criteria should be helpful to the user given the user’s tasks and goals.
+* The data display (whether in list format, map format, or another format) should update to show only the relevant data when the user selects a given filtering criteria.
+
+### Examples
+
+{:.link-menu}
+* <a href="#" target="_blank">Yelp</a>
+* <a href="#" target="_blank">Airbnb</a>
+* <a href="#" target="_blank">Foursquare</a>
+* <a href="#" target="_blank">Flowing Data: Divorce Rates</a>
+* <a href="#" target="_blank">Flowing Data: Life Expectancy</a> (data selection and data filter)
+
+### Tutorials
+
+{:.link-menu}
+* <a href="#" target="_blank">W3schools - table data filter</a>
+* <a href="#" target="_blank">D3 - Data Driven Documents</a>
+
 
 ## <i class="fas fa-user-friends"></i> Social Interactions
-More elaboration on this will be posted later today.
+Web applications that support social interactions between users provide valuable connective and informational experiences that bring people back to their sites again and again. Social interaction can be provided through public comments on website content or private chat interfaces that allow two or more users to share messages. When appropriate, these types of social interactions deeply engage your users and help them build communities around your web application content. For this project, your social component should meet the following requirements at a minimum:
+* Support at least one type of social interaction (either commenting publicly on website content of privately chatting with one or more other users). Users should be able to write social messages, post them, and immediately see their messages on either a comment board or chat interface.
+* Select an appropriate level of anonymity for your users given the goals of your application. Users may be completely anonymous (no names or handles are displayed), partially anonymous (users choose a handle that is displayed with all content they post, but this handle can be different from their legal name), not anonymous (users’ legal names are displayed with the content they post). NOTE: if you choose to make users either partially anonymous or not anonymous, we recommend that you also implement the User Profiles component described earlier in this document to allow users to create identities as part of your web application.
+* Display social messages in an intuitive manner given your application, for example in you may wish to display messages in chronological order. If your users are not completely anonymous it should be clear which user posted which content.
+
+### Examples
+
+{:.link-menu}
+* <a href="#" target="_blank">Facebook</a>
+* <a href="#" target="_blank">YouTube</a>
+* <a href="#" target="_blank">Google Docs</a>
+* <a href="#" target="_blank">Slack</a>
+
+### Tutorials / Libraries
+
+{:.link-menu}
+* <a href="#" target="_blank">W3Schools TextArea</a>
+* <a href="#" target="_blank">Building a Real-Time Commenting System</a> (you don’t have to save the comments) 
+* <a href="#" target="_blank">Add comments to your website</a> (compares multiple approaches)
+* <a href="#" target="_blank">Free Website Chat Widgets</a> (compares multiple approaches)
+* <a href="#" target="_blank">Zendesk Chat</a>
+
+> Note: You don’t have to use an existing widget or library for implementing commenting or chat!  You can write commenting functionality in HTML and JavaScript relatively easily, and will then have full control over the design and interactions. However, these libraries and widgets may be helpful depending on your design.
+
 
 ## <i class="fas fa-gamepad"></i> Gamification / Rewards
 More elaboration on this will be posted later today.
 
 ## <i class="fas fa-calendar-alt"></i> Custom Calendar
-More elaboration on this will be posted later today.
-
-## <i class="fab fa-chrome"></i> Chrome Extension
 More elaboration on this will be posted later today.
 
 ## <i class="fas fa-mobile-alt"></i> Responsive Website
