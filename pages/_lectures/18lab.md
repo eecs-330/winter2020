@@ -14,6 +14,13 @@ due_date: 2020-02-14
         width: 60%;
         border: solid 1px #000;
     }
+    .schematic {
+        border: none;
+        max-width: 850px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
 
 </style>
 In studio this week, you will be setting up your team's GitHub repository and creating your team's home page. 
@@ -49,6 +56,7 @@ Within your organization, one person needs to create a repository that **reflect
 
 <img src="../assets/images/lab06/03_create_repo.png" />
 <img src="../assets/images/lab06/04_create_repo.png" />
+<img src="../assets/images/lab06/04b_create_repo.png" />
 
 Unzip all of the files from <a href="../course-files/assignments/git_tutorial_files.zip" class="lab">git_tutorial_files.zip <i class="fas fa-link"></i></a>  and drag them into the “dropzone.” When you’re done, don’t forget to scroll down and press the green commit button. The following files should be included:
 ```bash
@@ -90,6 +98,8 @@ Then GitHub will process the files:
 <img src="../assets/images/lab06/07_processing.png" />
 
 When GitHub is done processing your files, you should see them all listed within the organization’s copy of the repository:
+
+<img src="../assets/images/lab06/07b_files_uploaded.png" />
 
 ### Set up reviewing and merging rules
 A key part of the collaborative software development process is review and revision. Typically users are not allowed to approve their own pull requests (PRs) — requests to commit code to the main repository — because review is essential to code quality and team morale. To facilitate reviews, GitHub has some constraints that you can set up to ensure code review and code quality. 
@@ -228,6 +238,8 @@ $ git push origin git_tutorial
 > **WHAT TO TURN IN**: One person from your team will paste a link to your **git_tutorial** branch in Canvas.
 
 ## SUMMARY. Rules of the Suggested Workflow
+
+<img class="schematic" src="../assets/images/lab06/16_schematic.png" />
 
 Never make edits to the master branch. Make any code additions, subtractions, etc. on a separate branch.
 
