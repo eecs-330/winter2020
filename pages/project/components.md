@@ -140,7 +140,19 @@ Examples of branding protocols:
 * <a href="https://designsystem.digital.gov/documentation/developers/" target="_blank">US Web Design Standards</a>
 
 ## <i class="fab fa-chrome"></i> Chrome Extension
-More elaboration on this will be posted later today.
+The particulars of this component still need to be elaborated. Coming soon!
+
+### Perspectives
+
+{:.link-menu}
+* [Privacy considerations](https://www.howtogeek.com/188346/why-browser-extensions-can-be-dangerous-and-how-to-protect-yourself/)
+
+### Tutorials
+
+{:.link-menu}
+* [Google developer guide](https://developer.chrome.com/extensions/getstarted)
+* [SitePoint Tutorial](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/)
+* Note: if you all find some tutorials you like, please share!
 
 ## <i class="fas fa-hand-pointer"></i> Interactive Data Selection
 While static data visualizations help users understand data, interactive data visualizations can provide them with even more insights into the meaning of complex data sets. One of the most common types of interactive data visualizations allows users to select elements in a data set. For example, consider the line graph that shows how a user’s mood has changed over time. This graph may be more useful if the user can click on each data point in the graph to view more detailed information about her mood on that day. For this project, your interactive data selection should meet the following requirements at a minimum:
@@ -232,6 +244,25 @@ For tutorials on implementing rewards / gamification, see:
 * <a href="http://rileyh.com/treehouse-badges-widget" target="_blank">Treehouse Badges Widget</a> (links to Codepen)
 
 ## <i class="fas fa-calendar-alt"></i> Custom Calendar
-More elaboration on this will be posted later today.
+While integrating a Google Calendar (External Content Integration Component) will suffice for many representative tasks, in some cases you may need to create a custom calendar to most effectively meet your users’ needs. A custom calendar could provide a way for users to set time-based behavior change goals for themselves. A custom calendar could also be used to communicate upcoming events in a community. Your custom calendar could adapt either how events are created, or the way in which they are displayed to users. For this project, your custom calendar component must meet these requirements at a minimum:
+* Design one or more views for your calendar that make sense given your users’ needs (daily view, weekly view, monthly view, events view).
+* Your calendar should have good visibility; important information should be easy to find and clearly displayed.
+* Design an interaction that allows users to add events to your calendar.
+
+### Examples
+
+{:.link-menu}
+* <a href="https://serif.nu/" target="_blank">Serif</a>
+* <a href="https://courses.cs.washington.edu/courses/cse440/17au/calendar.html" target="_blank">UW CSE 440</a>
+* <a href="https://www.evanstonspace.com/" target="_blank">SPACE Evanston</a>
+
+### Tutorials
+For tutorials on implementing custom calendars, see:
+
+{:.link-menu}
+* <a href="https://www.w3schools.com/howto/howto_css_calendar.asp" target="_blank">HTML/CSS of a Calendar</a>
+* <a href="https://code.tutsplus.com/tutorials/how-to-build-a-beautiful-calendar-widget--net-12538" target="_blank">Some calendar JS</a>
+* <a href="https://envato.com/blog/calendars-web-user-interface-design-trends-live-examples/" target="_blank">Calendars on the Web</a> (design)
 
 ## <i class="fas fa-mobile-alt"></i> Responsive Website
+The particulars of this component still need to be elaborated. Coming soon!
