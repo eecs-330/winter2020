@@ -44,9 +44,7 @@ This will give you some experience with using accessibility regulations in a pra
 
 For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server. This server, when you visit its url in your browser, will send the HTML file to your browser for rendering and viewing.
 
-#### Getting Started:
-
-- Download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
+- First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
 - Open a terminal window and navigate to your project directory.
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
@@ -64,11 +62,11 @@ Once your server is running and you have the page open, open Chrome's developer 
 
 The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment. Feel free to edit any and all files in order to accomplish this - part of the challenge of this assignment is reading through the files to figure out how the interface works and why the accessibility problems are occurring.
 
-For this submission, delete the `node_modules` folder, and zip the *whole* directory. Do **not** delete or move any files (although creating ones is allowed!).
-
 Note: Just because your webpage scores highly doesn't necessarily mean it's truly accessible. Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
 
-### Grading
+### Submission & Grading
+
+For this submission, delete the `node_modules` folder, and zip the *whole* directory. Do **not** delete or move any files (although creating ones is allowed!).
 
 {:.checkbox-list}
 * Spotify UI:
