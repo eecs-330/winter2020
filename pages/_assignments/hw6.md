@@ -40,18 +40,33 @@ You can find a quick reference to the WCAG guidelines [here][WCAG Quickref].
 Your job for this part of the assignment is to edit the Spotify interface to conform to WCAG guidelines.
 This will give you some experience with using accessibility regulations in a practical setting and prepare you for building your final projects in an accessible manner.
 
+### Setup
+
+For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server. This server, when you visit its url in your browser, will send the HTML file to your browser for rendering and viewing.
+
+#### Getting Started:
+
+- Download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
+- Install [Node.js][Node] on your machine.
+- Open a terminal window and navigate to your project directory.
+- Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
+- Type `npm install`. This installs the Node packages needed to run the assignment.
+
+Now, in order to run the assignment, all you have to type is `npm start`. Open a browser window to [localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you just need to refresh the browser window to see your saved changes happen.*
+
 ### Lighthouse
 
 ![Lighthouse Score Report: Accessibility Score 61 out of 100][lighthouse-img]
 
-For this assignment, we will be using the [Lighthouse][Lighthouse] Chrome extension as measure of webpage accessibility.
-To use Lighthouse, download the Chrome extension and create a report while your webpage is open.
-A new window will open with scores for various categories.
+For this assignment, we will be using the [Lighthouse][Lighthouse] Chrome extension as measure of webpage accessibility (sorry, this does mean you are required to be using Chrome).
 
-The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment.
+Once your server is running and you have the page open, open Chrome's developer tools and navigate to the "audits" tab. There, you should be able to generate a report with Lighthouse.
 
-Note: Just because your webpage scores highly doesn't necessarily mean it's truly accessible. Lighthouse also gives many suggestions for accessibility improvements
-Try to follow WCAG AA guidelines as closely as possible when redesigning your page!
+The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment. Feel free to edit any and all files in order to accomplish this - part of the challenge of this assignment is reading through the files to figure out how the interface works and why the accessibility problems are occurring.
+
+For this submission, delete the `node_modules` folder, and zip the *whole* directory. Do **not** delete or move any files (although creating ones is allowed!).
+
+Note: Just because your webpage scores highly doesn't necessarily mean it's truly accessible. Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
 
 ### Grading
 
@@ -68,7 +83,7 @@ You have two options for this part of the assignment, which are detailed below a
 
 ### Option 1: Interface Critique
 
-**Write a paper critiquing the accessibility of the website you chose.**
+**Write a short essay critiquing the accessibility of the website you chose.**
 This paper should include a discussion of the site's purpose, user goals, and interface strengths and flaws.
 
 Feel free to be creative with your papers!
@@ -81,11 +96,11 @@ Some ideas for paper topics (feel free to use any number of these or craft your 
   * Windows: [NVDA][NVDA]
 * Conduct research about the company or site's history with legal issues surrounding web accessibility (e.g. [Target][Target])
 
-In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself).
+In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered in class.
 
 #### Submission Checklist
 
-* Reflection papers should be at least 750 words, double spaced, 12-point font, Times New Roman
+* Reflection papers should be at least 600 words, double spaced, 12-point font, Times New Roman
 * Papers should be converted to PDF format
 * Make sure your name and section are listed at the top of your submission
 * Cited *at least 4* external articles (inline citations are fine)
@@ -170,6 +185,7 @@ Some labs at NU that are working with HCI and accessible design:
 [Lighthouse]: https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en
 [Lynda]: https://www.linkedin.com/learning/html-essential-training/the-value-of-structure?u=75814418
 [Lynda WAI-ARIA]: https://www.linkedin.com/learning/html-essential-training/using-wai-aria-roles?u=75814418
+[Node]: https://nodejs.org/en/download/
 [NVDA]: https://www.nvaccess.org/download/
 [Target]: https://arstechnica.com/uncategorized/2008/08/target-to-pay-6-million-to-settle-site-accessibility-suit/
 [TIDAL]: https://tidal.northwestern.edu
