@@ -4,7 +4,7 @@ title: Accessible Web Development
 abbreviation: HW6
 type: individual
 due_date: 2020-02-27
-files: course-files/assignments/hw07.zip
+files: course-files/assignments/hw06.zip
 ordering: 2
 points: 15
 draft: 0
@@ -37,7 +37,7 @@ You can find a quick reference to the WCAG guidelines [here][WCAG Quickref].
 
 ## Part 1
 
-Your job for this part of the assignment is to edit the Spotify interface you built in HW5 to conform to WCAG guidelines.
+Your job for this part of the assignment is to edit the Spotify interface to conform to WCAG guidelines.
 This will give you some experience with using accessibility regulations in a practical setting and prepare you for building your final projects in an accessible manner.
 
 ### Lighthouse
@@ -48,16 +48,16 @@ For this assignment, we will be using the [Lighthouse][Lighthouse] Chrome extens
 To use Lighthouse, download the Chrome extension and create a report while your webpage is open.
 A new window will open with scores for various categories.
 
-The score that we care about here is Accessibility. If your webpage scores a 98 or above, you'll get full points for this part of the assignment.
+The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment.
 
-Note: just because your webpage scores highly doesn't necessarily mean it's truly accessible.
+Note: Just because your webpage scores highly doesn't necessarily mean it's truly accessible. Lighthouse also gives many suggestions for accessibility improvements
 Try to follow WCAG AA guidelines as closely as possible when redesigning your page!
 
 ### Grading
 
 {:.checkbox-list}
 * Spotify UI:
-  * Lighthouse Score >= 98 **(5 pts)**
+  * Lighthouse Accessibility Score === 100 **(5 pts)**
 
 ## Part 2
 
