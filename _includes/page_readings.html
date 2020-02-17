@@ -1,5 +1,5 @@
 <ul class="readings">
-{% for item in lecture.readings %}
+{% for item in page.readings %}
     {% assign optional = 0 %}
     {% if item.optional == 1 %}
         {% assign optional = 1 %}
@@ -11,7 +11,7 @@
 {% if optional == 1 %}
     <h3>Optional</h3>
     <ul class="readings">
-    {% for item in lecture.readings %}
+    {% for item in page.readings %}
         {% if item.optional == 1 %}
             {% include reading.html %} 
         {% endif %}

@@ -42,9 +42,17 @@ body {
     }
  }
 
-p, li, th, td {
+p, th, td {
     line-height: 1.5em;
     margin-top: 5px;
+}
+li {
+    line-height: 1.5em;
+}
+
+ol.spaced li, ul.spaced li {
+    line-height: 1.5em;
+    margin-bottom: 5px;
 }
 
 ol, ul {
@@ -127,7 +135,7 @@ pre.highlight {
     margin-top: 30px;
 }
 blockquote {
-    border-left: solid 7px $purple;
+    border-left: solid 7px $mutedblue;
     background: #F6F6F6;
     padding: 10px;
     margin: 0px;

@@ -40,6 +40,7 @@ $twocolHeaderHeight: 120px;
     nav {
         position: fixed;
         top: 60px;
+        height: 60px;
         background: white;
         border-bottom: dotted 1px #CCC;
         width: 100vw;
@@ -118,8 +119,8 @@ $twocolHeaderHeight: 120px;
 
         h1, h2, h3, h4 {
             display: block;
-            margin-top: -$twocolHeaderHeight;
-            padding-top: $twocolHeaderHeight + 40;
+            margin-top: -$twocolHeaderHeight + 40;
+            padding-top: $twocolHeaderHeight - 20;
         }
     }
 }
@@ -142,7 +143,7 @@ $twocolHeaderHeight: 120px;
     .two-column {
         main > article {
             margin-top: auto;
-            width: 100%;
+            width: auto;
             margin: 3vh;
             padding: 10px;
         }
