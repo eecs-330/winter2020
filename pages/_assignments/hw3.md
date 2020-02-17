@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: two-column
 title: Sociopolitical Analysis
 abbreviation: HW3
 type: individual

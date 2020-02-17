@@ -1,0 +1,169 @@
+$twocolHeaderHeight: 120px;
+.two-column {
+
+    nav, header, aside, article {
+        transition: all 0.5s;
+    }
+    &.scrollUp {
+        nav, header, aside, article {
+            transform: translateY(-$twocolHeaderHeight);
+        }
+
+        article {
+            h1, h2 {
+                display: block;
+                margin-top: 40px;
+                padding-top: 0px;
+            }
+            h3, h4 {
+                display: block;
+                margin-top: 20px;
+                padding-top: 0px;
+            }
+        }
+    }
+    padding: 0px;
+
+    
+    .desktop { display: flex; }
+    .mobile { display: none; }
+    header {
+        position: fixed;
+        top: 0px;
+        background: white;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+    nav {
+        position: fixed;
+        top: 60px;
+        background: white;
+        border-bottom: dotted 1px #CCC;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+    aside {
+        background: #F6F6F6;
+        position: fixed;
+        top: $twocolHeaderHeight;
+        left: 0px;
+        height: calc(100vh);
+        width: 250px;
+        overflow-y: auto;
+        h3 {
+            margin-top: 0px;
+        }
+        ol {
+            padding: 0px;
+            margin: 0px;
+        }
+        .side-menu {
+            width: 100%;
+            padding: 0px;
+            a {
+                font-size: 1.05em;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                padding-right: 20px !important;
+            }
+            a:hover {
+                background: #EEE;
+            }
+            >li {
+                a {
+                    display: block;
+                    &.active {
+                        background: $mutedblue;
+                        color: white;
+                    }
+                }
+                >a:first-child {
+                    padding: 4px 0px 3px 10px;
+                    font-weight: 500;
+                }
+                ol {
+                    margin-top: 0px;
+                    margin-bottom: 10px;
+                    li > a {
+                        color: #444;
+                        font-size: 0.9em;
+                        padding-left: 20px;
+                    }
+                    ol li > a {
+                        color: #666;
+                        font-size: 0.9em;
+                        padding-left: 50px;
+                    }
+                }
+            }
+            li {
+                margin-top: 0px;
+                list-style-type: none;
+                line-height: 1.5em;
+            }
+        }
+    }
+    article {
+        margin-top: $twocolHeaderHeight;
+        width: calc(100vw - 250px);
+        margin-left: 250px;
+        padding: 40px;
+
+        h1, h2, h3, h4 {
+            display: block;
+            margin-top: -$twocolHeaderHeight;
+            padding-top: $twocolHeaderHeight + 40;
+        }
+    }
+}
+
+// ::-webkit-scrollbar {
+//     width: 16px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     border: 4px solid transparent;
+//     border-radius: 16px;
+//     background-clip: padding-box;
+//     min-height: 30px;
+// }
+// ::-webkit-scrollbar-thumb {
+//     background-color: #CCC;
+// }
+
+@media (max-width: 800px) {
+    .two-column {
+        main > article {
+            margin-top: auto;
+            width: 100%;
+            margin: 3vh;
+            padding: 10px;
+        }
+        header {
+            height: 10vh;
+            background: #444 !important;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.52), 0 1px 2px rgba(0,0,0,0.64);
+            color: white;
+            h1 { font-size: 1.3em; }
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        nav {
+            display: none;
+        }
+        .desktop { display: none; }
+        .mobile { display: flex; }
+    }
+    nav, header, aside, article {
+        transition: all 0s;
+        transform: translateY(0) !important;
+    }
+}

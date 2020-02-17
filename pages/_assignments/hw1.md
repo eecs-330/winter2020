@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: two-column
 title: Project Brainstorm
 abbreviation: HW1
 type: individual

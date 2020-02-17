@@ -1,18 +1,9 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="{{site.baseurl}}/assets/images/favicon.png" type="image/x-icon">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/main.css">
-        {% for url in page.stylesheets %}
-            <link rel="stylesheet" href="{{ url }}">
-        {% endfor %}
+        {% include head.html %}
     </head>
-    <body>
+    <body class="one-column">
         <div class="container">
             {% include header.html %}
             {% include navigation.html %}
@@ -22,10 +13,6 @@
             </main>
             {% include footer.html %}
         </div>
-        <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-        {% for url in page.scripts %}
-            <script type="text/javascript" src="{{ url }}"></script>
-        {% endfor %}
-        <script src="https://kit.fontawesome.com/62a7c74d0d.js" crossorigin="anonymous"></script>
+        {% include scripts.html %}
     </body>
 </html>

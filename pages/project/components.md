@@ -1,5 +1,5 @@
 ---
-layout: detail
+layout: two-column
 title: Project Components
 nav_order: 1
 permalink: /assignments/components
@@ -7,9 +7,10 @@ permalink: /assignments/components
 
 For your project, you will need to select three components from the lists below to include in your design. You must select at least one component from Group 1 and one from Group 2. Some may be used in combination; for example you may choose to include a Data Visualization (Group 1) and then extend it with an Interactive Data Filter (Group 2). This would count as two components.  If you have any questions about the components, please reach out to the course staff! You are also welcome to petition a component, so long as your TA signs off on your idea.
 
-### Group 1
+{:.mobile}
+**Group 1**
 
-{:.link-menu}
+{:.link-menu .mobile}
 1. [Data Collection Form](#-data-collection-form)
 2. [Data Visualization](#-data-visualization)
 3. [User Profiles](#-user-profiles)
@@ -17,16 +18,18 @@ For your project, you will need to select three components from the lists below 
 5. [Branding](#-branding)
 6. [Chrome Extension](#-chrome-extension)
 
-### Group 2
+{:.mobile}
+**Group 2**
 
-{:start="7" .link-menu}
+{:start="7" .link-menu .mobile}
 7. [Interactive Data Selection](#-interactive-data-selection)
 8. [Interactive Data Filter](#-interactive-data-filter)
 9. [Social Interactions](#-social-interactions)
 10. [Gamification / Rewards](#-gamification--rewards)
 11. [Custom Calendar](#-custom-calendar)
 12. [Responsive Website](#-responsive-website)
- 
+
+
 ## <i class="fab fa-wpforms"></i> Data Collection Form 
 A form is used to collect data from users. Forms are ubiquitous on the web; you fill one out every time you purchase something or sign up for an event online. For this project, your form should meet the following requirements at a minimum:
 1. Contain at least five fields.

@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: two-column
 title: GitHub Activity
 type: lab
 draft: 0

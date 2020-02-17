@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: two-column
 title: Individual Project Proposal
 abbreviation: HW2
 type: individual

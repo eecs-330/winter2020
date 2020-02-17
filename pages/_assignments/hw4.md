@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: two-column
 title: HTML & CSS
 abbreviation: HW4
 type: individual
