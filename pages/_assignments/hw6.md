@@ -118,7 +118,7 @@ At the top level of your project directory, include a file `README.md` containin
 * A list of the accessibility problems you found in the original website
 * A short description of what modifications you made and why
 
-Your project should follow the directory structure below:
+Your submission should follow the directory structure below:
 
 ```
 YOURNAME_part2
