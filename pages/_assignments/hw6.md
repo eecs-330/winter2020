@@ -40,6 +40,8 @@ You can find a quick reference to the WCAG guidelines [here][WCAG Quickref].
 Your job for this part of the assignment is to edit the Spotify interface to conform to WCAG guidelines.
 This will give you some experience with using accessibility regulations in a practical setting and prepare you for building your final projects in an accessible manner.
 
+For a good example of good/bad accessibility practices used on the same website, check out W3C's [Before and After Demonstration][b4a]
+
 ### Setup
 
 For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
@@ -176,6 +178,7 @@ Some labs at NU that are working with HCI and accessible design:
 * A zip file of the edited `your_task` files
 * A PDF version of your interface critique OR a zip file `YOURNAME_part2` containing the neccessary HTML, CSS, and/or JS files for your interface reconstruction
 
+[b4a]: https://www.w3.org/WAI/demos/bad/
 [Beyond Automation]: https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/
 [Collab]: https://dl.acm.org/doi/10.1145/3359293
 [Holmes]: https://www.fastcompany.com/90243282/the-no-1-thing-youre-getting-wrong-about-inclusive-design
