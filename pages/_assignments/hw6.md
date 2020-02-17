@@ -42,7 +42,7 @@ This will give you some experience with using accessibility regulations in a pra
 
 ### Setup
 
-For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server. This server, when you visit its url in your browser, will send the HTML file to your browser for rendering and viewing.
+For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
 
 - First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
@@ -50,23 +50,23 @@ For reasons that will be explained below, the interfaces that you will be workin
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
 - Type `npm install`. This installs the Node packages needed to run the assignment.
 
-Now, in order to run the assignment, all you have to type is `npm start`. Open a browser window to [localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you just need to refresh the browser window to see your saved changes happen.*
+Now, in order to run the assignment, all you have to do is run `npm start` in the terminal while in the project directory. Open a browser window to [localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you should just need to refresh the browser window to see your saved changes happen.*
 
 ### Lighthouse
 
 ![Lighthouse Score Report: Accessibility Score 61 out of 100][lighthouse-img]
 
-For this assignment, we will be using the [Lighthouse][Lighthouse] Chrome extension as measure of webpage accessibility (sorry, this does mean you are required to be using Chrome).
+For this assignment, we will be using the [Lighthouse][Lighthouse] Chrome extension as measure of webpage accessibility (sorry, this does mean you are required to be using Chrome). The reason that we're using a server is that Lighthouse doesn't run on local HTML files.
 
 Once your server is running and you have the page open, open Chrome's developer tools and navigate to the "audits" tab. There, you should be able to generate a report with Lighthouse.
 
 The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment. Feel free to edit any and all files in order to accomplish this - part of the challenge of this assignment is reading through the files to figure out how the interface works and why the accessibility problems are occurring.
 
-Note: Just because your webpage scores highly doesn't necessarily mean it's truly accessible. Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
+Note: *Just because your webpage scores highly doesn't necessarily mean it's truly accessible.* Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
 
 ### Submission & Grading
 
-For this submission, delete the `node_modules` folder, and zip the *whole* directory. Do **not** delete or move any files (although creating ones is allowed!).
+For this submission, **first delete the** `node_modules` **folder**, and zip the *entire* directory. Do **not** delete or move any files except for `node_modules` (although creating ones is allowed!).
 
 {:.checkbox-list}
 * Spotify UI:
