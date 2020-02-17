@@ -1,6 +1,6 @@
 ---
 layout: lecture-two-column
-title: Graphic Design
+title: Visual Design Part 1
 type: lecture
 draft: 0
 description: |
@@ -12,7 +12,6 @@ readings:
     url: "https://canvas.northwestern.edu/files/8205184/download?download_frd=1"
     author: "Williams, Robin" 
     date: 2015
-
   - title: "The Non-Designer's Design Book, Chapter 2"
     url: "https://canvas.northwestern.edu/files/8205183/download?download_frd=1"
     author: "Williams, Robin" 

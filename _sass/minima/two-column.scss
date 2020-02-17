@@ -22,6 +22,8 @@ $twocolHeaderHeight: 120px;
             }
         }
     }
+
+    
     padding: 0px;
 
     
@@ -117,11 +119,23 @@ $twocolHeaderHeight: 120px;
         margin-left: 250px;
         padding: 40px;
 
-        h1, h2, h3, h4 {
-            display: block;
-            margin-top: -$twocolHeaderHeight + 40;
-            padding-top: $twocolHeaderHeight - 20;
-        }
+        // h1, h2, h3, h4 {
+        //     display: block;
+        //     margin-top: -$twocolHeaderHeight + 40;
+        //     padding-top: $twocolHeaderHeight - 20;
+        // }
+        // article {
+        // h1, h2 {
+        //     display: block;
+        //     margin-top: 40px;
+        //     padding-top: 0px;
+        // }
+        // h3, h4 {
+        //     display: block;
+        //     margin-top: 20px;
+        //     padding-top: 0px;
+        // }
+        // }
     }
 }
 
