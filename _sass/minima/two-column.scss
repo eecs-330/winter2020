@@ -173,6 +173,8 @@ $twocolHeaderHeight: 120px;
         }
         nav {
             display: none;
+            height: auto;
+            top: 10vh;
         }
         .desktop { display: none; }
         .mobile { display: flex; }
