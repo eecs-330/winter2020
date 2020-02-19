@@ -46,7 +46,7 @@ For a good example of good/bad accessibility practices used on the same website,
 
 For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
 
-- First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
+- First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download hw06.zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
 - Open a terminal window and navigate to your project directory.
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
