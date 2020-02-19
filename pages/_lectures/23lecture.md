@@ -5,7 +5,7 @@ type: lecture
 draft: 1
 slides_url: https://drive.google.com/open?id=1K7Ta658aoxc4uGcelhriSIxw8wFbU5QJzMTEuCOc4mE
 description: |
-    How to think about making technologies inclusive
+    How to think about making technologies inclusive and accessible
 due_date: 2020-02-26
 ---
 
