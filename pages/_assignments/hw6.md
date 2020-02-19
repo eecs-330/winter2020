@@ -52,7 +52,7 @@ For reasons that will be explained below, the interfaces that you will be workin
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
 - Type `npm install`. This installs the Node packages needed to run the assignment.
 
-Now, in order to run the assignment, all you have to do is run `npm start` in the terminal while in the project directory. Open a browser window to [localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you should just need to refresh the browser window to see your saved changes happen.*
+Now, in order to run the assignment, all you have to do is run `npm start` in your terminal window while in the project directory. Open a browser window to [http://localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you should just need to refresh the browser window to see your saved changes happen.*
 
 ### Lighthouse
 
@@ -89,20 +89,21 @@ This paper should include a discussion of the site's purpose, user goals, and in
 Feel free to be creative with your papers!
 Some ideas for paper topics (feel free to use any number of these or craft your own!):
 
-* Inspect the source code of a website and point out WCAG rules it doesn't follow and how this could be fixed.
-* Discuss accessibility problems with the interface that may not fall under WCAG guidelines (i.e. usability, page structure. etc.)
-* Try navigating the interface using only a screen reader and talk about the experience
+* Inspect the source code of a website and point out WCAG rules it doesn't follow and how this could be fixed - discuss accessibility problems with the interface that may not fall under WCAG guidelines (i.e. usability, page structure. etc.)
+* Compare and contrast the accessibility and inclusivity of two website with similar functionality.
+* Try navigating the interface using only a screen reader and talk about the experience. Anything that surprised you?
   * Mac: [VoiceOver][VoiceOver]
   * Windows: [NVDA][NVDA]
   * Cross-platform: [ChromeVox][ChromeVox]
 * Conduct research about the company or site's history with legal issues surrounding web accessibility (e.g. [Target][Target])
 
-In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered in class.
+In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered at any point throughout the course.
 
 #### Submission Checklist
 
 * Reflection papers should be at least 600 words, double spaced, 12-point font, Times New Roman
-* Papers should be converted to PDF format
+* Papers should be submitted in PDF format
+* *Include a url to your chosen site(s) in your submission*
 * Make sure your name and section are listed at the top of your submission
 * Cited *at least 4* external articles (inline citations are fine)
 
@@ -111,7 +112,7 @@ In your analysis, you should read and cite *at least 4* external articles to sup
 **Recreate an accessible version of your chosen website.**
 Your interface can either be a faithful recreation of the website with accessibility standards met or a redesign of the interface that is more inherently accessible in page structure and navigation.
 
-You can use any method you want in order to complete this website, whether it be directly copying source code or writing your files from scratch. We will be checking for cleanness and simplicity, as well as a 98 score on Lighthouse.
+You can use any method you want in order to complete this website, whether it be directly modifying source code or writing your files from scratch. We will be checking for code and interface cleanness, as well as a >=98 score on Lighthouse.
 
 The interface that you submit *does not need to be functional*. We are just looking for accessible design here, not functionality. However, if one or more of the major accessibility-related problems of the original website is tied to functionality, you may want to include a simplified version of that functionality (by using hard-coded data, etc).
 
@@ -149,10 +150,9 @@ Whichever assignment you choose to submit will be worth 10 points.
 {:.checkbox-list}
 * Interface Critique:
   * Discusses the site's purpose and user goals **(1 pt)**
-  * Identifies and discusses at least 3 interface problems **(2 pts)**
   * Cites at least 4 external sources meaningfully **(2 pts)**
   * Paper is at least 750 words **(1 pts)**
-  * Quality of discussion and writing **(4 pts)**
+  * Quality of discussion and writing **(6 pts)**
 * Interface Recreation:
   * Interface and code are clean and professional **(3 pts)**
   * README.md
