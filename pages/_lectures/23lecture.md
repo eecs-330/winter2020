@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Universal Design & Accessibility
+title: Inclusive Web Design
 type: lecture
 draft: 1
 description: |
