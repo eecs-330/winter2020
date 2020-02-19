@@ -23,6 +23,7 @@ readings:
     url: https://canvas.northwestern.edu/files/8205221/download?download_frd=1
     author: Krug, Steve
     year: 2014
+    
 ---
 
 Today we will be talking about empirical (observation) and heuristic (expert) evaluation. You will be doing empirical (usability) testing in studio for the next three weeks. That said, knowledge of Nielsen's 10 UI heuristics is important for interpreting and acting on your findings.
