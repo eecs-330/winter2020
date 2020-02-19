@@ -94,6 +94,7 @@ Some ideas for paper topics (feel free to use any number of these or craft your 
 * Try navigating the interface using only a screen reader and talk about the experience
   * Mac: [VoiceOver][VoiceOver]
   * Windows: [NVDA][NVDA]
+  * Cross-platform: [ChromeVox][ChromeVox]
 * Conduct research about the company or site's history with legal issues surrounding web accessibility (e.g. [Target][Target])
 
 In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered in class.
@@ -168,7 +169,7 @@ Below are some fantastic (and totally optional) readings about the current state
 * [Understanding Accessibility in Collaborative Writing for People with Vision Impairments][Collab] - Das, M., Gergle, D., and Piper, A.M.
 * [WebinSitu: A Comparative Analysis of Blind and Sighted Browsing Behavior][WebinSitu] - Jeffrey P. Bigham
 
-Some labs at NU that are working with HCI and accessible design:
+Some labs at NU that are working with HCI and inclusive design:
 * [Inclusive Technology Lab][ITL]
 * [TIDAL Lab][TIDAL]
 * [Tiilt Lab][Tiilt]
@@ -180,6 +181,7 @@ Some labs at NU that are working with HCI and accessible design:
 
 [b4a]: https://www.w3.org/WAI/demos/bad/
 [Beyond Automation]: https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/
+[ChromeVox]: https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en-GB
 [Collab]: https://dl.acm.org/doi/10.1145/3359293
 [Holmes]: https://www.fastcompany.com/90243282/the-no-1-thing-youre-getting-wrong-about-inclusive-design
 [ITL]: https://inclusive.northwestern.edu
