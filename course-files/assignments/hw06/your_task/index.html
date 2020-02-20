@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/01_globals.css">
+        <link rel="stylesheet" href="css/02_layout.css">
+        <link rel="stylesheet" href="css/03_left_nav.css">
+        <link rel="stylesheet" href="css/04_header_nav.css">
+        <link rel="stylesheet" href="css/05_artists.css">
+        <link rel="stylesheet" href="css/06_player.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport">
+    </head>
+    <body id="container">
+        <aside id="sidebar">
+            <h1>
+                <img src="assets/spotify-logo.png">
+                Spotify
+            </h1>
+            <a href="#">
+                <i class="material-icons">headset</i>
+                Home
+            </a>
+            <a href="#">
+                <i class="material-icons">search</i>
+                Search
+            </a>
+            <a class="selected" href="#">
+                <i class="material-icons">library_music</i>
+                Your Library
+            </a>
+        </aside>
+        <main>
+            <header>
+                <a href="#" id="upgrade">Upgrade</a>
+                <a href="#" id="profile">
+                    <i class="far fa-user"></i> Profile</a>
+            </header>
+            <nav>
+                <a href="#">Playlists</a>
+                <a href="#">Albums</a>
+                <a class="selected" href="#">Artists</a>
+            </nav>
+            <article id="featured-content"></article>
+        </main>
+        <footer>
+            <div class="current-song">
+                <img src="https://i.scdn.co/image/5d6e2a7429fa5e1b8b833b4e153c7a4f190dfe67" alt="">
+                <div class="label">
+                    <h3>Jump Then Fall</h3>
+                    <p>Taylor Swift</p>
+                </div>
+            </div>
+            <div class="player">
+                <div class="controls">
+                    <i class="material-icons">skip_previous</i>
+                    <i class="material-icons">play_circle_outline</i>
+                    <i class="material-icons">skip_next</i>
+                </div>
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg">
+                    </audio>
+                    <span id="time-elapsed">0:00</span>
+                    <input type="range" id="player-time">
+                    <span id="time-total">3:00</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="index.js"></script>
+</html>

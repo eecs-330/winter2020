@@ -1,0 +1,37 @@
+aside {
+    padding: 5px 25px;
+    flex-direction: column;
+}
+aside h1 img {
+    width: 30px;
+    height: 30px;
+}
+
+aside a,
+aside a:visited { 
+    color: #ddd;
+}
+aside a:hover, aside a:active {
+    cursor: pointer;
+    color: #FFF;
+}
+aside a {
+    background-color: black;
+    border-left: solid 3px transparent;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+aside a i {
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: white;
+    text-align: sub;
+}
+
+aside a.selected {
+    border-left: solid 3px #1cb954;
+}
