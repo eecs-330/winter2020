@@ -68,6 +68,8 @@ Once your server is running and you have the page open, open Chrome's developer 
 
 The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment. Feel free to edit **any** and **all** files in order to accomplish this (except for `server.js`). Part of the challenge of this assignment is parsing all the files that we've previously ignored to figure out how the interface works.
 
+You should also feel free to edit the visual design and layout of the interface however you'd like in order to achieve this.
+
 *Hint*: Once you open the folder and look at the HTML, the first question you should ask yourself is *how exactly are we generating the artist cards?* You will likely need to look up some JS documentation for this - a skill vital to any debugging, not just accessibility.
 
 *Just because your webpage scores highly doesn't necessarily mean it's truly accessible.* Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
