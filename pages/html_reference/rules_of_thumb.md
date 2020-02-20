@@ -2,6 +2,7 @@
 layout: two-column-resources
 title: Rules of Thumb
 nav_order: 1
+show_outline: true
 parent: HTML Resources
 permalink: /html-reference/rules-of-thumb/
 ---
@@ -13,19 +14,6 @@ permalink: /html-reference/rules-of-thumb/
 * [Exploring an HTML Document](http://www.lynda.com/HTML-tutorials/Exploring-HTML-document/170427/196135-4.html) (5:27)
 
 Most of the HTML language is best learned through practice, however below are ten rules of thumb that can help you learn how to use the tags to create the desired result.
-
-
-|--|--|
-| 1. | Follow the HTML naming conventions: avoid spaces, capital letters, and special characters when naming files |
-| 2. | Most tags have an opening and a closing tag |
-| 3. | The browser ignores whitespace |
-| 4. | Make your code readable using indents and line breaks |
-| 5. | Double-check your attribute syntax |
-| 6. | Last in, first out (LIFO) |
-| 7. | Use comments to help you understand your code |
-| 8. | Links to style sheets go inside the **&lt;head&gt;&lt;/head&gt;** tag |
-| 9. | Everything else goes inside the **&lt;body&gt;&lt;/body&gt;** tag |
-| 10. | Take advantage of the browser's built-in code inspector |
 
 
 ## 1. Avoid spaces, capital letters, and special characters when naming files

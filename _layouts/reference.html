@@ -5,7 +5,7 @@ layout: default
     {% if page.show_outline %}
         <div class="outline">
             <h3>Overview</h3>
-            {% include toc.html html=content class='toc' ordered=true %}
+            {% include toc.html html=content class='toc' ordered=false %}
         </div>
     {% endif %}
     {{ content }}

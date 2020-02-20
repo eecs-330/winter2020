@@ -13,11 +13,17 @@
             </aside>
             <article>
                 {% include page_title.html %} 
+                {% if page.show_outline %}
+                    <div class="outline">
+                        {% include toc.html html=content ordered=true %}
+                    </div>
+                {% endif %}
                 {{ content }}
                 
             </article>  
         </main>
         {% include scripts.html %}
-        <!-- <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script> -->
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
+
     </body>
 </html>
