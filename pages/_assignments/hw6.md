@@ -1,14 +1,22 @@
 ---
-layout: assignment
+layout: assignment-two-column
 title: Accessible Web Design
 abbreviation: HW6
 type: individual
 due_date: 2020-03-03
 files: course-files/assignments/hw06.zip
-ordering: 2
 points: 10
-draft: 1
+draft: 0
 ---
+
+<style>
+    img {
+        max-width: 800px;
+        max-height: 400px;
+    }
+</style>
+
+## Background
 
 ### Learning Objectives
 
@@ -66,7 +74,7 @@ The score that we care about here is Accessibility. If your webpage scores a 100
 
 ### Submission & Grading
 
-For this submission, **first delete the** `node_modules` **folder**, and zip the *entire* directory. Do **not** delete or move any files except for `node_modules` (although creating ones is allowed!).
+For this submission, **first delete the** `node_modules` **folder** and then zip the *entire* directory. Do **not** delete or move any files except for `node_modules` (although creating ones is allowed!).
 
 {:.checkbox-list}
 * Spotify UI:
@@ -76,7 +84,7 @@ For this submission, **first delete the** `node_modules` **folder**, and zip the
 For example, if you score a 94 on accessibility, you will get 3 points here. If you score a 86, you'll get 2 points.
 Once you fall below a score of 70, you're out of luck.
 
-## Part 2: Inclusive Design Critique
+## Part 2: Accessibility Critique
 
 ### Your Task
 
@@ -113,7 +121,7 @@ In your analysis, you should read and cite *at least 4* external articles to sup
 * Paper is between 500-800 words **(1 pts)**
 * Quality of discussion and writing **(3 pts)**
 
-## Optional Readings & Resources
+## Optional Resources
 
 Below are some fantastic (and totally optional) readings about the current state and future of accessible design:
 
