@@ -124,12 +124,15 @@ Your paper should be between 500-800 words, double spaced, 12-point font, Times 
 
 Below are some fantastic (and totally optional) readings about the current state and future of accessible design:
 
+* [All Technology is Assistive][Hendren] - Sara Hendren
 * [Beyond Automated Accessibility Testing][Beyond Automation] - Manuel Matuzovic
+* [Design for User Empowerment][Ladner] - Richard E. Ladner
 * [Inclusive Design, Accessible Design, Universal Design: What's What?][Holmes] - Kat Holmes
 * [Understanding Accessibility in Collaborative Writing for People with Vision Impairments][Collab] - Das, M., Gergle, D., and Piper, A.M.
 * [WebinSitu: A Comparative Analysis of Blind and Sighted Browsing Behavior][WebinSitu] - Jeffrey P. Bigham
 
-Some labs at NU that are working with HCI and inclusive design:
+Some labs at NU that are working with HCI research and/or inclusive design and education:
+* [Delta Lab][Delta]
 * [Inclusive Technology Lab][ITL]
 * [TIDAL Lab][TIDAL]
 * [Tiilt Lab][Tiilt]
@@ -143,9 +146,12 @@ Some labs at NU that are working with HCI and inclusive design:
 [Beyond Automation]: https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/
 [ChromeVox]: https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en-GB
 [Collab]: https://dl.acm.org/doi/10.1145/3359293
+[Delta]: http://delta.northwestern.edu
 [Domino's]: https://www.ciodive.com/news/what-dominos-digital-accessibility-lawsuit-means-for-compliance/564737/
+[Hendren]: https://medium.com/backchannel/all-technology-is-assistive-ac9f7183c8cd
 [Holmes]: https://www.fastcompany.com/90243282/the-no-1-thing-youre-getting-wrong-about-inclusive-design
 [ITL]: https://inclusive.northwestern.edu
+[Ladner]: https://dl.acm.org/doi/10.1145/2723869
 [Lighthouse]: https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en
 [Lynda]: https://www.linkedin.com/learning/html-essential-training/the-value-of-structure?u=75814418
 [Lynda WAI-ARIA]: https://www.linkedin.com/learning/html-essential-training/using-wai-aria-roles?u=75814418
