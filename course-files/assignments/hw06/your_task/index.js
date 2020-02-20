@@ -9,6 +9,7 @@ const renderArtists = artists => {
 
         const wrapper = document.createElement("div");
         wrapper.tabIndex = tabIndex; // Sets the order that screen readers read elements
+        wrapper.setAttribute("role", "artist");
         section.appendChild(wrapper);
 
         const img = document.createElement("img");
