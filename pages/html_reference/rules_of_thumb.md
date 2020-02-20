@@ -1,11 +1,11 @@
 ---
-layout: default
-title: 1. Rules of Thumb
+layout: two-column-resources
+title: Rules of Thumb
 nav_order: 1
 parent: HTML Resources
+permalink: /html-reference/rules-of-thumb/
 ---
 
-# Rules of Thumb
 > **References**:
 > For more information, watch the Lynda.com video tutorials:
 * [The Importance of HTML](http://www.lynda.com/HTML-tutorials/importance-HTML/170427/196129-4.html) (3:19)

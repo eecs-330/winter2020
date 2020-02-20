@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 3. Properties
+layout: two-column-resources
+title: Properties
 parent: CSS Resources
 nav_order: 3
-has_children: true
 permalink: /css-reference/properties/
 ---
 

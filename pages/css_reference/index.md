@@ -1,7 +1,7 @@
 ---
-layout: reference
+layout: two-column-resources
 title: CSS Resources
-nav_order: 6
+nav_order: 11
 has_children: true
 permalink: /css-reference/
 show_outline: false

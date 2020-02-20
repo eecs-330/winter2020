@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 5. Text & Fonts
+layout: two-column-resources
+title: Text & Fonts
 parent: CSS Resources
 nav_order: 5
-has_children: true
 permalink: /css-reference/fonts/
 ---
 

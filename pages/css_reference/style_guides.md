@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 8. Style Guides
+layout: two-column-resources
+title: Style Guides
 parent: CSS Resources
-nav_order: 8
-has_children: true
+nav_order: 10
 permalink: /css-reference/style-guides/
 ---
 

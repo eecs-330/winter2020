@@ -1,9 +1,8 @@
 ---
-layout: reference
+layout: two-column-resources
 title: Rules of Thumb
 parent: CSS Resources
 nav_order: 1
-show_outline: true
 permalink: /css-reference/rules-of-thumb/
 ---
 

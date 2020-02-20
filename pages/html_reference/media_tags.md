@@ -1,11 +1,11 @@
 ---
-layout: default
-title: 5. Media Tags
+layout: two-column-resources
+title: Media Tags
 nav_order: 5
 parent: HTML Resources
+permalink: /html-reference/media-tags/
 ---
 
-# Media Tags
 In the previous section, we reviewed the simplest and most *frequently used* tags: `<h1>, <h2>...<h6>, <p>, <a>, <img>`
 
 In this section, we add to this list by including **iframes, audio files, videos, lists, and tables**. Below we provide a description of each element, as well as the tags, attributes, and values that generate them. Each element also has a corresponding code sample that you can continue exploring on your own.

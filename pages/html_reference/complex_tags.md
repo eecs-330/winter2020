@@ -1,11 +1,10 @@
 ---
-layout: default
-title: 6. Compound Tags
+layout: two-column-resources
+title: Compound Tags
 nav_order: 6
 parent: HTML Resources
+permalink: /html-reference/compound-tags/
 ---
-
-# Compound Tags
 
 ## Lists
 Sample code to make ordered and un-ordered lists:

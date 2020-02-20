@@ -1,11 +1,11 @@
 ---
-layout: default
-title: 7. Semantic Tags
+layout: two-column-resources
+title: Semantic Tags
 nav_order: 7
 parent: HTML Resources
+permalink: /html-reference/semantic-tags/
 ---
 
-# Semantic Tags
 > **Reference Videos & Readings**
 * Suggested Lynda.com Videos:
   * [The value of structure](http://www.lynda.com/HTML-tutorials/value-structure/170427/196152-4.html) (2:48)

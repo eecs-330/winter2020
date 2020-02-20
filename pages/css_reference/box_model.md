@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 6. Box Model & Layouts
+layout: two-column-resources
+title: Box Model & Layouts
 parent: CSS Resources
 nav_order: 6
-has_children: true
 permalink: /css-reference/box-model/
 ---
 

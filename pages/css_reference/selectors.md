@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 2. Selectors
+layout: two-column-resources
+title: Selectors
 parent: CSS Resources
 nav_order: 2
-has_children: true
 permalink: /css-reference/selectors/
 ---
 

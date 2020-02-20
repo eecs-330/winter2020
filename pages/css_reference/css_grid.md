@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 7. CSS Grid
+layout: two-column-resources
+title: CSS Grid
 parent: CSS Resources
 nav_order: 7
-has_children: true
 permalink: /css-reference/css-grid/
 ---
 

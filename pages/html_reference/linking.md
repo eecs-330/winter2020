@@ -1,11 +1,11 @@
 ---
-layout: default
-title: 3. Hyperlinks
+layout: two-column-resources
+title: Hyperlinks
 nav_order: 3
 parent: HTML Resources
+permalink: /html-reference/links/
 ---
 
-# Hyperlinks Using Anchors
 > **Overview Resources**
 >
 > * Lynda.com video: [Exploring the anchor element](http://www.lynda.com/HTML-tutorials/Exploring-anchor-element/170427/196164-4.html) (2:58)

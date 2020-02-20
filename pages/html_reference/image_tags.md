@@ -1,11 +1,10 @@
 ---
-layout: default
-title: 4. Image Tags
+layout: two-column-resources
+title: Image Tags
 nav_order: 4
 parent: HTML Resources
+permalink: /html-reference/images/
 ---
-
-# Image Tags
 
 > **Overview Resources**
 >

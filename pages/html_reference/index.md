@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: two-column-resources
 title: HTML Resources
-nav_order: 5
+nav_order: 10
 has_children: true
+permalink: /html-reference/
 ---
 
-# Intro to HTML
 > HyperText Markup Language, commonly abbreviated as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology used to create web pages, as well as to create user interfaces for mobile and web applications. <br> [Wikipedia](https://en.wikipedia.org/wiki/HTML)
 
 ## Overview
@@ -20,7 +20,7 @@ Learning HTML requires three main kinds of knowledge:
 2. An understanding of some of the core tags of the language, and what they do. Think of these skills as **HTML vocabulary**
 3. Finally, an understanding of **how to seek out and effectively use information and resources**
 
-## How to Use This Chapter
+## How to Use This Reference
 This chapter will help you to develop the three kinds of knowledge listed above (grammar, vocabulary, and using online resources). The first section reviews HTML *grammar* rules, which are presented as [10 Rules of Thumb](rules_of_thumb.html).
 
 After reviewing these grammar rules, please review the 7 sub-sections within this chapter, which cover some of the most common HTML tags, or * HTML vocabulary*:

@@ -1,9 +1,8 @@
 ---
-layout: default
-title: 4. Color
+layout: two-column-resources
+title: Color
 parent: CSS Resources
 nav_order: 4
-has_children: true
 permalink: /css-reference/color/
 ---
 
