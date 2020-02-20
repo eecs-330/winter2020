@@ -6,7 +6,6 @@ nav_order: 3
 permalink: /css-reference/properties/
 ---
 
-# Properties
 Properties refer to what visual aspects of an HTML element you want to change. Examples of properties include font and background colors, widths, heights, borders, etc. A list of the legal properties that your web browser allows you to modify can be found in the [CSS property reference](http://www.w3schools.com/cssref/default.asp).
 
 ## Color
