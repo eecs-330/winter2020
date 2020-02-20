@@ -176,7 +176,7 @@ h1 span.pj {
     }
 }
 
-.assignment, .reference, .lecture {
+.assignment, .reference, .lecture, .two-column article {
     ul.toc {
         padding-left: 0px;
         li {
@@ -297,7 +297,7 @@ blockquote.quote {
 }
 
 
-.assignment, .lecture, .details {
+.assignment, .lecture, .details, .two-column article {
     .outline {
         margin-top: 30px;
     }

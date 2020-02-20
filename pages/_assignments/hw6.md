@@ -5,7 +5,7 @@ abbreviation: HW6
 type: individual
 due_date: 2020-03-03
 files: course-files/assignments/hw06.zip
-points: 10
+points: 15
 draft: 0
 ---
 
@@ -78,7 +78,7 @@ For this submission, **first delete the** `node_modules` **folder** and then zip
 
 {:.checkbox-list}
 * Spotify UI:
-  * Lighthouse Accessibility Score === 100 **(4 pts)**
+  * Lighthouse Accessibility Score === 100 **(6 pts)**
 
 *Note*: 1 point will be deducted from this score for each ten-point range below 100 your assignment falls into.
 For example, if you score a 94 on accessibility, you will get 3 points here. If you score a 86, you'll get 2 points.
@@ -116,9 +116,9 @@ Your paper should be between 500-800 words, double spaced, 12-point font, Times 
 
 {:.checkbox-list}
 * Discusses the site's purpose and user goals **(1 pt)**
-* Cites at least 4 external sources meaningfully **(1 pts)**
+* Cites at least 4 external sources meaningfully **(2 pts)**
 * Paper is between 500-800 words **(1 pts)**
-* Quality of discussion and writing **(3 pts)**
+* Quality of discussion and writing **(5 pts)**
 
 ## Optional Resources
 
