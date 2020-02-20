@@ -40,7 +40,7 @@ You can find a quick reference to the WCAG guidelines [here][WCAG Quickref].
 Your job for this part of the assignment is to **edit the Spotify interface to conform to WCAG guidelines**.
 This will give you some experience with using accessibility regulations in a practical setting and prepare you for building your final projects in an accessible manner.
 
-For a good example of good/bad accessibility practices used on the same website, check out W3C's [Before and After Demonstration][b4a]
+For a good example of good/bad accessibility practices used on the same website, check out W3C's [Before and After Demonstration][b4a].
 
 ### Setup
 
