@@ -108,12 +108,14 @@ Some ideas for paper topics (feel free to use any number of these or craft your 
 
 In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered at any point throughout the course.
 
-### Submission & Grading
+### Submission Details
 
 * Reflection papers should between 500-800 words, double spaced, 12-point font, Times New Roman
 * Papers should be converted to PDF format
 * Make sure your name and section are listed at the top of your submission
 * Cited *at least 4* external articles (inline citations are fine)
+
+### Grading
 
 {:.checkbox-list}
 * Discusses the site's purpose and user goals **(1 pt)**
