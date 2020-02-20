@@ -80,9 +80,7 @@ For this submission, **first delete the** `node_modules` **folder** and then zip
 * Spotify UI:
   * Lighthouse Accessibility Score === 100 **(6 pts)**
 
-*Note*: 1 point will be deducted from this score for each ten-point range below 100 your assignment falls into.
-For example, if you score a 94 on accessibility, you will get 3 points here. If you score a 86, you'll get 2 points.
-Once you fall below a score of 70, you're out of luck.
+*Note*: 1 point will be deducted from this score for each ten-point range below 100 your assignment falls into. For example, if you score a 94 on accessibility, you will get 5 points here. If you score a 86, you’ll get 4 points, etc.
 
 ## Part 2: Accessibility Critique
 
@@ -116,7 +114,7 @@ Your paper should be between 500-800 words, double spaced, 12-point font, Times 
 
 {:.checkbox-list}
 * Discusses the site's purpose and user goals **(1 pt)**
-* Cites at least 4 external sources meaningfully **(2 pts)**
+* Meaningfully cites at least 4 external sources **(2 pts)**
 * Paper is between 500-800 words **(1 pts)**
 * Quality of discussion and writing **(5 pts)**
 
