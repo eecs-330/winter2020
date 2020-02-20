@@ -100,7 +100,7 @@ Some ideas for paper topics (feel free to use any number of these or craft your 
 
 * Inspect the source code and interface design of a website, discussing accessibility problems with the interface that may *not* fall under WCAG guidelines (i.e. usability, page structure, etc.)
 * Discuss how the interface goes about presenting content multi-modally, perhaps targeted towards user classes with different levels of ability
-* Try navigating the interface using only a screen reader and talk about the experience
+* Try navigating the interface using only a screen reader and keyboard and talk about your experience
   * Mac: [VoiceOver][VoiceOver]
   * Windows: [NVDA][NVDA]
   * Cross-platform: [ChromeVox][ChromeVox]
