@@ -94,15 +94,23 @@ $twocolHeaderHeight: 120px;
                 ol {
                     margin-top: 0px;
                     margin-bottom: 10px;
-                    li > a {
-                        color: #444;
-                        font-size: 0.9em;
-                        padding-left: 20px;
-                    }
-                    ol li > a {
-                        color: #666;
-                        font-size: 0.9em;
-                        padding-left: 50px;
+                    li {
+                        a {
+                            color: #444;
+                            font-size: 0.9em;
+                            padding-left: 20px;
+                        }
+
+                        ol li {
+                            a {
+                                color: #666;
+                                font-size: 0.9em;
+                                padding-left: 45px;
+                            }
+                            ol li > a {
+                                padding-left: 65px;
+                            }
+                        }
                     }
                 }
             }

@@ -19,6 +19,9 @@
                             {% assign cls = "active" %}
                         {% endif %}
                         <a href="{{site.baseurl}}{{child.permalink}}" class="{{cls}}">{{ child.title }}</a>
+                        {% if child.permalink == page.permalink %}
+                            {% include toc.html html=child.content ordered=true %}
+                        {% endif %}
                     </li>
                 {% endif %}
                 {% endfor %}

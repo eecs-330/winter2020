@@ -13,6 +13,16 @@
         }
     };
 
+    const findElementByAttributeWorkaround = (attribute, value, element_type) => {
+        // useful b/c querySelector breaks if ids start w/numbers:
+        element_type = element_type || '*';
+        const elements = document.getElementsByTagName(element_type);
+        for (let i = 0; i < elements.length; i++)       {
+            if (elements[i].getAttribute(attribute).includes(value)) { 
+                return elements[i]; 
+            }
+        }
+    };
 
     const scrollToAnchor = (ev) => {
         const distanceToTop = (el) => {
@@ -72,7 +82,7 @@
                 }
                 const selector = 'a[href*=' + key + ']';
                 // console.log(selector);
-                document.querySelector(selector).setAttribute('class', 'active');
+                findElementByAttributeWorkaround('href', key, 'a').setAttribute('class', 'active');
             }
         }
         prevScroll = scrollPosition;

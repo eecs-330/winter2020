@@ -4,7 +4,7 @@
         <li {% if page.url == "/syllabus/" %}class="active"{% endif %}><a href="{{site.baseurl}}/syllabus/">Syllabus</a></li>
         <li {% if page.url contains "/assignments/" %}class="active"{% endif %}><a href="{{site.baseurl}}/assignments/">Assignments</a></li>
         <li {% if page.url == "/readings/" %}class="active"{% endif %}><a href="{{site.baseurl}}/readings/">Readings</a></li>
-        <!-- <li {% if page.url contains "reference" %}class="active"{% endif %}><a href="{{site.baseurl}}/html-reference/">Web Reference</a></li> -->
+        <li {% if page.url contains "reference" %}class="active"{% endif %}><a href="{{site.baseurl}}/html-reference/">Web Reference</a></li>
         <li {% if page.url == "/times-locations/" %}class="active"{% endif %}><a href="{{site.baseurl}}/times-locations/">Office Hours</a></li>
         <li><a href="{{site.piazza_url}}" target="_blank">Piazza</a></li>
     </ul>
