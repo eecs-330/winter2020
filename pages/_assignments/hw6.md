@@ -44,7 +44,7 @@ For a good example of good/bad accessibility practices used on the same website,
 
 ### Setup
 
-For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
+For reasons that will be explained below, the interface that you will be working with for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
 
 - First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download hw06.zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
