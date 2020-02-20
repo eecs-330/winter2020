@@ -4,8 +4,10 @@
 //Import partials.
 @import
   "minima/base",
-  //"minima/schedule",
+  "minima/detail",
   "minima/assignments",
   "minima/syllabus",
+  "minima/one-column.scss",
+  "minima/two-column.scss",
   "minima/_syntax-highlight"
 ;

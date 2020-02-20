@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: assignment-two-column
 title: JavaScript
 abbreviation: HW5
 type: individual

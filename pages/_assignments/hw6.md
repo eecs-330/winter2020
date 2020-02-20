@@ -1,22 +1,14 @@
 ---
 layout: assignment
-title: Accessible Web Development
+title: Accessible Web Design
 abbreviation: HW6
 type: individual
-due_date: 2020-02-27
+due_date: 2020-03-03
 files: course-files/assignments/hw06.zip
 ordering: 2
 points: 10
-draft: 0
+draft: 1
 ---
-<style>
-    img {
-        max-width: 1000px;
-        max-height: 600px;
-    }
-</style>
-
-## Background
 
 ### Learning Objectives
 

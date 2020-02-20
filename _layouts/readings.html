@@ -36,6 +36,7 @@ layout: default
             <td>{{lecture.title}}</td>
             <td>
                 {% if lecture.readings %}
+                    {% assign page = lecture %}
                     {% include page_readings.html %} 
                 {% endif %}
             </td>

@@ -1,6 +1,6 @@
 ---
-layout: lecture
-title: GitHub
+layout: lecture-two-column
+title: GitHub Activity
 type: lab
 draft: 0
 toc: 1
@@ -17,7 +17,7 @@ due_date: 2020-02-14
     .schematic {
         border: none;
         max-width: 850px;
-        width: 100%;
+        width: 70%;
         display: block;
         margin: auto;
     }
@@ -237,20 +237,19 @@ $ git push origin git_tutorial
 
 > **WHAT TO TURN IN**: One person from your team will paste a link to your **git_tutorial** branch in Canvas.
 
-## SUMMARY. Rules of the Suggested Workflow
+## Summary of Suggested Workflow
 
 <img class="schematic" src="../assets/images/lab06/16_schematic.png" />
 
-Never make edits to the master branch. Make any code additions, subtractions, etc. on a separate branch.
-
 {:.flush}
-1. When you are making any edits to your team’s repo, you will make them in your fork of the repo by:
+1. Never make edits to the master branch. Make any code additions, subtractions, etc. on a separate branch.
+2. When you are making any edits to your team’s repo, you will make them in your fork of the repo by:
    * Creating a new branch
    * Committing files to your new branch
    * Pushing them to Github, and
    * Making a PR
    * Asking someone on your team to review, approve, and merge your PR.
-2. Once your PR has been merged, you will rebase on your local machine as follows:
+3. Once your PR has been merged, you will rebase on your local machine as follows:
 ```bash
 # switch branches back to master (IMPORTANT)
 $ git checkout master	
@@ -260,7 +259,7 @@ $ git pull --rebase upstream master
 # your master and organization’s master are in sync)	
 $ git push
 ```
-3. Then, to create new features, you will create a new branch, copied from master:
+4. Then, to create new features, you will create a new branch, copied from master:
 ```bash
 # make sure you are currently on the master branch, and that 
 # you make all of your new branches from master
@@ -270,4 +269,4 @@ git branch <name-of-new-branch>
 # check out your new branch and get to work:
 git checkout <name-of-new-branch> 
 ```
-4. Each week, you will submit a branch of your code called (project_5, project_6, or project_7) that we will assess.
+5. Each week, you will submit a branch of your code called (project_5, project_6, or project_7) that we will assess.
