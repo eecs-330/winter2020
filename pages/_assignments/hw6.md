@@ -46,13 +46,13 @@ For a good example of good/bad accessibility practices used on the same website,
 
 For reasons that will be explained below, the interfaces that you will be working on for this part will be displayed via *server-side rendering*. This means that, instead of directly opening the HTML file, you will instead run a server that will render your HTML in the browser.
 
-- First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download assignment zip<i class="fasfa-link"></i></a>
+- First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download hw06.zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
 - Open a terminal window and navigate to your project directory.
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
 - Type `npm install`. This installs the Node packages needed to run the assignment.
 
-Now, in order to run the assignment, all you have to do is run `npm start` in the terminal while in the project directory. Open a browser window to [localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you should just need to refresh the browser window to see your saved changes happen.*
+Now, in order to run the assignment, all you have to do is run `npm start` in your terminal window while in the project directory. Open a browser window to [http://localhost:8080](http://localhost:8080) and you should see the webpage! *As long as you keep the server running in the background, you should just need to refresh the browser window to see your saved changes happen.*
 
 Unless you're curious (in which case you should look through `server.js`), *don't worry about how this all works* - you might fall down an unfortunate rabbit-hole.
 
@@ -106,7 +106,7 @@ Some ideas for paper topics (feel free to use any number of these or craft your 
   * Cross-platform: [ChromeVox][ChromeVox]
 * Conduct research about the company or site's history with legal issues surrounding web accessibility (e.g. [Domino's][Domino's])
 
-In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered in class.
+In your analysis, you should read and cite *at least 4* external articles to support your arguments (not counting the website you're critiquing itself). These can also be readings that we've covered at any point throughout the course.
 
 ### Submission & Grading
 
