@@ -146,6 +146,25 @@ The following enhancements can be completed for extra credit. Note: You are only
 * Implement a way to play and pause a track by clicking on the track listing **(1 point)**
 * Integrate data from Twitter or YouTube, and render some stylized content below the albums **(2 points)**
 
+> ### Hint for the first two extra credit options
+> Whereas for the required parts of the assignment, I've used the "simplified" endpoint, for the extra credit, you'll have to use the "unsimplified" endpoints (which return the original data structure as opposed to the simplified version of it). This means that you will remove the word "simple" from the API Tutor endpoint. Examples below.
+>
+>
+> **Get tracks from album:**
+> * Spotify Documentation: <a target="_blank" href="https://developer.spotify.com/documentation/web-api/reference/albums/get-albums-tracks/">https://developer.spotify.com/documentation/web-api/reference/albums/get-albums-tracks/</a>
+> * How to do it w/Spotify API: <a target="_blank" href="https://api.spotify.com/v1/albums/{id}/tracks">https://api.spotify.com/v1/albums/{id}/tracks</a>
+> * How to do it with API Tutor: <a target="_blank" href="https://www.apitutor.org/spotify/v1/albums/{id}/tracks">https://www.apitutor.org/spotify/v1/albums/{id}/tracks</a>
+> * Example with BTS Album: <a target="_blank" href="https://www.apitutor.org/spotify/v1/albums/2lATw9ZAVp7ILQcOKPCPqp/tracks">https://www.apitutor.org/spotify/v1/albums/2lATw9ZAVp7ILQcOKPCPqp/tracks</a> 
+>
+> 
+> **Get artist's top songs**:
+> Weirdly, for this one you need to specify the "country" parameter (just use "us"):
+> * Spotify Documentation: <a target="_blank" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-top-tracks/">https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-top-tracks/</a>
+* How to do it w/Spotify API: <a target="_blank" href="https://api.spotify.com/v1/artists/{id}/top-tracks">https://api.spotify.com/v1/artists/{id}/top-tracks</a> 
+> * How to do it with API Tutor: <a target="_blank" href="https://www.apitutor.org/spotify/v1/artists/{id}/top-tracks?country=us">https://www.apitutor.org/spotify/v1/artists/{id}/top-tracks?country=us</a> 
+> * Example with BTS Artist: <a target="_blank" href="https://www.apitutor.org/spotify/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX/top-tracks?country=us">https://www.apitutor.org/spotify/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX/top-tracks?country=us</a>
+
+
 ## Rubric
 
 {:.checkbox-list}
