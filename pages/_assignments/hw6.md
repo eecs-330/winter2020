@@ -68,6 +68,8 @@ Once your server is running and you have the page open, open Chrome's developer 
 
 The score that we care about here is Accessibility. If your webpage scores a 100, you'll get full points for this part of the assignment. Feel free to edit **any** and **all** files in order to accomplish this (except for `server.js`). Part of the challenge of this assignment is parsing all the files that we've previously ignored to figure out how the interface works.
 
+You should also feel free to edit the visual design and layout of the interface however you'd like in order to achieve this.
+
 *Hint*: Once you open the folder and look at the HTML, the first question you should ask yourself is *how exactly are we generating the artist cards?* You will likely need to look up some JS documentation for this - a skill vital to any debugging, not just accessibility.
 
 *Just because your webpage scores highly doesn't necessarily mean it's truly accessible.* Lighthouse also gives many suggestions for accessibility improvements outside the scope of what they consider easily identifyable. Try to follow WCAG AA guidelines as closely as possible when fixing your page!
@@ -80,9 +82,7 @@ For this submission, **first delete the** `node_modules` **folder** and then zip
 * Spotify UI:
   * Lighthouse Accessibility Score === 100 **(6 pts)**
 
-*Note*: 1 point will be deducted from this score for each ten-point range below 100 your assignment falls into.
-For example, if you score a 94 on accessibility, you will get 3 points here. If you score a 86, you'll get 2 points.
-Once you fall below a score of 70, you're out of luck.
+*Note*: 1 point will be deducted from this score for each ten-point range below 100 your assignment falls into. For example, if you score a 94 on accessibility, you will get 5 points here. If you score a 86, you’ll get 4 points, etc.
 
 ## Part 2: Accessibility Critique
 
@@ -116,7 +116,7 @@ Your paper should be between 500-800 words, double spaced, 12-point font, Times 
 
 {:.checkbox-list}
 * Discusses the site's purpose and user goals **(1 pt)**
-* Cites at least 4 external sources meaningfully **(2 pts)**
+* Meaningfully cites at least 4 external sources **(2 pts)**
 * Paper is between 500-800 words **(1 pts)**
 * Quality of discussion and writing **(5 pts)**
 
@@ -124,12 +124,15 @@ Your paper should be between 500-800 words, double spaced, 12-point font, Times 
 
 Below are some fantastic (and totally optional) readings about the current state and future of accessible design:
 
+* [All Technology is Assistive][Hendren] - Sara Hendren
 * [Beyond Automated Accessibility Testing][Beyond Automation] - Manuel Matuzovic
+* [Design for User Empowerment][Ladner] - Richard E. Ladner
 * [Inclusive Design, Accessible Design, Universal Design: What's What?][Holmes] - Kat Holmes
 * [Understanding Accessibility in Collaborative Writing for People with Vision Impairments][Collab] - Das, M., Gergle, D., and Piper, A.M.
 * [WebinSitu: A Comparative Analysis of Blind and Sighted Browsing Behavior][WebinSitu] - Jeffrey P. Bigham
 
-Some labs at NU that are working with HCI and inclusive design:
+Some labs at NU that are working with HCI research and/or inclusive design and education:
+* [Delta Lab][Delta]
 * [Inclusive Technology Lab][ITL]
 * [TIDAL Lab][TIDAL]
 * [Tiilt Lab][Tiilt]
@@ -143,9 +146,12 @@ Some labs at NU that are working with HCI and inclusive design:
 [Beyond Automation]: https://www.matuzo.at/blog/beyond-automatic-accessibility-testing-6-things-i-check-on-every-website-i-build/
 [ChromeVox]: https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en-GB
 [Collab]: https://dl.acm.org/doi/10.1145/3359293
+[Delta]: http://delta.northwestern.edu
 [Domino's]: https://www.ciodive.com/news/what-dominos-digital-accessibility-lawsuit-means-for-compliance/564737/
+[Hendren]: https://medium.com/backchannel/all-technology-is-assistive-ac9f7183c8cd
 [Holmes]: https://www.fastcompany.com/90243282/the-no-1-thing-youre-getting-wrong-about-inclusive-design
 [ITL]: https://inclusive.northwestern.edu
+[Ladner]: https://dl.acm.org/doi/10.1145/2723869
 [Lighthouse]: https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en
 [Lynda]: https://www.linkedin.com/learning/html-essential-training/the-value-of-structure?u=75814418
 [Lynda WAI-ARIA]: https://www.linkedin.com/learning/html-essential-training/using-wai-aria-roles?u=75814418
