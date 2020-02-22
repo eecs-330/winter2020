@@ -139,8 +139,8 @@ Add a click event handler to each of the tracks. When a track is clicked, your c
 The following enhancements can be completed for extra credit. Note: You are only entitled to 6 points extra credit in this class (3 percentage points).
 
 {:.checkbox-list}
-* Add an event handler to the artist card so that when you click on it, the tracks in the #tracks section are replaces by the artist's top tracks **(2 points)**
-* Add an event handler to each album card so that when you click the album, the tracks in the #tracks section are replaces by the album's tracks **(2 points)**
+* Add an event handler to the artist card so that when you click on it, the tracks in the #tracks section are replaced by the artist's top tracks **(2 points)**
+* Add an event handler to each album card so that when you click the album, the tracks in the #tracks section are replaced by the album's tracks **(2 points)**
 * Modify the track template so that if there is no audio preview available, you don't get the option to play the track. Note: to test, search for Billie Elish, who is not available on Spotify **(1 point)** <br><img style="height:120px;" src="{{site.baseurl}}/assets/images/hw05/no_preview_available.png">
 * Figure out a way to hide the audio player unless the user has requested to listen to the track (by clicking on a track) **(1 point)**
 * Implement a way to play and pause a track by clicking on the track listing **(1 point)**
