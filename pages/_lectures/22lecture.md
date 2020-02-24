@@ -2,7 +2,7 @@
 layout: lecture-two-column
 title: Visual Design Part 2
 type: lecture
-draft: 1
+draft: 0
 slides_url: https://docs.google.com/presentation/d/1mPlEgMSG7xtLm1xiTX4SCihGOaDBg1kdu_CqBQpeG8M/edit?usp=sharing
 description: |
     In-class activity: instantiating design principles.
@@ -16,17 +16,14 @@ readings:
 
 ## Activity: Using CSS to Create Good Composition
 Today we will be discussing a few different visual design and usability principles:
-* Form Design
 * Selecting Colors
 * Instantiating values in Visual Design
 
-### Values Activity
-* Page of Values
+### 1. Values Activity
+* <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit?usp=sharing" target="_blank">Page of Values</a>
 
-### Create a Style Guide
-* <a href="https://codepen.io/vanwars/pen/abONgYB?editors=0100" target="_blank">Style Guide Template</a> (CodePen)
+### 2. Create Two Style Tiles
+* <a href="https://codepen.io/vanwars/pen/rNVjYBd?editors=1000" target="_blank">Style Guide Template</a> (CodePen)
 
-## CSS Review
-### Forms
-
-### Color
+### 3. For Extra Credit
+Submit your 2 style tiles and write a 1-page summary of how your style tiles communicate your project's values.
