@@ -12,6 +12,17 @@ readings:
     url: https://canvas.northwestern.edu/files/8205566/download?download_frd=1
     author: Wroblewski, Luke
     year: 2008
+credits: |
+    Jellies created by <a href="http://nardove.com/" target="_blank">@nardove</a>
+scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.24/paper-core.min.js
+  - https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/tentacle.js
+  - https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/jelly.js
+  - "../assets/js/jellies.js"
+stylesheets:
+  - "../assets/css/jellies.css"
+additional_html: <canvas id="my_canvas" resize></canvas>
 ---
 
 ## Activity: Using CSS to Create Good Composition
@@ -27,3 +38,4 @@ Today we will be discussing a few different visual design and usability principl
 
 ### 3. For Extra Credit
 Submit your 2 style tiles and write a 1-page summary of how your style tiles communicate your project's values.
+
