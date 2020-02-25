@@ -48,7 +48,7 @@ For reasons that will be explained below, the interface that you will be working
 
 - First, download the project files here: <a class="hw" href="{{site.baseurl}}/{{page.files}}">download hw06.zip<i class="fasfa-link"></i></a>
 - Install [Node.js][Node] on your machine.
-- Open a terminal window and navigate to your project directory.
+- Open a terminal window and navigate to the `your_task` directory.
 - Type `node --version` and hit Enter. If Node.js was installed correctly, it should report back what version you have installed.
 - Type `npm install`. This installs the Node packages needed to run the assignment.
 
