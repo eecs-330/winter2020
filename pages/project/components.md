@@ -116,14 +116,14 @@ In order to complete this assignment, you will be using the JavaScript fetch API
 * [JavaScript & REST](../lectures/16lecture)
 
 ## <i class="fas fa-trademark"></i> Branding
-Professional websites typically use branding to provide a consistent visual experiences that users come to associate with a particular company or product. Branding is not only nice design that follows standard design principles; the colors, fonts, logos, and visual organization of a well-branded webpage come together to form a coherent visual experience. Developing a brand is complex, and companies often use other branding toolkits and commitments to guide their designs. For this project, your branding should meet the following requirements at a minimum:
+Professional websites typically use branding to provide a consistent visual experiences that users come to associate with a particular company or product. Branding is not only nice design that follows standard design principles; the colors, fonts, logos, and visual organization of a well-branded webpage come together to form a coherent visual experience. Developing a brand is complex, and companies often use other branding toolkits and paradigms (e.g. "material design," "flat design") to guide their designs. For this component, your branding should meet the following requirements at a minimum:
 
-* Choose a branding protocol to follow (e.g. one of the protocols listed below). If you want to use a branding protocol not listed here, check with your peer mentor first.
-* Apply your selected branding protocol to design the colors, fonts, and visual layout of your web application.
-* Write a document (3 pages max) that describes how your design follows your chosen branding protocol, including screenshots.
+* Choose one of the branding approaches listed below, which you will use as a model to inform your own. If you want to use an approach not listed here, check with your peer mentor first.
+* Use your selected branding inspiration as a guide for designing colors, fonts, widgets, and visual layout of your web application.
+* Write a document (3 pages max) that describes your websites, values, branding approach, and inspiration, including screenshots.
 
 ### Examples
-Examples of branding protocols:
+Examples of branding approaches:
 
 {:.link-menu}
 * <a href="https://material.io/design/" target="_blank">Google's Material UI</a>
