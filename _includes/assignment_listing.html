@@ -26,6 +26,9 @@
             {% if assignment.type == 'individual' %}
                 {% assign className = 'hw' %}
             {% endif %}
+            {% if assignment.type == 'extra credit' %}
+                {% assign className = 'ec' %}
+            {% endif %}
             <tr>
                 <td>{% if week != last_week %}
                         Week {{week}}

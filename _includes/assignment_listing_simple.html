@@ -5,10 +5,11 @@
 {% for assignment in sortedAssignments %}
     {% if assignment.type == "group" %}
         {% assign projectPoints = projectPoints | plus: assignment.points %}
-    {% else %}
+        {% assign totalPoints = totalPoints | plus: assignment.points %}
+    {% elsif assignment.type == "individual"%}
         {% assign homeworkPoints = homeworkPoints | plus: assignment.points %}
+        {% assign totalPoints = totalPoints | plus: assignment.points %}
     {% endif %}
-    {% assign totalPoints = totalPoints | plus: assignment.points %}
 {% endfor %}
 {% assign projectPercent = projectPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round  %}
 {% assign homeworkPercent = homeworkPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round %}

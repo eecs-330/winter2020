@@ -31,7 +31,8 @@ h1 span.pj {
         .hw, a.hw, 
         .pj, a.pj, 
         .lec, a.lec, 
-        .lab, a.lab {
+        .lab, a.lab,
+        .ec, a.ec {
             // opacity: 0.6;
             background: #BBB;
         }
@@ -55,7 +56,8 @@ h1 span.pj {
     .hw, a.hw, 
     .pj, a.pj, 
     .lec, a.lec, 
-    .lab, a.lab {
+    .lab, a.lab, 
+    .ec, a.ec {
         display: inline-block;
         border-radius: 4px;
         color: white;
@@ -79,6 +81,9 @@ h1 span.pj {
     }
     .lab, .lab:hover {
         background: $purple;
+    }
+    .ec, .ec:hover {
+        background: $turquoise;
     }
     table {
         td, th {
