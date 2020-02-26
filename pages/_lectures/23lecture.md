@@ -2,7 +2,7 @@
 layout: lecture
 title: Inclusive Web Design
 type: lecture
-draft: 1
+draft: 0
 slides_url: https://drive.google.com/open?id=1K7Ta658aoxc4uGcelhriSIxw8wFbU5QJzMTEuCOc4mE
 description: |
     How to think about making technologies inclusive and accessible
