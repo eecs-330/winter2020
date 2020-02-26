@@ -116,9 +116,9 @@ In order to complete this assignment, you will be using the JavaScript fetch API
 * [JavaScript & REST](../lectures/16lecture)
 
 ## <i class="fas fa-trademark"></i> Branding
-Professional websites typically use branding to provide a consistent visual experiences that users come to associate with a particular company or product. Branding is not just nice design that follows standard design principles; the colors, fonts, logos, and visual organization of a well-branded webpage come together to form a coherent visual experience. Developing a brand is complex, and companies often use branding protocols to guide their designs. For this project, your branding should meet the following requirements at a minimum:
+Professional websites typically use branding to provide a consistent visual experiences that users come to associate with a particular company or product. Branding is not only nice design that follows standard design principles; the colors, fonts, logos, and visual organization of a well-branded webpage come together to form a coherent visual experience. Developing a brand is complex, and companies often use other branding toolkits and commitments to guide their designs. For this project, your branding should meet the following requirements at a minimum:
 
-* Choose a branding protocol to follow (e.g. Material UI). If you want to use a branding protocol not listed here, check with your peer mentor first.
+* Choose a branding protocol to follow (e.g. one of the protocols listed below). If you want to use a branding protocol not listed here, check with your peer mentor first.
 * Apply your selected branding protocol to design the colors, fonts, and visual layout of your web application.
 * Write a document (3 pages max) that describes how your design follows your chosen branding protocol, including screenshots.
 
