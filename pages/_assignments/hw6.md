@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Accessible Web Design
 abbreviation: HW6
 type: individual
-due_date: 2020-03-03
+due_date: 2020-03-08
 files: course-files/assignments/hw06.zip
 points: 15
 draft: 0
