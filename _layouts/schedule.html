@@ -66,9 +66,13 @@ layout: default
                 <td>
                     {% assign assignments = site.assignments | where: 'due_date', date %}
                     {% for assignment in assignments %}
+                        <p>
                         {% assign classname = "pj" %}
                         {% if assignment.type == "individual" %}
                             {% assign classname = "hw" %}
+                        {% endif %} 
+                        {% if assignment.type == "extra credit" %}
+                            {% assign classname = "ec" %}
                         {% endif %} 
                         
                         {% if assignment.draft == 1 %}
@@ -76,10 +80,11 @@ layout: default
                         {% else %} 
                             <a href="{{site.baseurl}}{{assignment.url}}" class="{{classname}}">
                                 {{ assignment.abbreviation }}
-                                <i class="fas fa-link"></i>
-                            </a><br>
+                                <i class="fa fa-link"></i>
+                            </a>
                         {% endif %} 
                         {{ assignment.title }}
+                        </p>
                     {% endfor %}
                 </td>
             </tr>

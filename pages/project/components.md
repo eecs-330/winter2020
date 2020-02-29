@@ -143,7 +143,7 @@ Examples of branding approaches:
 * <a href="https://designsystem.digital.gov/documentation/developers/" target="_blank">US Web Design Standards</a>
 
 ## <i class="fab fa-chrome"></i> Chrome Extension
-The particulars of this component still need to be elaborated. Coming soon!
+Ask your TA if you are pursuing this feature.
 
 ### Perspectives
 
@@ -266,6 +266,3 @@ For tutorials on implementing custom calendars, see:
 * <a href="https://www.w3schools.com/howto/howto_css_calendar.asp" target="_blank">HTML/CSS of a Calendar</a>
 * <a href="https://code.tutsplus.com/tutorials/how-to-build-a-beautiful-calendar-widget--net-12538" target="_blank">Some calendar JS</a>
 * <a href="https://envato.com/blog/calendars-web-user-interface-design-trends-live-examples/" target="_blank">Calendars on the Web</a> (design)
-
-## <i class="fas fa-mobile-alt"></i> Responsive Website
-The particulars of this component still need to be elaborated. Coming soon!

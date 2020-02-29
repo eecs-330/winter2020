@@ -10,6 +10,10 @@ $redhot: #EB1962;
     box-sizing: border-box;
 }
 
+iframe {
+    margin: 20px 0px;
+}
+
 body {
     margin: 0;
     // font-family: 'Open Sans';
@@ -59,12 +63,14 @@ ol, ul {
     margin-top: 0px;
 }
 
-h3 {
-    text-transform: uppercase;
-}
 
 h2, h3, h4, h5 {
     margin-bottom: 0px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 h4 {
     font-size: 1.2em;
@@ -175,9 +181,9 @@ header {
     grid-area: top;
     align-items: flex-end;
 
-    h1 {
-        margin-bottom: 0px;
-    }
+    // h1 {
+    //     margin-bottom: 0px;
+    // }
 }
 
 nav {

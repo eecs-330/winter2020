@@ -1,4 +1,4 @@
-$twocolHeaderHeight: 120px;
+$twocolHeaderHeight: 140px;
 .two-column {
 
     nav, header, aside, article {
@@ -41,7 +41,7 @@ $twocolHeaderHeight: 120px;
     }
     nav {
         position: fixed;
-        top: 60px;
+        top: $twocolHeaderHeight - 60px;
         height: 60px;
         background: white;
         border-bottom: dotted 1px #CCC;

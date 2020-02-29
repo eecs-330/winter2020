@@ -69,6 +69,7 @@ h1 span.pj {
         border-bottom: solid transparent 1px;
         min-width: 42px;
         margin-right: 5px;
+        text-indent: 0px;
     }
     .hw, .hw:hover {
         background: $blue;
@@ -88,11 +89,15 @@ h1 span.pj {
     table {
         td, th {
             vertical-align: top;
+            ul {
+                margin-bottom: 0px;
+            }
         }
         border-top: solid 1px #444;
         border-bottom: solid 1px #444;
         border-collapse: collapse;
         width: 100%;
+        margin-bottom: 30px;
 
         td:first-child {
             min-width: 80px;
@@ -121,9 +126,12 @@ h1 span.pj {
             border-bottom: dotted 1px #CCC;
             // font-size: 0.95em;
         }
+        th:nth-child(2) {
+            width: 80px;
+        }
         border: dotted 1px #CCC;
-        width: 80%;
-        max-width: 80%;
+        width: 100%;
+        max-width: 100%;
         tr:first-child {
             border-bottom: dotted 1px #CCC;
             th {
@@ -201,12 +209,12 @@ h1 span.pj {
         }
     }
     .checkbox-list {
-        padding-left: 18px;
+        padding-left: 22px;
     }
 
-    .checkbox-list li {
-        text-indent: -14px;
-        margin-left: 14px;
+    .checkbox-list > li {
+        text-indent: -8px;
+        margin-left: 22px;
     }
 
     .checkbox-list > li:before {
@@ -253,7 +261,7 @@ ol.readings, ul.readings {
         min-width: 330px;
     }
     td:nth-child(4)  {
-        min-width: 100px;
+        min-width: 235px !important;
     }
     p, li, th, td {
         margin-top: 0px;
@@ -351,6 +359,10 @@ blockquote.quote {
         }
         td:nth-child(3) {
             min-width: 200px !important;
+        }
+
+        td:nth-child(4)  {
+            min-width: 50px !important;
         }
     }
     .readings {
