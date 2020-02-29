@@ -35,7 +35,7 @@ A form is used to collect data from users. Forms are ubiquitous on the web; you 
 1. Contain at least five fields.
 2. Contain at least two different types of fields (text, radio, checkbox, etc.).
 3. Support data validation. Data validation functions check to see whether the user entered data into a form correctly. For example, if a particular field asks for the user’s phone number, the user should not be allowed to enter text or an incorrect number of digits. Your data validation functions should be intuitive based on your input fields.
-4. Follow the guidelines for good form design (covered in lecture).
+4. Follow the guidelines for good form design, which are covered here:<br> <a href="https://docs.google.com/presentation/d/14ERCKS0A9zHSFNr1fN-jJuUnMWjt2VTw_vu8-2f3wPo/edit?usp=sharing" target="_blank" class="lec">forms slides <i class="fa fa-link"></i></a>
 
 ### Examples
 
