@@ -8,10 +8,14 @@ description: |
     In-class activity: instantiating design principles.
 due_date: 2020-02-24
 readings:
-  - title: "Web Form Design: Filling in the Blanks, Chapters 1, 3"
-    url: https://canvas.northwestern.edu/files/8205566/download?download_frd=1
-    author: Wroblewski, Luke
-    year: 2008
+  - title: "The Non-Designer's Design Book, Chapter 1"
+    url: "https://canvas.northwestern.edu/files/8205184/download?download_frd=1"
+    author: "Williams, Robin" 
+    date: 2015
+  - title: "The Non-Designer's Design Book, Chapter 2"
+    url: "https://canvas.northwestern.edu/files/8205183/download?download_frd=1"
+    author: "Williams, Robin" 
+    date: 2015
 credits: |
     Jellies created by <a href="http://nardove.com/" target="_blank">@nardove</a>
 scripts:

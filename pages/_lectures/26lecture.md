@@ -1,10 +1,10 @@
 ---
 layout: lecture
-title: HCI Applications
+title: Ethics
 type: lecture
 draft: 1
 description: |
-    HCI Applications
+    Ethics
 due_date: 2020-03-04
 ---
 
