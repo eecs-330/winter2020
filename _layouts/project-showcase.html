@@ -1,0 +1,36 @@
+---
+layout: two-column
+---
+
+<section class="projects-container">
+{% assign counter = 1 %}
+{% for section in page.sections %}
+    <h2 id="h2_{{counter}}">Section {{section.name}} with {{section.ta}}</h2>
+
+    {% for team in section.teams %}
+        <section class="project-container">
+            <section class="image">
+                {% if team.image_url %}
+                    <img src="{{team.image_url}}" />
+                {% endif %}
+            </section>
+            <section class="data">
+                <h3 id="h3_{{counter}}">{{team.title}}</h3>
+                <p>{{team.description}}</p>
+                <ul>
+                    {% if team.team_members %}
+                        <li>Team Members: {{team.team_members}}</li>
+                    {% endif %}
+                    <li><a href="{{team.report}}" target="_blank">Final Report</a></li>
+                    <li><a href="{{team.prototype}}" target="_blank">Prototype</a></li>
+                    {% if team.slides_url %}
+                        <li><a href="{{team.slides_url}}" target="_blank">Slides</a></li>
+                    {% endif %}
+                </ul>
+            </section>
+        </section>
+        
+        {% assign counter = counter | plus: 1 %}
+    {% endfor %}
+{% endfor %}
+</section>

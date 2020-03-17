@@ -1,0 +1,25 @@
+.projects-container {
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    .image {
+        width: 20%;
+        img {
+            width: 100%;
+            border: solid 1px #999;
+        }
+    }
+    .data {
+        padding-left: 40px;
+        width: 80%;
+        h3 {
+            margin-top: 0px !important;
+        }
+    }
+}
