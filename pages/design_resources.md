@@ -6,22 +6,26 @@ has_children: true
 permalink: /design-reference/
 ---
 
+<style>
+    .small { max-width: 450px !important; }
+</style>
 As you’re learning about web design and implementing components, it will be useful for you to take a look at how existing companies / organizations make design choices. Many companies even make their stylesheets and widget libraries available.
 
 ## Style Guides and Guidelines
 As you instantiate your frameworks, keep in mind that most companies have standardized widgets, stylesheets, and guidelines to ensure an integrated look-an-feel. Here are some style guides. Please use them to get ideas!
-{: .prose}
 
-* Salesforce’s [Lightning Design System](https://www.lightningdesignsystem.com)
-* Lonely Planet [Style Guide](https://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
-* Alibaba’s [Ant Design](https://ant.design)
-* Atlassian’s [Design Guidelines](https://atlassian.design/)
-* Firefox’s [Photon Design](https://design.firefox.com/photon/welcome.html)
-* IBM’s [Carbon Design](http://carbondesignsystem.com)
-* Intuit’s [Harmony Design](http://harmony.intuit.com)
-* Shopify’s [Polaris](https://polaris.shopify.com)
-* The US [Web Design Standards](https://designsystem.digital.gov/)
-* [Web Accessibility](https://turretcss.com/)
+{:.small}
+| Salesforce | [Lightning Design System](https://www.lightningdesignsystem.com) |
+| Lonely Planet | [Style Guide](https://rizzo.lonelyplanet.com/styleguide/design-elements/) |
+| Alibaba | [Ant Design](https://ant.design) |
+| Atlassian | [Design Guidelines](https://atlassian.design/) |
+| Firefox | [Photon Design](https://design.firefox.com/photon/welcome.html) |
+| IBM | [Carbon Design](http://carbondesignsystem.com) |
+| Intuit | [Harmony Design](http://harmony.intuit.com) |
+| Shopify | [Polaris](https://polaris.shopify.com) |
+| US Federal Government | [Web Design Standards](https://designsystem.digital.gov/) |
+| Accessibility Resources | [Web Accessibility](https://turretcss.com/) |
+
 
 ## Color
 * [https://coolors.co/](https://coolors.co/) 
