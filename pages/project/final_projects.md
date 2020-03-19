@@ -177,7 +177,7 @@ sections:
       teams:
           - title: "Sweather"
             team_members: "Liam Braddock, Jeff Lau, Brian Sui, Ian Wu"
-            description: "Sweather helps you to figure out what you want to wear, based on personal style you want to express, what you will be doing, and the weather throughout the day."
+            description: "Sweather helps you to figure out what you want to wear, based on: (1) the personal style you want to express, (2) what you will be doing, and (3) the weather throughout the day."
             prototype: "https://www.youtube.com/watch?v=Mg3_QXyEeEE&feature=youtu.be"
             image_url: "/winter2020/assets/images/final-projects/sweather.png"
           - title: "Bloom"
