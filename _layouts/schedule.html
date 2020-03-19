@@ -52,8 +52,11 @@ layout: default
                         {% if lecture.draft == 1 %}
                             <strong>{{ lecture.title }}</strong>
                         {% else %} 
-                            <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
+                            <!-- <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
                                 {{ lecture.title }} <i class="fas fa-link"></i>
+                            </a> -->
+                            <a href="{{site.baseurl}}{{lecture.url}}">
+                                {{ lecture.title }}
                             </a>
                         {% endif %} 
                         <br>{{ lecture.description }}

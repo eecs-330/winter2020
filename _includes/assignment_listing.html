@@ -74,7 +74,7 @@
             const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
             if (numDays < -1) {
                 lastTd.innerHTML = "passed"
-                tr.classList.add('passed');
+                // tr.classList.add('passed');
             }
             else if (numDays < 0) {
                 lastTd.innerHTML = "due tonight";
