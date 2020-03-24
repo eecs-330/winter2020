@@ -175,7 +175,9 @@ h1 {
          grid-area: main;
     }
 }
-
+table.small {
+    width: 250px !important;
+}
 
 header {
     grid-area: top;
