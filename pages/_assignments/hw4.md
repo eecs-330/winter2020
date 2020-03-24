@@ -18,11 +18,10 @@ draft: 0
 
 
 ## Preview
-This is the first of a 3-part exercise that is intended to help you to understand how HTML, CSS, and JavaScript work together to produce a web app. To do this, we will be reverse engineering the Spotify website. Each of the following assignments will build on the previous one:
+This is the first of a 2-part exercise that is intended to help you to understand how HTML, CSS, and JavaScript work together to produce a web app. To do this, we will be reverse engineering the Spotify website. Each of the following assignments will build on the previous one:
 
 * HW4: HTML & CSS using Flexbox and CSS Grid (due 1/28)
-* HW5: Using JavaScript to interact with the DOM (due 2/4)
-* HW6: Interacting with Web Services (due 2/11)
+* HW5: Using JavaScript to interact with the DOM (due 2/25)
 
 ## Some Background Concepts
 Please begin by downloading the assignment files:
