@@ -190,6 +190,17 @@ header {
 
 nav {
     grid-area: menu;
+    &.sticky {
+        height: 55px;
+        background: #FFFFFF;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        // border-bottom: dotted 1px #444;
+        ul {
+            margin-top: 10px;
+        }
+    }
     ul {
         display: flex;
         flex-direction: row;
