@@ -3,8 +3,12 @@ layout: two-column
 ---
 
 <p>
-    Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM.
-    {{ page.points }} Points.
+    {% if page.due_date %}
+        Due on {{ page.due_date  | date: "%a, %m/%d" }} @ 11:59PM.
+    {% endif %}
+    {% if page.points %}
+        {{ page.points }} Points.
+    {% endif %}
     {% if page.credits %}
         <br>Credit: {{page.credits}}
     {% endif %}

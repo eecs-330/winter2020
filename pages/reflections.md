@@ -1,3 +1,8 @@
+---
+layout: assignment-two-column
+permalink: /reflections/
+---
+
 # Configuration and Installation
 To run this course website locally, please install Jekyll and then do the following:
 
