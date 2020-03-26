@@ -76,7 +76,7 @@ On the other hand, some students did not see the value of doing this at all, and
 ## Goal 3. Getting students to value the *process* and the artifact
 **Broad Question**: how do you get students to genuinely iterate on their ideas without feeling like they're getting "behind"?
 
-I wanted student to understand that trying something, reflecting on it, abandoning it, and trying something else was the point of the class -- not something to be avoided. This is already supported in studio, where user testing happens, but I wanted them to also reflect on their process a little more and get credit for pursuing different alternatives. 
+I wanted students to understand that trying something, reflecting on it, abandoning it, and trying something else was the point of the class -- not something to be avoided. This is already supported in studio, where user testing happens, but I wanted them to also reflect on their process a little more and get credit for pursuing different alternatives. 
 
 One approach I tried:
 * I re-weighted the write-up / final deliverable so that the report counted for more, and asked them to spend some time explaining the the rationale behind their design choices and iterations, what worked, and what didn't. For some of the students who were looking to build their UX portfolios, I also hoped that this could be an opportunity for them to showcase their "process work." While I think that the group presentation also achieves this, the report allowed for more elaboration, screenshots, etc. Also, because we didn't get to do presentations b/c of COVID-19, I was able to [share all of their reports online](https://hci330.github.io/winter2020/project-showcase/).
@@ -149,7 +149,7 @@ What did you see as the strengths of the class?
 What do you wish were different about the course?
 * Lectures were not much help in terms of coding assignments
 * Everything
-more focused on technical details
+* more focused on technical details
 * I think that we could have been better prepared for some of the individual assignments during lecture/studio.  
 * I think that the course was super helpful to learning programming skills and design, and all I can really think to suggest is more opportunities to practice those (even though there were many as is). For example, maybe adding in quizzes each week on HackerRank or LeetCode to learn smaller skills before the larger HW assignments. 
 * Could get a lot more out of studios, though it doesn't help when most students are apathetic towards the projects
@@ -224,3 +224,4 @@ I also asked students to rank how valuable the felt the various assignments / co
 | Somewhat Valuable | 11 | 13 | 9  | 14 | 12 | 16 | 11 | 
 | Very Valuable     | 4  | 19 | 23 | 11 | 3  | 8  | 19 | 
 
+<img src="winter2020/assets/images/reflections/summary_chart.svg" />
