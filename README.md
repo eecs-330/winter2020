@@ -34,7 +34,6 @@ Some approaches I tried:
 * I'm pretty sure the ethics lecture bored people (radio silence in terms of class participation), but I don't have any metrics on that.
 * When I asked students to rate the value of HW3 (N=33 out of 140), they gave the following feedback (see table below), which was pretty disappointing. While of course I do think that the spirit of the assignment is extremely valuable, there is obvious more work to be done in order to make these ideas land with students.
 
-{:.small}
 | How valuable did you find HW3? | Count |
 |--|--|
 | Not Valuable | 7 |
