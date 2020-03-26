@@ -181,7 +181,7 @@ What would you like to see in the HCI track that is not currently offered?
 I also asked students to rank how valuable the felt the various assignments / course meetings were to their learning.
 
 | How valuable did you find...| [HW3](https://hci330.github.io/winter2020/assignments/hw3) | [HW4](https://hci330.github.io/winter2020/assignments/hw4) | [HW5](https://hci330.github.io/winter2020/assignments/hw5) | [HW6](https://hci330.github.io/winter2020/assignments/hw6) | Lectures | Studio | [Team Project](https://hci330.github.io/winter2020/project-showcase/) | 
-|--|--|
+|--|--|--|--|--|--|--|--|
 | Not Valuable      | 7  | 1  | 0  | 3  | 3  | 4  | 1  | 
 | Neutral           | 11 | 0  | 1  | 5  | 14 | 5  | 2  |  
 | Somewhat Valuable | 11 | 13 | 9  | 14 | 12 | 16 | 11 | 
