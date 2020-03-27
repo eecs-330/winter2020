@@ -37,12 +37,12 @@ bundle exec jekyll serve    # to run Jekyll from command line
 # About the Course Materials
 These HCI 330 course materials are based on the work of Mike Horn, Nell O'Rourke, and others. HCI 330 is a 10-week undergraduate course in the Department of Computer Science at Northwestern University that introduces some principles for designing and analyzing interactive, user-facing computer systems. Topics include user-centered design, prototyping and evaluation techniques, accessibility, and graphical design fundamentals. The course also reviews emerging areas of HCI research. 
 
-As students learn these principles, they also work in teams to design and evaluate a web app, using HTML5, CSS, and JavaScript.
+As students learn these principles, they also work in teams to design, implement, and evaluate their own web app prototype using HTML5, CSS, and JavaScript.
 
 ## Experimental Materials & Lessons (Winter 2020)
-This quarter, I had a few experimental learning goals for students -- some relating to the design and analysis of human-computer systems, and some relating to practical/technical skill development. These two sets of learning goals came out of challenges I encountered while teaching the course previously (Winter, 2019), as elaborated below. I didn't formally evaluate any of these lessons, but in the sections below, I share some qualitative accounts of my own experiences, and some student reflections (as documented in a [post-course questionnaire](https://docs.google.com/forms/d/1RDIdkrb2kp8jtjZPRLWZxJaqaC6J2rt4lwzT0LGovo0/edit#responses) that I administered).
+This quarter, I had a few experimental learning goals for students -- some relating to the design and analysis of human-computer systems, and some relating to practical/technical skill development. These two sets of learning goals came out of challenges I encountered while teaching the course previously (Winter, 2019), as elaborated below. I didn't formally evaluate any of these lessons, but in the sections below, I share some qualitative accounts of my own experiences, and some student reflections (as documented in a post-course questionnaire that I administered).
 
-# Activities Related to Design Analysis
+# 1. Activities Related to Design Analysis
 In terms of analyzing the design of computing technologies, I wanted students to spend a little more time thinking about the social implications of computer-mediated systems, and how a designer's values and assumptions can have serious impacts on the world.
 
 ## Goal 1: A recognition that technologies shape individual behavior AND larger social systems
@@ -53,21 +53,19 @@ Some approaches I tried:
    2. Created a homework assignment that asked them to analyze the politics of a technology, based on a similar activity assigned by Sepehr Vakil: <a href="https://hci330.github.io/winter2020/assignments/hw3" target="_blank">HW3: Sociopolitical Analysis</a>. I allowed students to resubmit if they really missed the mark on this one, since this was outside of their comfort zones.
    3. Created an <a href="https://hci330.github.io/winter2020/lectures/26lecture" target="_blank">Ethics Lecture</a> that considered some of the challenges of computer-mediated systems, and how the very same technologies that bring us so many wonderful things can be just as easily used in antisocial ways.
 
-**Reflections**<br>
+**My Reflections**<br>
 * I found many of the HW3 essays to be fantastic. That said, many of the essays appeared to have taken no more than 20 minutes to write, with no demonstration that they understood the readings (or even did them). 
 * That said, students seemed pretty engaged in the class discussion in Lecture 2 (IMO it was one of the better lectures I gave). 
 * I'm pretty sure the ethics lecture bored people (radio silence in terms of class participation), but I don't have any metrics on that.
-* When I asked students to rate the value of HW3, most students were neutral towards it or saw it as "not valuable" (see students' questionnaire at the bottom), which was pretty disappointing. Less than half found it "somewhat valuable" or "very valuable." While of course I do think that the spirit of the assignment is extremely valuable, there is obvious more work to be done in order to make these ideas land with students.
 
-Yet, there were some promising quotes from students in the post-course questionnaires:
+
+**Student Comments**<br>When I asked students to rate the value of HW3, most students were neutral towards it or saw it as "not valuable" (see students' questionnaire at the bottom), which was pretty disappointing. Less than half found it "somewhat valuable" or "very valuable." While of course I do think that the spirit of the assignment is extremely valuable, there is obvious more work to be done in order to make these ideas land with students. Yet, there were some promising quotes from students in the post-course questionnaires:
 
 {:.quote.slim}
 > I enjoyed being introduced to concepts in HCI like accessibility and ethics that I haven’t been exposed to in this context. 
-
-{:.quote.slim}
+>
 > In a future HCI class, I'd like to see more in ethics in AI, more social-justice oriented stuff (I’m not sure exactly what’s currently offered).
-
-{:.quote.slim}
+>
 > The sociopolitical analysis, design aspects, accessibility, etc. helped me gain a perspective which I wouldn't have gained just through web dev.
 
 ## Goal 2: A recognition of one's own assumptions and their impact on design
@@ -79,10 +77,17 @@ Some approaches I tried:
    1. Deconstructing some of students’ individual project proposals in <a href="https://hci330.github.io/winter2020/lectures/04lecture" target="_blank">lecture</a>, in order to  pull out the assumptions about the problem space.
    2. Asking each team, in studio, to complete a <a href="https://hci330.github.io/winter2020/lectures/09lab" target="_blank">user research prep worksheet</a>. Teams were asked to name some of their implicit assumptions and turn each one into hypotheses that they could evaluate via user / internet research. 
 
-**Reflections**<br>
+**My Reflections**<br>
 I observed two sections, and I think the design worksheet worked pretty well: I did see students discussing their assumptions and making some thoughtful plans about what they wanted to learn from user research. I also read some thoughtful reflections on what they learned from contextual inquiries and interviews. 
 
 On the other hand, some students did not see the value of doing this at all, and completely skipped doing any kind of interview / observation, opting for a pretty shallow survey instead (which I found baffling). Overall, I wanted students to really spend more time in the problem space, but there wasn't time, given the scope of the class. If we were to split this class into two, this particular aspect of the class (understanding the problem space and how computing might be brought to bear on it) could be strengthened.
+
+**Student Comments**<br>
+Some relevant quotes from the student questionnaires:
+
+{:.quote.slim}
+> Learning the design process when the only way you can solve your problem is through an app is difficult. At the beginning we were expected to explore our problem space without considering a solution, but since the final project had to be a website or app, it felt like our decisions were limited so it was difficult to avoid having solutions in mind.
+
 
 ## Goal 3. Getting students to value the *process* and the artifact
 **Broad Question**: how do you get students to genuinely iterate on their ideas without feeling like they're getting "behind"?
@@ -92,23 +97,68 @@ I wanted students to understand that trying something, reflecting on it, abandon
 One approach I tried:
 * I re-weighted the write-up / final deliverable so that the report counted for more, and asked them to spend some time explaining the the rationale behind their design choices and iterations, what worked, and what didn't. For some of the students who were looking to build their UX portfolios, I also hoped that this could be an opportunity for them to showcase their "process work." While I think that the group presentation also achieves this, the report allowed for more elaboration, screenshots, etc. Also, because we didn't get to do presentations b/c of COVID-19, I was able to [share all of their reports online](https://hci330.github.io/winter2020/project-showcase/).
 
-**Reflections**<br>
-I didn't get to ask students what they thought of this, but I definitely learned a lot from reading their reports. It made their process more visible, and helped me to see their end-to-end process (e.g. design rationale, and the various avenues they pursued, and how they viewed their final artifact). In other words, it is unclear whether or not this achieved anything...I'd have to do more research.
+**My Reflections**<br>
+I didn't get to ask students what they thought of this, but I definitely learned a lot from reading their reports. It made their process more visible, and helped me to see their end-to-end process (e.g. design rationale, and the various avenues they pursued, and how they viewed their final artifact). While **I** believe that this was valuable for the students, most likely **they** did not value it. As one student wrote...
 
-## Open question I keep coming back to...
-I've noticed that once students go into "implementation mode," any question of *whether* the technology will actually solve the problem / meet the need goes out the window, and the focus narrows to buttons, filter options, color schemes, swipe effects, etc. While these things are very important to a well-designed app, there is no re-entry back into the 'real world' in order to actually validate the technology, and therefore no reflection of what role computing / apps might actually plays in the problem space. I'm not sure that I have any clear ideas regarding how this problem might be solved, but I wanted to name it here.
+{:.quote.slim}
+> I wish that we had less writing assignments and more coding. The skills I am looking to develop are web development skills, and writing long, tedious papers for every project deliverable really just impedes my progress and my team’s progress. We could have more time to code if there was less writing.
 
-# Activities Related to Web Development
+Overall, it seemed to me that an over-focus on implementation cheapened the design aspects of the course. Once students went into "implementation mode," any question of ***whether*** the technology will actually solve the problem / meet the need went out the window, with no re-entry into the ‘real world’ in order to actually validate the technology. In other words, too much focus on implementation seemed to direct student thinking away from a reflection of the role computing / apps actually plays in the problem space. 
+
+While a more technical, narrow focus on Visual Design / UX is of course important (e.g. buttons, filter options, color schemes, swipe effects, etc.), this kind of design is but one small part of the broader UCD process. It's also time consuming and requires a lot of esoteric HTML/CSS/JavaScript knowledge. These processes need to be separated, IMO, if we are to do justice to each.
+
+**Student Comments**<br>
+Ultimately, most students seemed to view their project as an implementation exercise. Consider the following:
+
+{:.quote.slim}
+> I wish there were more technical content covered during lecture, instead of talking about higher-level concepts.
+> I think the biggest issue with the course is that it needs to decide what it wants to be. It felt like the class was simultaneously trying to be a web development class and a visual design class. We would be told on our prototypes “just focus on the UX, UI, and front end, that’s all that matters” but then all of the components we’re asked to implement can all take a significant amount of back end to actually work. It felt like a significant portion of my time was spent doing things that weren’t actually going to be graded, but were still needed in order to make the prototype actually work. I think the class would be more valuable if it focused more on the theory of design aspect, like the visual design and UX lectures, and used interface/prototyping platforms that handle the back end for us while we just focus on the front end.
+> The course seems to try to be many things at once, accomplishing not as much as it could. Like I feel like I learned a bit on design/UI, but not much, and some stuff about HTML, CSS, and JS, but not much. I think that this course should try to find its identity.
+
+...but there were a few who liked the design principles too!
+
+{:.quote.slim}
+> I thought the course was best when talking about design principles/the theoretical side of HCI, i feel like i learned a lot from that.
+
+# 2. Activities Related to Web Development
 I also wanted to provide students with more support in terms of learning HTML / CSS / JavaScript, and specifically:
-* How to make responsive layouts (CSS)
-* Some support with ES6 syntax
-* Some support using the fetch API and working with API Endpoints.
+* Some CSS instruction (e.g. how to make responsive layouts)
+* Some JavaScript instruction (manipulating the DOM, ES6 syntax, events)
+* Some support using the fetch API and working with data (via REST APIs)
 
 Cooper Barth also designed a lecture and activity on accessibility
 
-While self-learning is an important skill, I think that providing some early
+While self-learning is an important skill, a big critique of the course, last time I taught it, was that there was not enough support for the coding aspects of the projects. So I added a few more coding lessons.
 
-## Goal 1: Making a responsive layout
+## Goal 1: Introduction to some modern CSS practices
+**Learning Objective**: familiarity with selectors, a subset of common CSS properties/values, and some approaches to doing layouts (which, IMO, is one of the most difficult things to do in CSS).
+
+**What I did**:
+1. Created an intro to web technologies [lecture](https://docs.google.com/presentation/d/1NIQ5Y6tYc8MVLfwuG7bMxxdm3vDr6z7rWzDGbKvcxVU/edit#slide=id.g7c6dee1cca_0_624) and a [studio activity](https://hci330.github.io/winter2020/lectures/06lab) on CSS Grid (in week 2).
+
+2. Created [HW4: HTML/CSS](https://hci330.github.io/winter2020/assignments/hw4), and asked students to implement aspects of the Spotify web interface, to examine how modern websites might be designed. The intent was to help students to examine what might go into making a modern web UI.
+
+**My Reflections**<br>
+I found this experience to be really frustrating: I went over these concepts, gave students Lynda.com videos to review, and yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing this very same activity was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes. IDK what to make of it.
+
+**Student Reflections**<br>
+Yet students rated it as valuable? I was so confused...
+
+**Please rate how valuable you found HW4 (HTML + CSS) to be:**
+
+|--|--|
+| Not Valuable      | 1  |
+| Neutral           | 0  |  
+| Somewhat Valuable | 13 |
+| Very Valuable     | 19 |
+{:.small}
+
+Students' reflections were also mixed. Here is a sample:
+{:.quote.slim}
+> The hands-on coding homeworks helped me learn a lot. I also liked the accessibility unit, it gave me a wholly new perspective. Learning GitHub is also massively helpful.
+> I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively.
+> I think the main strength of this course was the studio sessions and the homework assignments related to coding.
+> Lectures were not much help in terms of coding assignments. 
 
 ## Goal 2: Working with the DOM
 
@@ -140,11 +190,13 @@ What did you see as the strengths of the class?
 * The hands-on coding homeworks helped me learn a lot. I also liked the accessibility unit, it gave me a wholly new perspective. Learning GitHub is also massively helpful
 * Good overview. 
 * Learning HTML, CSS, Javascript on my own. Watching YouTube video to figure out how everything works.
-* I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively. * The project, for the most part, was also a good way for me to learn more about these languages.
+* I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively. 
+* The project, for the most part, was also a good way for me to learn more about these languages.
 * In general, it was a very solid introduction to the basics of user interfaces, and it gave a good general overview of HCI.
 * The teaching method, the instructors support and encouragement, Group Assignments, lectures, assignments, all of them were great
 * Learning about the different design principles and the design process. 
-* I really liked the mix of coding vs non-coding conceptual balance in the class. * The sociopolitical analysis, design aspects, accessibility, etc. helped me gain a perspective which I wouldn't have gained just through web dev.
+* I really liked the mix of coding vs non-coding conceptual balance in the class. 
+* The sociopolitical analysis, design aspects, accessibility, etc. helped me gain a perspective which I wouldn't have gained just through web dev.
 * I think the project aspect of the course is a strength. I learned a lot about working with a team on Github, which is something that I never had done before. I think Github/collaboration skills will be really valuable in the future. I think that Sarah and the TA's office hours were always really helpful. 
 * I learned a lot about how websites are designed and how they should be designed that I didn't know before so the class was definitely very informative.
 * I like that we get to learn by doing. I am an aspiring web developer with an internship coming up and by taking this class, my JavaScript skills went from beginner to proficient.

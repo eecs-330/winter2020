@@ -295,25 +295,32 @@ blockquote.quote {
     font-weight: 500;
     margin-bottom: 30px;
 
-    &:before {
+    p:before {
         content: '“';
         color: $mutedblue;
-        font-size: 4em;
+        font-size: 2em;
         line-height: 0.1em;
         margin-right: 0.1em;
         vertical-align: -0.4em;
         font-family: 'Times New Roman', Times, serif;
-    }
-    p {
-        display: inline;
+        vertical-align: middle;
     }
     &.slim {
+        border-left: solid 10px #EEE;
         margin: 0px;
         color: #BBB;
-        font-size: 1.6em;
-        font-weight: 600;
-        margin-left: 20px;
+        // font-size: 1.4em;
+        // font-weight: 600;
+        margin-left: 30px;
+        background: #FCFCFC;
+        padding-left: 20px;
         padding-bottom: 0px;
+        p {
+            margin-bottom: 20px;
+            font-weight: 400;
+            color: #aaa;
+            font-size: 20px;
+        }
     }
     &.slim:before {
         font-size: 3em;
