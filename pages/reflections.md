@@ -34,7 +34,7 @@ bundle exec jekyll serve    # to run Jekyll from command line
 # Server address: http://127.0.0.1:4000/winter2020/
 ```
 
-# About the Course Materials
+# 1. About the Course Materials
 These HCI 330 course materials are based on the work of Mike Horn, Nell O'Rourke, and others. HCI 330 is a 10-week undergraduate course in the Department of Computer Science at Northwestern University that introduces some principles for designing and analyzing interactive, user-facing computer systems. Topics include user-centered design, prototyping and evaluation techniques, accessibility, and graphical design fundamentals. The course also reviews emerging areas of HCI research. 
 
 As students learn these principles, they also work in teams to design, implement, and evaluate their own web app prototype using HTML5, CSS, and JavaScript.
@@ -42,7 +42,7 @@ As students learn these principles, they also work in teams to design, implement
 ## Experimental Materials & Lessons (Winter 2020)
 This quarter, I had a few experimental learning goals for students -- some relating to the design and analysis of human-computer systems, and some relating to practical/technical skill development. These two sets of learning goals came out of challenges I encountered while teaching the course previously (Winter, 2019), as elaborated below. I didn't formally evaluate any of these lessons, but in the sections below, I share some qualitative accounts of my own experiences, and some student reflections (as documented in a post-course questionnaire that I administered).
 
-# 1. Activities Related to Design Analysis
+# 2. New Activities Related to Design Analysis
 In terms of analyzing the design of computing technologies, I wanted students to spend a little more time thinking about the social implications of computer-mediated systems, and how a designer's values and assumptions can have serious impacts on the world.
 
 ## Goal 1: A recognition that technologies shape individual behavior AND larger social systems
@@ -112,71 +112,84 @@ Ultimately, most students seemed to view their project as an implementation exer
 
 {:.quote.slim}
 > I wish there were more technical content covered during lecture, instead of talking about higher-level concepts.
+>
 > I think the biggest issue with the course is that it needs to decide what it wants to be. It felt like the class was simultaneously trying to be a web development class and a visual design class. We would be told on our prototypes “just focus on the UX, UI, and front end, that’s all that matters” but then all of the components we’re asked to implement can all take a significant amount of back end to actually work. It felt like a significant portion of my time was spent doing things that weren’t actually going to be graded, but were still needed in order to make the prototype actually work. I think the class would be more valuable if it focused more on the theory of design aspect, like the visual design and UX lectures, and used interface/prototyping platforms that handle the back end for us while we just focus on the front end.
+>
 > The course seems to try to be many things at once, accomplishing not as much as it could. Like I feel like I learned a bit on design/UI, but not much, and some stuff about HTML, CSS, and JS, but not much. I think that this course should try to find its identity.
 
-...but there were a few who liked the design principles too!
+But there were a few who liked the design principles...
 
 {:.quote.slim}
 > I thought the course was best when talking about design principles/the theoretical side of HCI, i feel like i learned a lot from that.
 
-# 2. Activities Related to Web Development
-I also wanted to provide students with more support in terms of learning HTML / CSS / JavaScript, and specifically:
+# 3. New Activities Related to Web Development
+I also wanted to provide students with more support in terms of learning HTML / CSS / JavaScript, and some approaches to using these technologies to accomplish particular goals. Specifically, I added:
+
 * Some CSS instruction (e.g. how to make responsive layouts)
-* Some JavaScript instruction (manipulating the DOM, ES6 syntax, events)
-* Some support using the fetch API and working with data (via REST APIs)
+* Some "vanilla" JavaScript instruction (manipulating the DOM, ES6 syntax, events), including working with fetch API to manipulate data (via REST APIs)
 
-Cooper Barth also designed a lecture and activity on accessibility
-
-While self-learning is an important skill, a big critique of the course, last time I taught it, was that there was not enough support for the coding aspects of the projects. So I added a few more coding lessons.
+Cooper Barth also designed a lecture and a homework assigment on accessibility.
 
 ## Goal 1: Introduction to some modern CSS practices
 **Learning Objective**: familiarity with selectors, a subset of common CSS properties/values, and some approaches to doing layouts (which, IMO, is one of the most difficult things to do in CSS).
 
 **What I did**:
 1. Created an intro to web technologies [lecture](https://docs.google.com/presentation/d/1NIQ5Y6tYc8MVLfwuG7bMxxdm3vDr6z7rWzDGbKvcxVU/edit#slide=id.g7c6dee1cca_0_624) and a [studio activity](https://hci330.github.io/winter2020/lectures/06lab) on CSS Grid (in week 2).
-
 2. Created [HW4: HTML/CSS](https://hci330.github.io/winter2020/assignments/hw4), and asked students to implement aspects of the Spotify web interface, to examine how modern websites might be designed. The intent was to help students to examine what might go into making a modern web UI.
 
-**My Reflections**<br>
-I found this experience to be really frustrating: I went over these concepts, gave students Lynda.com videos to review, and yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing this very same activity was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes. IDK what to make of it.
+## Goal 2: JavaScript (the DOM, Events, Fetch, & REST APIs)
+**Learning Objectives**: familiarity with event-driven programming, and interacting with the UI. Also creating data-driven templates (using data from AJAX queries).
 
-**Student Reflections**<br>
-Yet students rated it as valuable? I was so confused...
+**What I did**:
+1. 
 
-**Please rate how valuable you found HW4 (HTML + CSS) to be:**
-
-|--|--|
-| Not Valuable      | 1  |
-| Neutral           | 0  |  
-| Somewhat Valuable | 13 |
-| Very Valuable     | 19 |
-{:.small}
-
-Students' reflections were also mixed. Here is a sample:
-{:.quote.slim}
-> The hands-on coding homeworks helped me learn a lot. I also liked the accessibility unit, it gave me a wholly new perspective. Learning GitHub is also massively helpful.
-> I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively.
-> I think the main strength of this course was the studio sessions and the homework assignments related to coding.
-> Lectures were not much help in terms of coding assignments. 
-
-## Goal 2: Working with the DOM
-
-## Goal 3: REST APIs & Fetch
-
-## Goal 4: Hands-On Accessibility
+## Goal 3: Hands-On Accessibility
 
 {:.quote.slim}
 > Cooper’s lecture on accessibility was very interesting to me, so a course focusing on tools to make websites/apps more accessible or a project course with a focus on accessibility would be cool.
 
+## General Reflections
+**My Reflections**<br>
+I found this experience to be really frustrating: I went over these concepts, gave students Lynda.com videos to review, and yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing these same activities was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes. IDK what to make of it.
 
-# Accountability
+**Student Reflections**<br>
+Students' reflections were also mixed. Here is a sample:
+
+{:.quote.slim}
+> The hands-on coding homeworks helped me learn a lot. I also liked the accessibility unit, it gave me a wholly new perspective. Learning GitHub is also massively helpful.
+>
+> I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively.
+>
+> I think the main strength of this course was the studio sessions and the homework assignments related to coding.
+> 
+> Lectures were not much help in terms of coding assignments. 
+> 
+> I wish that there were more creative projects besides the big group project. I think this is the best way to learn and sometimes the homeworks didn't seem too valuable since we were trying to copy something, not doing our own HCI. I think if this were a technical coding course, this would be really helpful but it is a lot to squeeze into a quarter with HCI. I think that there should be a prereq for HTML/JS/CSS, since there are varying levels coming into the class. 
+>
+> the assignments (especially spotify one) were pretty rough especially since the amount of time we spent on webdev topics felt like not enough to prepare us. i would've preferred more html/js activities to help us learn and more instruction regarding those vs just a large assignment we had to do a lot of things for
+>
+> I wish this course put more of a focus onto teaching HTML, CSS, and Javascript. I understand that it’s hard to dedicate class time to this, however now that the course is over I still feel as if I’ve not be adequately prepared to use these languages. I wish there was either some other CS course as a pre-requisite that taught these languages more thoroughly, or i wish maybe that HCI would spend more time teaching it (perhaps if HCI was expanded to be a sequence of 2 classes, then the first could focus more on those languages and then the second on using them for HCI?). 
+>
+> Also as far as studio goes I wish they explained github more. I still don’t know how to use it. Every time I need to work on my project I just re-download the whole thing into a new folder somewhere in my downloads. My group tried to show me how to use it with terminal but it wasn’t really working, so I’ve just kept on doing it this way, which obviously isn’t ideal.
+
+
+# 4. Accountability
 Student accountability to (a) doing the readings, (b) attending the lectures, and (c) being accountable to other members of the group remains a challenge. I made a few decisions in this regard:
 1. As an experiment, I dropped the in-class quizzes (thus making attendance optional). Attendance was pretty poor during the second half of the quarter and hovered around 40-60 students. In some regards, this made students less accountable, but it also made it feel like only the students who wanted to attend actually attended, which felt like a relief (in relation to last year, where students communicated to me in many different ways that they didn't want to be there). For me, lectures remain a challenge, and I need to dedicate a lot more attention to making them more interactive and engaging.
-2. There were some issues with group accountability (which surfaced in a variety of anonymous Piazza posts), so I implemented a policy where students had to [allocate 100 points across their teammates](https://hci330.github.io/winter2020/assignments/p9) based on their relative contributions. These were anonymous. I think this worked pretty well. I took 10-20 points away from any student who clearly did not contribute, depending on the circumstances.
+2. There were some issues with group accountability (which surfaced in a variety of anonymous Piazza posts), so I implemented a policy where students had to [allocate 100 points across their teammates](https://hci330.github.io/winter2020/assignments/p9) based on their relative contributions. These were anonymous. I think this worked pretty well. I took 10-20 points away from any student who clearly did not contribute, depending on the circumstances. 4 students fell into this category, with a few on the border.
 3. In the future, I will add this to the syllabus with a strong emphasis that free-riding will will not be tolerated.
 
-# Student Reflections
+Some notable quotes:
+
+{:.quote.slim}
+> Also, thank you for making attendance in lecture optional and making the readings optional as well.
+>
+> The group project was frustrating and did not add any value to the class. Being matched with random people is never fun, especially when they do not take the project seriously.
+
+
+**To be clear:** I did NOT make the lectures and readings optional!
+
+# 5.Post-Course Questionnaire Responses
 I gave students a questionnaire on the last day of class. Of 140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
 
 ## Strengths
@@ -230,7 +243,7 @@ What do you wish were different about the course?
 * Some of the assignments felt like there was a large gap between what we did in lecture/studio and the assignment itself, especially the CSS and Javascript assignments. It makes sense that there would be some learning curve, but especially with the CSS assignment it was incredibly intimidating to open it and just have blank code pages with no guidance. Again, this obviously wasn't a deal breaker, but it would be nice to perhaps get a little more guidance.
 * The number of assignments that are offered should be reduced, as they are mostly done in a hurry. If there were more time to practice the skills required, that would be really beneficial
 * Either more focus on HTML or much less focus on HTML
-* I wish the coding started a little early parallely because during the end a lot of things came up all at once together. Especially while building the website.
+* I wish the coding started a little early partly because during the end a lot of things came up all at once together. Especially while building the website.
 * I wish that there were more creative projects besides the big group project. I think this is the best way to learn and sometimes the homeworks didn't seem too valuable since we were trying to copy something, not doing our own HCI. I think if this were a technical coding course, this would be really helpful but it is a lot to squeeze into a quarter with HCI. I think that there should be a prereq for HTML/JS/CSS, since there are varying levels coming into the class. 
 * I wish lectures went a little more in depth with html, css, and javascript. I think it was good to learn about HCI concepts and that's obviously more of the focus of this class than the coding skills but sometimes I felt like it would be nice to see more coding tips in class rather than just watching videos and looking things up outside of class.
 * I wish that we had less writing assignments and more coding. The skills I am looking to develop are web development skills, and writing long, tedious papers for every project deliverable really just impedes my progress and my team's progress. We could have more time to code if there was less writing.
@@ -284,7 +297,7 @@ What would you like to see in the HCI track that is not currently offered?
 * I would like to see more focus on UX and UI courses, since that is what I thought was most valuable from the course and would most want to take going forward.
 * more webdev/etc
 
-## Reflections on assignments / lecture / studio
+## Likert ratings of assignments / lecture / studio
 I also asked students to rank how valuable the felt the various assignments / course meetings were to their learning.
 
 | How valuable did you find...| [HW3](https://hci330.github.io/winter2020/assignments/hw3) | [HW4](https://hci330.github.io/winter2020/assignments/hw4) | [HW5](https://hci330.github.io/winter2020/assignments/hw5) | [HW6](https://hci330.github.io/winter2020/assignments/hw6) | Lectures | Studio | [Team Project](https://hci330.github.io/winter2020/project-showcase/) | 
