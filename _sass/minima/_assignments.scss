@@ -296,8 +296,8 @@ blockquote.quote {
     margin-bottom: 30px;
 
     &:before {
-        // color: #999;
         content: '“';
+        color: $mutedblue;
         font-size: 4em;
         line-height: 0.1em;
         margin-right: 0.1em;
@@ -307,7 +307,19 @@ blockquote.quote {
     p {
         display: inline;
     }
+    &.slim {
+        margin: 0px;
+        color: #BBB;
+        font-size: 1.6em;
+        font-weight: 600;
+        margin-left: 20px;
+        padding-bottom: 0px;
+    }
+    &.slim:before {
+        font-size: 3em;
+    }
 }
+
 
 
 .assignment, .lecture, .details, .two-column article {

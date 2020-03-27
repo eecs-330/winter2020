@@ -59,6 +59,17 @@ Some approaches I tried:
 * I'm pretty sure the ethics lecture bored people (radio silence in terms of class participation), but I don't have any metrics on that.
 * When I asked students to rate the value of HW3, most students were neutral towards it or saw it as "not valuable" (see students' questionnaire at the bottom), which was pretty disappointing. Less than half found it "somewhat valuable" or "very valuable." While of course I do think that the spirit of the assignment is extremely valuable, there is obvious more work to be done in order to make these ideas land with students.
 
+Yet, there were some promising quotes from students in the post-course questionnaires:
+
+{:.quote.slim}
+> I enjoyed being introduced to concepts in HCI like accessibility and ethics that I haven’t been exposed to in this context. 
+
+{:.quote.slim}
+> In a future HCI class, I'd like to see more in ethics in AI, more social-justice oriented stuff (I’m not sure exactly what’s currently offered).
+
+{:.quote.slim}
+> The sociopolitical analysis, design aspects, accessibility, etc. helped me gain a perspective which I wouldn't have gained just through web dev.
+
 ## Goal 2: A recognition of one's own assumptions and their impact on design
 **Broad Question**: how do you help students identify their assumptions about the world (and the role of computing within it), and translate these into questions that can be explored through user research?
 
@@ -93,6 +104,8 @@ I also wanted to provide students with more support in terms of learning HTML / 
 * Some support with ES6 syntax
 * Some support using the fetch API and working with API Endpoints.
 
+Cooper Barth also designed a lecture and activity on accessibility
+
 While self-learning is an important skill, I think that providing some early
 
 ## Goal 1: Making a responsive layout
@@ -101,6 +114,10 @@ While self-learning is an important skill, I think that providing some early
 
 ## Goal 3: REST APIs & Fetch
 
+## Goal 4: Hands-On Accessibility
+
+{:.quote.slim}
+> Cooper’s lecture on accessibility was very interesting to me, so a course focusing on tools to make websites/apps more accessible or a project course with a focus on accessibility would be cool.
 
 
 # Accountability
