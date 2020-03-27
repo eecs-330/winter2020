@@ -242,4 +242,4 @@ I also asked students to rank how valuable the felt the various assignments / co
 | Somewhat Valuable | 11 | 13 | 9  | 14 | 12 | 16 | 11 | 
 | Very Valuable     | 4  | 19 | 23 | 11 | 3  | 8  | 19 | 
 
-<img src="/winter2020/assets/images/reflections/summary_chart.svg" />
+<img style="margin-left:auto;margin-right:auto;width:600px;display:block;" src="/winter2020/assets/images/reflections/summary_chart.svg" />
