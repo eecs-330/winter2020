@@ -107,6 +107,7 @@ While self-learning is an important skill, I think that providing some early
 Student accountability to (a) doing the readings, (b) attending the lectures, and (c) being accountable to other members of the group remains a challenge. I made a few decisions in this regard:
 1. As an experiment, I dropped the in-class quizzes (thus making attendance optional). Attendance was pretty poor during the second half of the quarter and hovered around 40-60 students. In some regards, this made students less accountable, but it also made it feel like only the students who wanted to attend actually attended, which felt like a relief (in relation to last year, where students communicated to me in many different ways that they didn't want to be there). For me, lectures remain a challenge, and I need to dedicate a lot more attention to making them more interactive and engaging.
 2. There were some issues with group accountability (which surfaced in a variety of anonymous Piazza posts), so I implemented a policy where students had to [allocate 100 points across their teammates](https://hci330.github.io/winter2020/assignments/p9) based on their relative contributions. These were anonymous. I think this worked pretty well. I took 10-20 points away from any student who clearly did not contribute, depending on the circumstances.
+3. In the future, I will add this to the syllabus with a strong emphasis that free-riding will will not be tolerated.
 
 # Student Reflections
 I gave students a questionnaire on the last day of class. Of 140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
@@ -224,4 +225,4 @@ I also asked students to rank how valuable the felt the various assignments / co
 | Somewhat Valuable | 11 | 13 | 9  | 14 | 12 | 16 | 11 | 
 | Very Valuable     | 4  | 19 | 23 | 11 | 3  | 8  | 19 | 
 
-<img src="winter2020/assets/images/reflections/summary_chart.svg" />
+<img src="/winter2020/assets/images/reflections/summary_chart.svg" />

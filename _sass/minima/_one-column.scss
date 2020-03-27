@@ -1,5 +1,4 @@
 .one-column {
- 
     header, nav, footer, main {
         display: flex;
         // border: dotted 1px #CCC;
@@ -43,6 +42,7 @@
         footer, header { border: none; }
         header, nav {
             top: 0px;
+            // z-index: 500;
             position: fixed;
             width: 100%;
             .fa-bars {
@@ -68,6 +68,10 @@
             h1 { font-size: 1.3em; }
         }
         nav {
+            &.sticky {
+                height: auto;
+                top: 65px;
+            }
             top: 65px;
             background: white;
 
