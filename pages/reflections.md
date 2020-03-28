@@ -22,27 +22,10 @@ permalink: /reflections/
         /* text-transform: uppercase; */
     }
 </style>
-
-# Configuration and Installation
-To run this course website locally, please install Jekyll and then do the following:
-
-```bash
-bundle install              # to install dependencies
-bundle exec jekyll serve    # to run Jekyll from command line
-
-# Then open link in a web browser:
-# Server address: http://127.0.0.1:4000/winter2020/
-```
-
-# 1. About the Course Materials
-These HCI 330 course materials are based on the work of Mike Horn, Nell O'Rourke, and others. HCI 330 is a 10-week undergraduate course in the Department of Computer Science at Northwestern University that introduces some principles for designing and analyzing interactive, user-facing computer systems. Topics include user-centered design, prototyping and evaluation techniques, accessibility, and graphical design fundamentals. The course also reviews emerging areas of HCI research. 
-
-As students learn these principles, they also work in teams to design, implement, and evaluate their own web app prototype using HTML5, CSS, and JavaScript.
-
-## Experimental Materials & Lessons (Winter 2020)
+# REFLECTIONS ON TEACHING: WINTER 2020
 This quarter, I had a few experimental learning goals for students -- some relating to the design and analysis of human-computer systems, and some relating to practical/technical skill development. These two sets of learning goals came out of challenges I encountered while teaching the course previously (Winter, 2019), as elaborated below. I didn't formally evaluate any of these lessons, but in the sections below, I share some qualitative accounts of my own experiences, and some student reflections (as documented in a post-course questionnaire that I administered).
 
-# 2. New Activities Related to Design Analysis
+# 1. Design Analysis Activities
 In terms of analyzing the design of computing technologies, I wanted students to spend a little more time thinking about the social implications of computer-mediated systems, and how a designer's values and assumptions can have serious impacts on the world.
 
 ## Goal 1: A recognition that technologies shape individual behavior AND larger social systems
@@ -122,7 +105,7 @@ But there were a few who liked the design principles...
 {:.quote.slim}
 > I thought the course was best when talking about design principles/the theoretical side of HCI, i feel like i learned a lot from that.
 
-# 3. New Activities Related to Web Development
+# 2. Web Development Activities
 I also wanted to provide students with more support in terms of learning HTML / CSS / JavaScript, and some approaches to using these technologies to accomplish particular goals. Specifically, I added:
 
 * Some CSS instruction (e.g. how to make responsive layouts)
@@ -141,19 +124,26 @@ Cooper Barth also designed a lecture and a homework assigment on accessibility.
 **Learning Objectives**: familiarity with event-driven programming, and interacting with the UI. Also creating data-driven templates (using data from AJAX queries).
 
 **What I did**:
-1. 
+1. Created several JavaScript lectures (or sections lecture) to cover JavaScript topics in weeks 3-4:
+  * Weeks 3-4: [Intro to JavaScript](https://hci330.github.io/winter2020/lectures/08lecture) and [Intro to ES6](https://hci330.github.io/winter2020/lectures/10lecture)
+  * Week 6: JavaScript & REST [Part 1](https://hci330.github.io/winter2020/lectures/16lecture) and [Part 2](https://hci330.github.io/winter2020/lectures/17lecture). For both, I did live coding and provided sample files and activities.
+2. Created a [JavaScript lab](https://hci330.github.io/winter2020/lectures/12lab) for Studio 4.
+3. Created a [HW5](https://hci330.github.io/winter2020/assignments/hw5) that asked students to interact with Spotify's REST API using the [API Tutor](https://apitutor.org) (a web proxy to simplify OAuth).
 
-## Goal 3: Hands-On Accessibility
+## Goal 3: Inclusive Design
+Learning Objectives: An appreciation of accessibility considerations, and some of the ways in which web apps can be made accessible. Cooper gave a wonderful lecture on [inclusive web design](https://hci330.github.io/winter2020/lectures/23lecture) (hands down one of the best lectures of the quarter), and created [HW6](https://hci330.github.io/winter2020/assignments/hw6) -- an activity that asked students to make the Spotify UI accessible.
 
 {:.quote.slim}
 > Cooper’s lecture on accessibility was very interesting to me, so a course focusing on tools to make websites/apps more accessible or a project course with a focus on accessibility would be cool.
 
 ## General Reflections
-**My Reflections**<br>
+### My Reflections
 I found this experience to be really frustrating: I went over these concepts, gave students Lynda.com videos to review, and yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing these same activities was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes. IDK what to make of it.
 
-**Student Reflections**<br>
+### Student Reflections
 Students' reflections were also mixed. Here is a sample:
+
+**Pros**
 
 {:.quote.slim}
 > The hands-on coding homeworks helped me learn a lot. I also liked the accessibility unit, it gave me a wholly new perspective. Learning GitHub is also massively helpful.
@@ -161,7 +151,11 @@ Students' reflections were also mixed. Here is a sample:
 > I thought HW4 and HW5 really taught me HTML/CSS and Javascript comprehensively.
 >
 > I think the main strength of this course was the studio sessions and the homework assignments related to coding.
-> 
+
+
+**Cons**
+
+{:.quote.slim}
 > Lectures were not much help in terms of coding assignments. 
 > 
 > I wish that there were more creative projects besides the big group project. I think this is the best way to learn and sometimes the homeworks didn't seem too valuable since we were trying to copy something, not doing our own HCI. I think if this were a technical coding course, this would be really helpful but it is a lot to squeeze into a quarter with HCI. I think that there should be a prereq for HTML/JS/CSS, since there are varying levels coming into the class. 
@@ -171,13 +165,16 @@ Students' reflections were also mixed. Here is a sample:
 > I wish this course put more of a focus onto teaching HTML, CSS, and Javascript. I understand that it’s hard to dedicate class time to this, however now that the course is over I still feel as if I’ve not be adequately prepared to use these languages. I wish there was either some other CS course as a pre-requisite that taught these languages more thoroughly, or i wish maybe that HCI would spend more time teaching it (perhaps if HCI was expanded to be a sequence of 2 classes, then the first could focus more on those languages and then the second on using them for HCI?). 
 >
 > Also as far as studio goes I wish they explained github more. I still don’t know how to use it. Every time I need to work on my project I just re-download the whole thing into a new folder somewhere in my downloads. My group tried to show me how to use it with terminal but it wasn’t really working, so I’ve just kept on doing it this way, which obviously isn’t ideal.
+>
+> I came in having no experience with html, css, or JavaScript, and I think many others were in the same boat. I don’t think that lecture gave me a great foundation in learning these and I think a bit more of a focus on those skills upfront may have been nice. Others may not agree, but maybe some small but lore frequent assignments in addition to more cumulative ones to help us build up these skills would be nice. Alternatively, perhaps splitting up the course into a web programming course where we learn those hard skills and then an HCI design course where we learn about the design process and integrate it into a large final project may work.
 
 
-# 4. Accountability
+# 3. Reflections on Students Accountability
 Student accountability to (a) doing the readings, (b) attending the lectures, and (c) being accountable to other members of the group remains a challenge. I made a few decisions in this regard:
-1. As an experiment, I dropped the in-class quizzes (thus making attendance optional). Attendance was pretty poor during the second half of the quarter and hovered around 40-60 students. In some regards, this made students less accountable, but it also made it feel like only the students who wanted to attend actually attended, which felt like a relief (in relation to last year, where students communicated to me in many different ways that they didn't want to be there). For me, lectures remain a challenge, and I need to dedicate a lot more attention to making them more interactive and engaging.
-2. There were some issues with group accountability (which surfaced in a variety of anonymous Piazza posts), so I implemented a policy where students had to [allocate 100 points across their teammates](https://hci330.github.io/winter2020/assignments/p9) based on their relative contributions. These were anonymous. I think this worked pretty well. I took 10-20 points away from any student who clearly did not contribute, depending on the circumstances. 4 students fell into this category, with a few on the border.
-3. In the future, I will add this to the syllabus with a strong emphasis that free-riding will will not be tolerated.
+1. As an experiment, I dropped the in-class quizzes (which effectively made attendance seem "optional" to students). Attendance was pretty poor during the second half of the quarter and hovered around 40-60 students. In some regards, this made students less accountable, but it also made it feel like only the students who wanted to attend actually attended, which felt like a relief (in relation to last year, where students communicated to me in many different ways that they didn't want to be there). 
+2. For me, lectures remain a challenge, and I need to dedicate a lot more attention to making them more interactive and engaging.
+3. There were some issues with group accountability (which surfaced in a variety of anonymous Piazza posts), so I implemented a policy where students had to [allocate 100 points across their teammates](https://hci330.github.io/winter2020/assignments/p9) based on their relative contributions. These were anonymous. I think this worked pretty well. I took 10-20 points away from any student who clearly did not contribute, depending on the circumstances. 4 students fell into this category, with a few on the border.
+4. In the future, I will add this to the syllabus with a strong emphasis that free-riding will will not be tolerated.
 
 Some notable quotes:
 
@@ -189,7 +186,7 @@ Some notable quotes:
 
 **To be clear:** I did NOT make the lectures and readings optional!
 
-# 5.Post-Course Questionnaire Responses
+# 4.Post-Course Questionnaire Responses
 I gave students a questionnaire on the last day of class. Of 140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
 
 ## Strengths
@@ -308,3 +305,8 @@ I also asked students to rank how valuable the felt the various assignments / co
 | Very Valuable     | 4  | 19 | 23 | 11 | 3  | 8  | 19 | 
 
 <img style="margin-left:auto;margin-right:auto;width:600px;display:block;" src="/winter2020/assets/images/reflections/summary_chart.svg" />
+
+# 5. Takeaways
+In an effort to translate this to a list of lessons learned / next steps, here's what I've come up with:
+
+1. Create a Web Dev course that focuses on UX/UI, responsive / progressive web apps, creating data-driven web templates, accessibility, and visual design. 

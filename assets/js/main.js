@@ -4,13 +4,20 @@ document.querySelector('.menu-toggle').onclick = (e) => {
 };
 
 const nav = document.querySelector("nav");
+const aside = document.querySelector("aside");
 const sticky = nav.offsetTop;
 
 const stickyToggle = () => {
     if (window.pageYOffset > sticky) {
         nav.classList.add("sticky");
+        if (aside) {
+            aside.classList.add("sticky");
+        }
     } else {
         nav.classList.remove("sticky");
+        if (aside) {
+            aside.classList.remove("sticky");
+        }
     }
 };
 

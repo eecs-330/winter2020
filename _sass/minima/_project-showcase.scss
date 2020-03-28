@@ -7,9 +7,10 @@
 .project-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     .image {
         width: 30%;
+        padding-top: 15px;
         img {
             width: 100%;
             border: solid 1px #CCC;
@@ -28,10 +29,10 @@
     .data {
         padding-left: 40px;
         width: 70%;
-        h3 {
-            padding-top: 10px !important;
-            margin-top: -10px !important;
-        }
+        // h3 {
+        //     padding-top: 10px !important;
+        //     margin-top: -10px !important;
+        // }
     }
 }
 
