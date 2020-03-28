@@ -72,8 +72,8 @@ Some relevant quotes from the student questionnaires:
 > Learning the design process when the only way you can solve your problem is through an app is difficult. At the beginning we were expected to explore our problem space without considering a solution, but since the final project had to be a website or app, it felt like our decisions were limited so it was difficult to avoid having solutions in mind.
 
 
-## Goal 3. Getting students to value the *process* and the artifact
-**Broad Question**: how do you get students to genuinely iterate on their ideas without feeling like they're getting "behind"?
+## Goal 3. Getting students to value the *design process* (not *just* the final-form artifact)
+**Broad Question**: how do you get students to genuinely iterate on their ideas without feeling like they're getting "behind" or "wasting time" or "impeding progress"?
 
 I wanted students to understand that trying something, reflecting on it, abandoning it, and trying something else was the point of the class -- not something to be avoided. This is already supported in studio, where user testing happens, but I wanted them to also reflect on their process a little more and get credit for pursuing different alternatives. 
 
@@ -169,7 +169,8 @@ Students' reflections were also mixed. Here is a sample:
 > I came in having no experience with html, css, or JavaScript, and I think many others were in the same boat. I don’t think that lecture gave me a great foundation in learning these and I think a bit more of a focus on those skills upfront may have been nice. Others may not agree, but maybe some small but lore frequent assignments in addition to more cumulative ones to help us build up these skills would be nice. Alternatively, perhaps splitting up the course into a web programming course where we learn those hard skills and then an HCI design course where we learn about the design process and integrate it into a large final project may work.
 
 
-# 3. Reflections on Students Accountability
+# 3. Course Logistics
+## Accountability
 Student accountability to (a) doing the readings, (b) attending the lectures, and (c) being accountable to other members of the group remains a challenge. I made a few decisions in this regard:
 1. As an experiment, I dropped the in-class quizzes (which effectively made attendance seem "optional" to students). Attendance was pretty poor during the second half of the quarter and hovered around 40-60 students. In some regards, this made students less accountable, but it also made it feel like only the students who wanted to attend actually attended, which felt like a relief (in relation to last year, where students communicated to me in many different ways that they didn't want to be there). 
 2. For me, lectures remain a challenge, and I need to dedicate a lot more attention to making them more interactive and engaging.
@@ -186,7 +187,20 @@ Some notable quotes:
 
 **To be clear:** I did NOT make the lectures and readings optional!
 
-# 4.Post-Course Questionnaire Responses
+## Peer Mentors as Studio Facilitators & Graders
+The PMs did a truly fantastic job, and every single PM went above and beyond in terms of effort and care. That said, their strengths were more aligned with UX/UI feedback and HTML/CSS/JavaScript implementation. 
+
+Regarding facilitating group projects: I believe they were asked to do work that extended beyond what should be asked of them. First, it was awkward for many of them to grade their peers. It was also hard for them, given their current knowledge and experience, to be able to give their peers any substantive feedback on their design concepts, user research, assumptions about the world, practical significance of the idea, etc. As a result, many problematic design concepts went unchallenged, thereby reinforcing some of the worst aspects of current app development trends, IMO. 
+
+In short, PMs were great with coding and UX/UI feedback, but were less effective in helping students' develop, evaluate, and critique their app design concepts. 
+
+## Final Project Components
+The components were useful in providing guidance for what constituted a final deliverable, and probably a necessity in a course of this size (~140 -> 32 team projects spanning 8 studios). However several students mentioned that checking the component boxes did not always align with their vision for their app. As such, a lot of energy went to making their app fit with the assessment instrument versus thinking more broadly. As one student expressed:
+
+{:.quote.slim}
+> I found the components part of the Project to be a hindrance: our group had to bend around to meet component criteria instead of developing the web app out to its full creative potential.
+
+# 4. Post-Course Questionnaire Responses
 I gave students a questionnaire on the last day of class. Of 140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
 
 ## Strengths
@@ -307,6 +321,8 @@ I also asked students to rank how valuable the felt the various assignments / co
 <img style="margin-left:auto;margin-right:auto;width:600px;display:block;" src="/winter2020/assets/images/reflections/summary_chart.svg" />
 
 # 5. Takeaways
-In an effort to translate this to a list of lessons learned / next steps, here's what I've come up with:
+In an effort to translate this to a list of lessons learned / next steps, I agree with Nell and Mike that the course ought to be split.
 
-1. Create a Web Dev course that focuses on UX/UI, responsive / progressive web apps, creating data-driven web templates, accessibility, and visual design. 
+## Phase 1: Technical Aspects of Front-End Web Design
+By this, I mean exploring, in greater depth, things like UX/UI/Standards, as well as HTML/CSS/JavaScript best practices. Some "big ideas" I would expect to see here:
+ * Create a Web Dev course that focuses on UX/UI, responsive / progressive web apps, creating data-driven web templates, accessibility, and visual design. 

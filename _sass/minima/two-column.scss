@@ -1,7 +1,7 @@
-$twocolHeaderHeight: 140px;
+$twocolHeaderHeight: 135px;
 .two-column {
     h1, h2, h3, h4 {
-        padding-top: 90px;
+        padding-top: 85px;
         margin-top: -70px;
         z-index: -1;
     }
@@ -16,6 +16,9 @@ $twocolHeaderHeight: 140px;
         align-items: center;
         justify-content: center;
         z-index: 100;
+        h1 {
+            z-index: 100; 
+        }
     }
     nav {
         height: 60px;
@@ -31,14 +34,16 @@ $twocolHeaderHeight: 140px;
         &.sticky {
             top: 60px;
             position: fixed;
+            height: calc(100vh - 60px);
         }
         background: #F6F6F6;
         position: absolute;
         top: $twocolHeaderHeight;
         left: 0px;
-        height: calc(100vh);
+        height: calc(100vh - $twocolHeaderHeight);
         width: 250px;
         overflow-y: auto;
+        padding-bottom: 40px;
         h3 {
             margin-top: 0px;
         }

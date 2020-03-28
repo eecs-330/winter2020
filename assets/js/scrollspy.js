@@ -8,21 +8,21 @@
     const aside = document.querySelector("aside");
     const sticky = nav.offsetTop;
 
-    const stickyToggle = () => {
-        if (window.pageYOffset > sticky) {
+    const stickyToggle = (yPos) => {
+        yPos = yPos || window.pageYOffset;
+        if (yPos > sticky) {
             nav.classList.add("sticky");
             if (aside) {
                 aside.classList.add("sticky");
-            }
-            initPositions();    
+            } 
         
         } else {
             nav.classList.remove("sticky");
             if (aside) {
                 aside.classList.remove("sticky");
             }
-            initPositions(); 
         }
+        initPositions();
     };
 
     const findElementByAttributeWorkaround = (attribute, value, element_type) => {
@@ -42,6 +42,7 @@
         };
         var targetID = ev.target.getAttribute('href');
         const targetAnchor = document.querySelector(targetID);
+        //stickyToggle(distanceToTop(targetAnchor));
         window.scrollBy({ top: distanceToTop(targetAnchor), left: 0, behavior: 'smooth' });
         ev.preventDefault();
     }
@@ -51,9 +52,10 @@
         document.querySelectorAll("h1, h2, h3, h4, h5").forEach(element => {
             // console.log(e.id, e.offsetTop);
             if (element.id.length > 0) {
-                sections[element.id] = element.offsetTop - element.clientTop;
+                sections[element.id] = Math.abs(element.offsetTop - element.clientTop);
             }
         });
+        console.log(sections);
     };
 
 
