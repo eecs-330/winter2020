@@ -356,4 +356,4 @@ I would also add to this...
 * **Research**<br>Engaging in a variety of different forms of research and problem analysis (e.g. interviews, contextual inquiry, domain-specific research, and a fair treatment of the context / application domain, participatory design / co-design, action research, etc.).
 * **Evaluation more broadly defined**<br>Design hypotheses, pulling out assumptions, small-scale deployments with real users, engaging in robust processes of critique and reflection, recognizing and addressing failed efforts and redirecting / recovering.
 * **Intro to HCI domain areas**<br>social computing, tangibles, haptics, ethics, sociopolitical dimensions of computing, InfoVis, etc. (this could be anything).
-* **Team Project**<br>Learning to work with other, CATMEs(?), prioritizing features, scoping work vis-a-vis timelines, user testing, etc.
+* **Team Project**<br>Learning to work with others, CATMEs(?), prioritizing features, scoping work vis-a-vis timelines, user testing, etc.
