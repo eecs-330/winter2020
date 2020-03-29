@@ -72,7 +72,7 @@ Some relevant quotes from the student questionnaires:
 > Learning the design process when the only way you can solve your problem is through an app is difficult. At the beginning we were expected to explore our problem space without considering a solution, but since the final project had to be a website or app, it felt like our decisions were limited so it was difficult to avoid having solutions in mind.
 
 
-## Goal 3. Getting students to value the *design process* (not *just* the final-form artifact)
+## Goal 3. Valuing the *design process* (not *just* the final-form artifact)
 **Broad Question**: how do you get students to genuinely iterate on their ideas without feeling like they're getting "behind" or "wasting time" or "impeding progress"?
 
 I wanted students to understand that trying something, reflecting on it, abandoning it, and trying something else was the point of the class -- not something to be avoided. This is already supported in studio, where user testing happens, but I wanted them to also reflect on their process a little more and get credit for pursuing different alternatives. 
@@ -137,10 +137,14 @@ Learning Objectives: An appreciation of accessibility considerations, and some o
 > Cooper’s lecture on accessibility was very interesting to me, so a course focusing on tools to make websites/apps more accessible or a project course with a focus on accessibility would be cool.
 
 ## General Reflections
-### My Reflections
-I found this experience to be really frustrating: I went over these concepts, gave students Lynda.com videos to review, and yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing these same activities was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes. IDK what to make of it.
+### Mine
+I found the web dev experience to be really frustrating: I went over these concepts in lecture, live coded, and recorded all of my lectures. I also assigned students Lynda.com / Safari Books videos to review that went over all of the relevant ideas. And yet when it came time to do the assignment, students complained and whined that "no one taught me any of that." I think it's because no one came to lecture and assumed the assignment would be easy...so students perceived that they "had to teach themselves everything." In 130, doing these same activities was uneventful, even enjoyable to students. Honestly, this class has a culture of complaining that I didn't understand, nor have I experienced teaching other classes.
 
-### Student Reflections
+I was also frustrated because I believed that the assignments were both valuable and doable. Perhaps if there had just been more time, and if I had held people more accountable to coming to lecture / doing the videos, things would have gone smoother. On the other hand, it's worth asking what new tensions would have emerged...
+
+I also MOSSed HW5 (Javascript Assignment), and 20 students (almost 15%) had an unacceptably high level of code similarity (i.e. copied from one another). After speaking with many of these pairs (which took ~two days of my time), they seemed surprised that it wasn't OK to have nearly identical code. In many of the cases, I couldn't tell whether that "surprise" was genuine or manipulative, but this is yet another symptom of a problematic class culture, IMO.
+
+### Students
 Students' reflections were also mixed. Here is a sample:
 
 **Pros**
@@ -194,14 +198,17 @@ Regarding facilitating group projects: I believe they were asked to do work that
 
 In short, PMs were great with coding and UX/UI feedback, but were less effective in helping students' develop, evaluate, and critique their app design concepts. 
 
-## Final Project Components
+## Final Projects 
+Many students really wanted to work with each other a priori and had project ideas coming into the class. Given this, I allowed quite a bit of studio-shuffling to accommodate students' interests. I figured that if they were invested in their ideas, they'd be more likely to work hard and have team harmony. I also opted not to have a course theme -- students could pursue any idea.
+
+### Components
 The components were useful in providing guidance for what constituted a final deliverable, and probably a necessity in a course of this size (~140 -> 32 team projects spanning 8 studios). However several students mentioned that checking the component boxes did not always align with their vision for their app. As such, a lot of energy went to making their app fit with the assessment instrument versus thinking more broadly. As one student expressed:
 
 {:.quote.slim}
 > I found the components part of the Project to be a hindrance: our group had to bend around to meet component criteria instead of developing the web app out to its full creative potential.
 
 # 4. Post-Course Questionnaire Responses
-I gave students a questionnaire on the last day of class. Of 140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
+I gave students a questionnaire on the last day of class. Of ~140 people, 33 filled it out. Moreover, there is an overrepresentation of people who actually attend lecture who have filled out the form.
 
 ## Strengths
 What did you see as the strengths of the class?
@@ -311,6 +318,8 @@ What would you like to see in the HCI track that is not currently offered?
 ## Likert ratings of assignments / lecture / studio
 I also asked students to rank how valuable the felt the various assignments / course meetings were to their learning.
 
+<img style="margin-left:auto;margin-right:auto;width:600px;display:block;" src="/winter2020/assets/images/reflections/summary_chart.svg" />
+
 | How valuable did you find...| [HW3](https://hci330.github.io/winter2020/assignments/hw3) | [HW4](https://hci330.github.io/winter2020/assignments/hw4) | [HW5](https://hci330.github.io/winter2020/assignments/hw5) | [HW6](https://hci330.github.io/winter2020/assignments/hw6) | Lectures | Studio | [Team Project](https://hci330.github.io/winter2020/project-showcase/) | 
 |--|--|--|--|--|--|--|--|
 | Not Valuable      | 7  | 1  | 0  | 3  | 3  | 4  | 1  | 
@@ -318,11 +327,33 @@ I also asked students to rank how valuable the felt the various assignments / co
 | Somewhat Valuable | 11 | 13 | 9  | 14 | 12 | 16 | 11 | 
 | Very Valuable     | 4  | 19 | 23 | 11 | 3  | 8  | 19 | 
 
-<img style="margin-left:auto;margin-right:auto;width:600px;display:block;" src="/winter2020/assets/images/reflections/summary_chart.svg" />
 
 # 5. Takeaways
 In an effort to translate this to a list of lessons learned / next steps, I agree with Nell and Mike that the course ought to be split.
 
 ## Phase 1: Technical Aspects of Front-End Web Design
-By this, I mean exploring, in greater depth, things like UX/UI/Standards, as well as HTML/CSS/JavaScript best practices. Some "big ideas" I would expect to see here:
- * Create a Web Dev course that focuses on UX/UI, responsive / progressive web apps, creating data-driven web templates, accessibility, and visual design. 
+By this, I mean exploring, in greater depth, things like UX/UI/Standards, as well as HTML/CSS/JavaScript best practices. 
+
+From my perspective, this would involve porting around 1/2 of 330, including...
+
+* Intro to HTML, CSS, JavaScript
+* GitHub
+* Norman Design Principles
+* Heuristic Evaluation
+* User Testing (prototyping, testing, and refining)
+* Visual Design Principles
+
+I would also add to this...
+* A larger proportion of time dedicated to HTML, CSS, JavaScript skills and techniques.
+* AJAX & consuming REST services (and possibly designing simple ones via Heroku / Firebase)?
+* Working with existing frameworks and widgets
+* How to design a style guide / branding
+* More with the technical aspects of accessibility
+* A/B testing and analytics
+* Progressive Web Apps
+
+## Phase 2: What is typically considered HCI
+* **Research**<br>User research, domain-specific research, understanding problems, a fair treatment of the context / application domain, etc.
+* **Evaluation more broadly defined**<br>Design hypotheses, pulling out assumptions, small-scale deployments with real users, engaging in robust processes of critique and reflection.
+* **Intro to HCI domain areas**<br>social computing, tangibles, haptics, ethics, sociopolitical dimensions of computing, InfoVis.
+* **Team Project**<br>Learning to work with other, Catmes(?), prioritizing features, user testing, etc.

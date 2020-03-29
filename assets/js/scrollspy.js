@@ -29,7 +29,7 @@
         // useful b/c querySelector breaks if ids start w/numbers:
         element_type = element_type || '*';
         const elements = document.getElementsByTagName(element_type);
-        for (let i = 0; i < elements.length; i++)       {
+        for (let i = 0; i < elements.length; i++) {
             if (elements[i].getAttribute(attribute).includes(value)) { 
                 return elements[i]; 
             }
@@ -38,7 +38,7 @@
 
     const scrollToAnchor = (ev) => {
         const distanceToTop = (el) => {
-            return Math.floor(el.getBoundingClientRect().top);
+            return Math.floor(el.getBoundingClientRect().top) + 14;
         };
         var targetID = ev.target.getAttribute('href');
         const targetAnchor = document.querySelector(targetID);
@@ -70,7 +70,7 @@
         scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
         for (let key in sections) {
             //console.log(scrollPosition + 10);
-            if (sections[key] <= scrollPosition + 0) {
+            if (sections[key] <= scrollPosition + 10) {
                 const currentLink = document.querySelector('aside .active');
                 if (currentLink) {
                     currentLink.setAttribute('class', ' ');
