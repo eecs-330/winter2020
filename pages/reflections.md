@@ -352,8 +352,8 @@ I would also add to this...
 * A/B testing and analytics
 * Progressive Web Apps
 
-## Phase 2: What is typically considered HCI
-* **Research**<br>User research, domain-specific research, understanding problems, a fair treatment of the context / application domain, etc.
-* **Evaluation more broadly defined**<br>Design hypotheses, pulling out assumptions, small-scale deployments with real users, engaging in robust processes of critique and reflection.
-* **Intro to HCI domain areas**<br>social computing, tangibles, haptics, ethics, sociopolitical dimensions of computing, InfoVis.
-* **Team Project**<br>Learning to work with other, Catmes(?), prioritizing features, user testing, etc.
+## Phase 2: A more "classic" Introductory HCI Design Course (Projects Course)
+* **Research**<br>Engaging in a variety of different forms of research and problem analysis (e.g. interviews, contextual inquiry, domain-specific research, and a fair treatment of the context / application domain, participatory design / co-design, action research, etc.).
+* **Evaluation more broadly defined**<br>Design hypotheses, pulling out assumptions, small-scale deployments with real users, engaging in robust processes of critique and reflection, recognizing and addressing failed efforts and redirecting / recovering.
+* **Intro to HCI domain areas**<br>social computing, tangibles, haptics, ethics, sociopolitical dimensions of computing, InfoVis, etc. (this could be anything).
+* **Team Project**<br>Learning to work with other, CATMEs(?), prioritizing features, scoping work vis-a-vis timelines, user testing, etc.
